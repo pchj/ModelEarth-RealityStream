@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*data_raw*
+build/
+node_modules/
+dist/
+.vscode/
+.env
+env/
+.venv
+.flaskenv
+*.pyc
+*.pyo
