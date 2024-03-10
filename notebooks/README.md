@@ -22,3 +22,6 @@ To run new cmds in the same virtual environment, in a new prompt run:
 Or you can run fake_job_prediction.ipynb from the command line:  
 
 	jupyter nbconvert --to notebook --inplace --execute fake_job_prediction.ipynb
+
+If you get a vague error when opening Jupyter notebook, 
+run the jupyter nbconvert cmd above to reveal the error.
