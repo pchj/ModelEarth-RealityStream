@@ -27,4 +27,4 @@ The Job Description dataset was from Kaggle.
 
 ---
 
-RealtyStream provides a range of possibilities and weighs them.  Rather than producsing a prediction, we generate a stream of possible outcomes which gradually converge toward reality as it draws closer, in the stream.
+RealtyStream weighs and compares a range of possible outcomes.  Rather than producing a single prediction, we generate a stream of floating datapoints which gradually converge to reality.
