@@ -27,4 +27,6 @@ The Job Description dataset was from Kaggle.
 
 ---
 
+[About Streamlit App create and cache](https://docs.streamlit.io/get-started/tutorials/create-an-app)
+
 RealtyStream weighs and compares a range of possible outcomes.  Rather than producing a single prediction, we generate a stream of floating datapoints which gradually converge to reality.
