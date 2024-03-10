@@ -19,6 +19,6 @@ To run new cmds in the same virtual environment, in a new prompt run:
 	source env/bin/activate
 
 
-Or you can run [naics-annual.ipynb](process/python/naics-annual.ipynb) from the command line:  
+Or you can run fake_job_prediction.ipynb from the command line:  
 
 	jupyter nbconvert --to notebook --inplace --execute fake_job_prediction.ipynb
