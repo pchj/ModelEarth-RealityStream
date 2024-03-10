@@ -11,3 +11,4 @@ env/
 .flaskenv
 *.pyc
 *.pyo
+.ipynb_checkpoints
