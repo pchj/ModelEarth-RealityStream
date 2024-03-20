@@ -13,7 +13,7 @@ Machine Learning Classification Models
 ## About Industry and Bee Pollinator Data
 
 Changes to NAICS Industry levels that predict bee population changes  
-[Bee the Predictor](https://model.earth/data-pipeline/research/bees/) using [Location Stream](models/location-stream) 
+[Bee the Predictor](https://model.earth/data-pipeline/research/bees/) using [Location Stream](models/location-forest) 
 
 [share.streamlit.io](https://share.streamlit.io/) | [prophet.streamlit.app](https://prophet.streamlit.app) | [echarts.streamlit.app](https://echarts.streamlit.app/) | Upcoming app: [reality.streamlit.app](https://reality.streamlit.app/)
 <!-- https://github.com/artefactory/streamlit_prophet -->
