@@ -1,4 +1,4 @@
-# Location-based Random Forests - for Bees
+# Random Forests - for Bees
 
 Using county industry changes to predict honey bee populations.
 
