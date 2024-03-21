@@ -11,7 +11,7 @@ Using county industry changes to predict honey bee populations. - [Project Detai
 - [Our Output CoLab](https://colab.research.google.com/drive/1y2A_XOFQrfu0HfXDPt2erg43Kn7Tc7xz?usp=sharing)
 
 
-To run:
+To run locally:
 
 	python location-forest-input-bkup.ipynb bees
 	python location-forest-output-bkup.ipynb bees
