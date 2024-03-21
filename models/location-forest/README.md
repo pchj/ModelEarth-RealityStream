@@ -8,7 +8,7 @@ Using county industry changes to predict honey bee populations.
 
 [Our Input CoLab](https://colab.research.google.com/drive/1a8lbM7ceGGnaDe0kc1X0QqrZELsJINpb?usp=sharing)
 
-[Our Output CoLab](https://colab.research.google.com/drive/12Awx_JTgEERiHfkf3xWaSkQmUe01tC_Q?usp=sharing)
+[Our Output CoLab](https://colab.research.google.com/drive/1y2A_XOFQrfu0HfXDPt2erg43Kn7Tc7xz?usp=sharing)
 
 
 To run (not ready yet - under development)
