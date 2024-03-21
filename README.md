@@ -1,7 +1,7 @@
 # RealtyStream
-by [model.earth](https://Model.earth)
+by [Model.Earth](https://Model.earth) - [How to create a Streamlit App](https://docs.streamlit.io/get-started/tutorials/create-an-app)
 
-A simple Streamlit WebApp, which weighs possibilities:
+A simple Streamlit App which weighs possibilities:
 
 - Impacts of industries on bee populations
 - Whether a job description is real
@@ -16,7 +16,7 @@ Machine Learning Classification Models
 
 Using county industry changes to predict honey bee populations.
 
-Run [Location Forest](models/location-forest) 
+Run [Location-Forest Model](models/location-forest) 
 
 [Bee the Predictor](https://model.earth/data-pipeline/research/bees/)  
 Changes to industry types that predict bee population changes  
@@ -28,8 +28,4 @@ Your apps: [share.streamlit.io](https://share.streamlit.io/) | [echarts.streamli
 Job Description dataset from Kaggle.
 **17880 rows** and **18 columns**.
 
-[Dataset Link](https://drive.google.com/file/d/1oNvbZLod123UhYbR8oqH7hPCc3n5CRan/view?usp=share_link)
-
----
-
-[How to create a Streamlit App](https://docs.streamlit.io/get-started/tutorials/create-an-app)
+[Run Reality-or-Fiction Model](models/reality-or-fiction/)
