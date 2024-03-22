@@ -2,7 +2,7 @@
 
 # Random Bits Forest (RBF)
 
-Predicting eye blinks. Hyperparameter Tuning identifies which brain voxels are the best predictors for blinks. In the ["y" column](blinks-input.csv), a 1 indicates a blink.
+Predicting eye blinks. Hyperparameter Tuning identifies which brain voxels are the best predictors for blinks. In the [target "y" column](blinks-input.csv), a 1 indicates a blink.
 
 Random Forest testing accuracy increased from 88% with default parameters to before tuning to a testing accuracy of 93% after tuning.
 
