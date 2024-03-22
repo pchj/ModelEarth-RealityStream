@@ -3,6 +3,7 @@
 # Models
 
 - [Location Forest](location-forest)
+- [Random Bits Forest](random-bits-forest)
 - [Reality or Fiction](reality-or-fiction)
 
 Prior to including data, models are referred to as skeletons or blueprints. Skeletons define the structure and logic of how the model should work prior to loading data. Model skeletons are like having the blueprint of a house without the materials to build it.
