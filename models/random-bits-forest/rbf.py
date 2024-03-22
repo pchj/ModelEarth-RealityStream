@@ -13,9 +13,7 @@ from sklearn.preprocessing import StandardScaler, normalize
 from sklearn.decomposition import PCA
 
 ######################################### Reading and Splitting the Data ###############################################
-# XXX
 # TODO: Read in all the data. Replace the 'xxx' with the path to the data set.
-# XXX
 
 # To run: python eyestate.py
 
@@ -28,16 +26,12 @@ y_data = data.loc[:, "y"]
 # The random state to use while splitting the data.
 random_state = 100
 
-# XXX
 # TODO: Split 70% of the data into training and 30% into test sets. Call them x_train, x_test, y_train and y_test.
 # Use the train_test_split method in sklearn with the parameter 'shuffle' set to true and the 'random_state' set to 100.
-# XXX
 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.3, shuffle='true', random_state=random_state)
 
 # ##############################################Linear Regression ###################################################
-# XXX
 # TODO: Create a LinearRegression classifier and train it.
-# XXX
 
 print("----------------------\ndata.describe()\n")
 data.describe()
@@ -49,11 +43,9 @@ regressor.fit(x_train, y_train)
 #print(coeff_df)
 #print("Above: For a unit increase in column X1, the last column changes by -0.000878\r")
 
-# XXX
 # TODO: Test its accuracy (on the training set) using the accuracy_score method.
 # TODO: Test its accuracy (on the testing set) using the accuracy_score method.
 # Note: Round the output values greater than or equal to 0.5 to 1 and those less than 0.5 to 0. You can use y_predict.round() or any other method.
-# XXX
 
 accuracy = regressor.score(x_test,y_test)
 print("Accuracy (regressor.score for x_test,y_test): " + str(accuracy))
@@ -100,9 +92,7 @@ print("LR Accuracy (regressor.score for x_data, y_data): " + str(regressor.score
 print("----------------------")
 
 # ############################################### Random Forest Classifier ##############################################
-# XXX
 # TODO: Create a RandomForestClassifier and train it.
-# XXX
 
 
 #Create a Gaussian Classifier
@@ -111,10 +101,8 @@ rf_classifier.fit(x_train,y_train)
 y_pred_train = rf_classifier.predict(x_train)
 y_pred=rf_classifier.predict(x_test)
 
-# XXX
 # TODO: Test its accuracy on the training set using the accuracy_score method.
 # TODO: Test its accuracy on the test set using the accuracy_score method.
-# XXX
 
 # Model Accuracy, how often is the classifier correct?
 print("RandomForestClassifier Training Accuracy before tuning: ",accuracy_score(y_train, y_pred_train))
@@ -123,12 +111,10 @@ print("RandomForestClassifier Test Set Accuracy before tuning: ",accuracy_score(
 #RandomForestClassifier Training Accuracy: 0.9964714857905779
 #RandomForestClassifier Test Set Accuracy: 0.9023141967067201, also .89 (sometimes higher than 0.89 from RandomForestRegressor below)
 
-# XXX
 # TODO: Determine the feature importance as evaluated by the Random Forest Classifier.
 #       Sort them in the descending order and print the feature numbers. The report the most important and the least important feature.
 #       Mention the features with the exact names, e.g. X11, X1, etc.
 #       Hint: There is a direct function available in sklearn to achieve this. Also checkout argsort() function in Python.
-# XXX
 
 
 importances = rf_classifier.feature_importances_
@@ -144,10 +130,8 @@ for f in range(x_data.shape[1]):
     print("%d. X%d (%f)" % (f + 1, indices[f] + 1, importances[indices[f]]))
 
 
-# XXX
 # TODO: Tune the hyper-parameters 'n_estimators' and 'max_depth'.
 #       Print the best params, using .best_params_, and print the best score, using .best_score_.
-# XXX
 
 param_grid = {
 	'max_depth': [None,3,8],
@@ -189,10 +173,8 @@ print("Random Forest - Testing Accuracy after tuning:" + str(accuracy_score(y_te
 
 
 # ############################################ Support Vector Machine ###################################################
-# XXX
 # TODO: Pre-process the data to standardize or normalize it, otherwise the grid search will take much longer
 # TODO: Create a SVC classifier and train it.
-# XXX
 
 print("----------------------")
 print('Support Vector Matching (SVM)')
@@ -235,10 +217,8 @@ print("\nA processor timeout error may occur since n_jobs=-1 is used to run on a
 grid_search.fit(x_train_normalized, y_train) # .round() is temp
 
 
-# XXX
 # TODO: Test its accuracy on the training set using the accuracy_score method.
 # TODO: Test its accuracy on the test set using the accuracy_score method.
-# XXX
 
 y_pred_train_svm = grid_search.predict(x_train_normalized)
 y_pred_test_svm = grid_search.predict(x_test_normalized)
@@ -247,10 +227,8 @@ print("\nSVM Training Accuracy:" + str(accuracy_score(y_train, y_pred_train_svm)
 print("SVM Testing Accuracy:" + str(accuracy_score(y_test, y_pred_test_svm)))
 
 
-# XXX
 # TODO: Tune the hyper-parameters 'C' and 'kernel' (use rbf and linear).
 #       Print the best params, using .best_params_, and print the best score, using .best_score_.
-# XXX
 
 # GET BEST  and BEST SCORE
 
@@ -289,13 +267,11 @@ print("rf_tune Mean fit time: " + str(rf_tune.cv_results_.get("mean_fit_time")))
 
 
 # ######################################### Principal Component Analysis #################################################
-# XXX
 # TODO: Perform dimensionality reduction of the data using PCA.
 #       Set parameters n_component to 10 and svd_solver to 'full'. Keep other parameters at their default value.
 #       Print the following arrays:
 #       - Percentage of variance explained by each of the selected components
 #       - The singular values corresponding to each of the selected components.
-# XXX
 print("\n\r----------------------")
 print("Principal Component Analysis (PCA)")
 
