@@ -11,15 +11,15 @@ Each voxel in the cerebral cortical contains 630,000 neurons, and over 2 million
 Sources: [What is a Voxel](https://blogs.scientificamerican.com/observations/whats-a-voxel-and-what-can-it-tell-us-a-primer-on-fmri/)
 
 
-## Deep Learning - A subset of Machine Learning.
+## Deep Learning - A subset of Machine Learning
 
 Both forms of artificial intelligence algorithms contrast with Rule-Based Systems where decisions are manually programmed.  
 
 <b>Machine Learning</b> is the process of using algorithms to parse sets of data (training sets) using pre-defined attributes (features) to predict other sets of data.<br>
-[Sample Code](eeg/eyestate.py) | [Sample EEG Data](eeg/) - In the "y" column, a 1 indicates a blink.  
 
 <b>Deep Learning</b> is used in layers to create an <b>Artificial Neural Network</b> inspired by the biological neural network of the human brain. “Deep Learning” extracts undefined attributes (features) from raw data (like image pixels or sin waves in audio).<br>
-[Keras: The Python Deep Learning library](https://keras.io/) - TensorFlow Simplified  
+
+PyTorch and Google JAX are more flexible than Keras. [Keras is training wheels](https://keras.io/): The Python Deep Learning library - TensorFlow Simplified. Keras is now available for JAX, TensorFlow, and PyTorch. TensorFlow could get replaced by JAX.
 
 <b>Both ML and DL have supervised and unsupervised versions</b>
 <a href="https://towardsdatascience.com/machine-learning-vs-deep-learning-62137a1c9842">source</a>  
