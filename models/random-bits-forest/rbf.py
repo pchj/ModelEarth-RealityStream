@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 
 # To run: python eyestate.py
 
-data = pd.read_csv('eeg_dataset.csv')
+data = pd.read_csv('blinks-input.csv')
 
 # Separate out the x_data and y_data.
 x_data = data.loc[:, data.columns != "y"]
