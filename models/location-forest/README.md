@@ -1,6 +1,6 @@
 [RealityStream Models](../)
 
-# Random Forests - for Bees
+# Location Forest - for Bees
 
 Using county industry changes to predict honey bee populations. - [Project Details](https://model.earth/data-pipeline/research/bees/)
 
@@ -17,3 +17,6 @@ To run locally:
 
 	python location-forest-input-bkup.ipynb bees
 	python location-forest-output-bkup.ipynb bees
+
+
+[Bees Output](../../output/bees/)
