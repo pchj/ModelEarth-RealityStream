@@ -35,6 +35,8 @@ Job Description dataset from Kaggle.
 
 [Random Bits Forest](models/random-bits-forest)
 
+[View Blinks Output](output/blinks/)
+
 <img src="models/random-bits-forest/img/random-bits-forest.jpg" style="width:100%; max-width: 864px;">
 
 ---
