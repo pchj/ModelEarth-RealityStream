@@ -29,11 +29,14 @@ Job Description dataset from Kaggle.
 **17880 rows** and **18 columns**.
 
 [Run Reality-or-Fiction Model](models/reality-or-fiction/)
-
-[Github](https://github.com/ModelEarth/RealityStream/)
+[View Output](output/jobs/)
 
 ## Predicting Eye Blinks from fMRI
 
 [Random Bits Forest](models/random-bits-forest)
 
 <img src="models/random-bits-forest/img/random-bits-forest.jpg" style="width:100%; max-width: 864px;">
+
+---
+
+[RealityStream Github](https://github.com/ModelEarth/RealityStream/)
