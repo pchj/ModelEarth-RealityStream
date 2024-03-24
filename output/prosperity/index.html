@@ -28,7 +28,7 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 
   <!-- For D3 Embedded CSV Sheet -->
 
-  <b style='font-size:19px'>Random Bits Forest Classifier</b><br>
+  <b style='font-size:19px'>Random Bits Forest Classifier (Example from Blinks)</b><br>
 
     <div style="overflow:scroll; max-width:100%;">
         <div class="eTable" id="forestTable"></div>
@@ -58,7 +58,7 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
   loadScript(theroot + 'js/d3.v5.min.js', function(results) { // For getScale
   waitForVariable('customD3loaded', function() {
     $(document).ready(function () {
-        const csvFile = "blinks-rbforest-output.csv";
+        const csvFile = "../blinks/blinks-rbforest-output.csv";
         // SyntaxError: await is only valid in async functions and the top level bodies of modules
         //const data = await FileAttachment(csvFile).csv();
         //function displayTable(data) {
