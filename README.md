@@ -25,7 +25,7 @@ Your apps: [share.streamlit.io](https://share.streamlit.io/) | [echarts.streamli
 
 ## Job Description Analysis
 
-Job Description dataset from Kaggle.
+Job Description [dataset from Kaggle](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset).
 **17880 rows** and **18 columns**.
 
 [Run Reality-or-Fiction Model](models/reality-or-fiction/)
