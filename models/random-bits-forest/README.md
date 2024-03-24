@@ -4,7 +4,7 @@
 
 Predicting eye blinks. Hyperparameter Tuning identifies which brain voxels are the best predictors for blinks. In the [target "y" column](https://github.com/ModelEarth/RealityStream/blob/main/models/random-bits-forest/blinks-input.csv), a 1 indicates a blink.
 
-Random Forest testing accuracy increased from 88% (with default parameters to before tuning) to a testing accuracy of 93% after tuning.
+Testing accuracy of 93% after tuning, from 88% with default parameters before tuning.
 
 Most important feature was X7, the least important was X9.
 

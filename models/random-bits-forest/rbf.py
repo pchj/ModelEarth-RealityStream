@@ -186,7 +186,7 @@ feature_ls.append("Random Forest - Testing Accuracy after tuning:")
 importance_ls.append(str(accuracy_score(y_test, y_pred_test_rf)))
 
 out = pd.DataFrame(data={"feature":feature_ls,"level of importance":importance_ls})
-out.to_csv("../../output/blinks/rbf_out.csv",index=False)
+out.to_csv("../../output/blinks/blinks-rbforest-output.csv",index=False)
 
 
 # ############################################ Support Vector Machine ###################################################

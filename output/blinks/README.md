@@ -1,5 +1,7 @@
-[Random Bit Forest](../../models/random-bits-forest/)
+[Random Bits Forest](../../models/random-bits-forest/)
 
-# Blinks: Random Bit Forest
+# Blinks: Random Bits Forest
 
-Data not yet sent to output folder.
+Testing accuracy of 93% after tuning, from 88% with default parameters before tuning.
+
+Most important feature was X7, the least important was X9.
