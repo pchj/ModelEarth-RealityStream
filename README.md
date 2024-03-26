@@ -14,12 +14,11 @@ Machine Learning Classification Models
 
 ## Random Forests for Bees
 
-Using county industry changes to predict honey bee populations.
+Changes to county industry types across time that predict bee population changes  
+
+[Bee Input](input/bees/) - CoLabs  
 
 Run [Location-Forest Model](models/location-forest) 
-
-[Bee the Predictor](https://model.earth/data-pipeline/research/bees/)  
-Changes to industry types that predict bee population changes  
 
 Your apps: [share.streamlit.io](https://share.streamlit.io/) | [echarts.streamlit.app](https://echarts.streamlit.app/) | Upcoming app: [reality.streamlit.app](https://reality.streamlit.app/)
 
