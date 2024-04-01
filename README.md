@@ -1,17 +1,3 @@
-# RealtyStream
-by [Model.Earth](https://Model.earth) - [How to create a Streamlit App](https://docs.streamlit.io/get-started/tutorials/create-an-app)
-
-A simple Streamlit App which weighs possibilities:
-
-- Impacts of industries on bee populations
-- Whether a job description is real
-
-Machine Learning Classification Models
-
-- Logistic Regression
-- Random Forest
-- Support Vector Machines.
-
 ## Random Forests for Bees
 
 Changes to county industry types across time that predict bee population changes  
@@ -21,6 +7,7 @@ Changes to county industry types across time that predict bee population changes
 Run [Location-Forest Model](models/location-forest) 
 
 Your apps: [share.streamlit.io](https://share.streamlit.io/) | [echarts.streamlit.app](https://echarts.streamlit.app/) | Upcoming app: [reality.streamlit.app](https://reality.streamlit.app/)
+
 
 ## Job Description Analysis
 
