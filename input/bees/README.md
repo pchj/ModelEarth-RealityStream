@@ -1,4 +1,4 @@
-[RealityStream Models](../)
+[RealityStream Models](../../models/)
 
 # Location Forest - for Bees
 
