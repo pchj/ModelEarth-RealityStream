@@ -14,12 +14,11 @@ def check_directory(directory_path):
     return directory_path
 
 dataset_name = "blinks"
-target_name = "y"
 df = pd.read_csv(f'../../input/{dataset_name}/targets/{dataset_name}-targets.csv')
 
 df = df.dropna()
-X = df.drop(target_name, axis=1)
-y = df[target_name]
+X = df.drop('y', axis=1)
+y = df['y']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 check_directory(f"../../output/{dataset_name}/training")
