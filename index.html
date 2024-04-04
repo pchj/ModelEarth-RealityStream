@@ -11,6 +11,9 @@
 
 <script>
 loadMarkdown("README.md", "readmeDiv", "_parent");
+loadMarkdown("input/jobs/README.md", "jobsDiv", "_parent");
+loadMarkdown("input/bees/README.md", "beesDiv", "_parent");
+loadMarkdown("input/blinks/README.md", "blinksDiv", "_parent");
 </script>
 </head>
 
@@ -18,31 +21,33 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 
 <div class="content contentpadding">
 
-<h1>RealtyStream</h1>
-A simple Streamlit App which weighs possibilities<br>
-by <a href="https://Model.earth">Model.earth</a> - 
-<a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a><br><br>
+  <div id="readmeDiv"></div>
 
   <div class="pagecard">
   <div class="cardstyle">
-  
-    
-    
-    <b>Machine Learning Classification Models</b><br>
-    - <a href="input/bees/">Random Forest (Bees)</a><br>
-    - <a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a><br>
-    - <a href="models/reality-or-fiction/">Random Forest (Jobs)</a><br>
-    - <a href="models/reality-or-fiction/">Support Vector Machines (Jobs)</a><br>
-    - <a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
-
+    <div id="jobsDiv"></div>
   </div>
   </div>
 
-  <div id="readmeDiv"></div>
+  <div class="pagecard">
+  <div class="cardstyle">
+    <div id="beesDiv"></div>
+  </div>
+  </div>
+
+  <div class="pagecard">
+  <div class="cardstyle">
+    <div id="blinksDiv"></div>
+  </div>
+  </div>
+
+<hr>
+
+<a href="https://share.streamlit.io/">My streamlit apps</a> | 
+<a href="https://echarts.streamlit.app/">echarts.streamlit.app</a> | 
+<a href="https://reality.streamlit.app/">reality.streamlit.app</a>
+
 </div>
-<!--
-  RealtyStream weighs and compares a range of possible outcomes to generate a stream of floating datapoints that gradually converge to reality.
--->
 
 </body>
 </html>

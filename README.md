@@ -1,30 +1,16 @@
-## Random Forests for Bees
+# RealtyStream
+A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
+Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
 
-Changes to county industry types across time that predict bee population changes  
+<b>Machine Learning Classification Models</b><br>
 
-[Bee Input](input/bees/) - CoLabs  
+**Jobs**
+<a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a>
+<a href="models/reality-or-fiction/">Random Forest (Jobs)</a>
+<a href="models/reality-or-fiction/">Support Vector Machines (Jobs)</a>
 
-Run [Location-Forest Model](models/location-forest) 
+**Bees**
+<a href="input/bees/">Random Forest (Bees)</a>
 
-Your apps: [share.streamlit.io](https://share.streamlit.io/) | [echarts.streamlit.app](https://echarts.streamlit.app/) | Upcoming app: [reality.streamlit.app](https://reality.streamlit.app/)
-
-
-## Job Description Analysis
-
-Job Description [dataset from Kaggle](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset).
-**17880 rows** and **18 columns**.
-
-[Run Reality-or-Fiction Model](models/reality-or-fiction/)
-[View Output](output/jobs/)
-
-## Predicting Eye Blinks from fMRI
-
-[Random Bits Forest](models/random-bits-forest)
-
-[View Blinks Output](output/blinks/)
-
-<img src="models/random-bits-forest/img/random-bits-forest.jpg" style="width:100%; max-width: 864px;">
-
----
-
-[RealityStream Github](https://github.com/ModelEarth/RealityStream/)
+**Blinks**
+<a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
