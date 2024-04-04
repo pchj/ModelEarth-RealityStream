@@ -27,6 +27,16 @@ hr {
 .tabulator-cell {
   text-align: right;
 }
+.tabulator-cell:nth-child(1) {
+  min-width: 100px;
+}
+/* Odd:  Why does this need to be 3 rather than 2? */
+.tabulator-cell:nth-child(3) {
+  text-align: left;
+  min-width: 300px;
+  max-width: 587px;
+}
+
 </style>
 <script>
   let my = {};
