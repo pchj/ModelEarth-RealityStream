@@ -27,16 +27,39 @@ hr {
 .tabulator-cell {
   text-align: right;
 }
+.tabulator .tabulator-header {
+  display: inline;
+}
 </style>
 <script>
   let my = {};
   let myDataroot = "";
-  my.dataset = myDataroot + "training/bees-x-test.csv"; // Or another name
-  my.elementID = "earthscape1";
-  // my.chartType = "timeline"; // Or chord, sankey, graph
 
-  // TO ACTIVATE
+  my = {};
+  my.dataset = myDataroot + "training/bees_init/bees-y-test.csv"; // Or another name
+  my.elementID = "y-test";
   loadEarthScape(my);
+
+  my = {};
+  my.dataset = myDataroot + "training/bees_init/bees-y-train.csv"; // Or another name
+  my.elementID = "y-train";
+  loadEarthScape(my);
+
+  my = {};
+  my.dataset = myDataroot + "training/bees-test.csv"; // Or another name
+  my.elementID = "earthscape1";
+  loadEarthScape(my);
+
+  my = {};
+  my.dataset = myDataroot + "training/bees-train.csv"; // Or another name
+  my.elementID = "earthscape2";
+  loadEarthScape(my);
+
+  my = {};
+  my.dataset = myDataroot + "training/bees_init/bees-x-test.csv"; // Or another name
+  my.elementID = "earthscape3";
+  loadEarthScape(my);
+
 </script>
 
 <style>
@@ -47,7 +70,25 @@ hr {
 
 <div class="content contentpadding">
   <div id="readmeDiv"></div>
-  <div id="earthscape1" style="overflow-x: auto;"></div>
+
+  Bees Y Test<br>
+  <div id="y-test" style="overflow-x: auto; display: inline;"></div><br>
+
+  Bees Y Train<br>
+  <div id="y-train" style="overflow-x: auto; display: inline;"></div><br>
+
+
+  Bees Test (351 K)<br>
+  <div id="earthscape1" style="overflow-x: auto;"></div><br>
+
+  Bees Train (1.4 MB)<br>
+  <div id="earthscape2" style="overflow-x: auto;"></div><br>
+
+  Bees Init - Bees X Test (47 K)<br>
+  <div id="earthscape3" style="overflow-x: auto;"></div><br>
+
+
+
 </div>
 
 </body>
