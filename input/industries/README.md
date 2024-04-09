@@ -2,11 +2,11 @@
 
 # Industries&nbsp;
 
-[Our Data Pipeline](/data-pipeline/) and [NAICS Features Data](/data-pipeline/timelines/training/naics/)
+[Our Data Pipeline](../../../data-pipeline/) and [NAICS Features Data](../../../data-pipeline/timelines/training/naics/)
 
 TO DO: Create input-ndustries.py that pulls data for features without saving locally.
 
-Pull factors data from [community-timelines repo](/community-timelines)
+Pull factors data from [community-timelines repo](../../../community-timelines)
 
 Avoid saving features in local files, send directly to processing.
 
