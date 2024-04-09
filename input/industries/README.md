@@ -8,15 +8,20 @@ TO DO: Create input-industries.py that pulls data for factors columns without sa
 
 Pull factors data from [community-timelines repo](../../../community-timelines)
 
-Avoid saving features in local files, send directly to processing.
+Avoid saving factors in local files, use Pandas to send data directly to processing.
 
-Send features and targets through other models (rbf.py, etc.)
+Send factors and targets through other models (rbf.py, etc.)
 
 ### Python to add
 
-	python input-industries.py [dataset]
+	python input-industries.py [factor dataset] [target dataset] [model]
 
-### Datasets
+### Factor Datasets
+
+TO DO: Add these and other factor datset loads into Pandas
 
 **Prosperity** - Which factors forecast prosperity?
-Factors: types of industries, employment levels, population density, environmental indicators
+Factors: types of industries, education levels, employment levels, population density, environmental indicators
+
+**JobGrowth** - Which factors forecast growth of quality jobs?
+Factors: types of industries, education levels, employment levels, population density, environmental indicators
