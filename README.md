@@ -2,7 +2,8 @@
 A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
 
-<b>Machine Learning Classification Models</b><br>
+<b>Machine Learning Classification Models</b>
+[Industry Features for Testing (Maine Naics2 Counties 2021)](https://github.com/ModelEarth/community-timelines/blob/main/training/naics2/US/counties/2021/US-ME-training-naics2-counties-2021.csv)
 
 **Jobs**
 <a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a>
