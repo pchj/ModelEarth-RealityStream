@@ -4,7 +4,7 @@
 
 [Our Data Pipeline](../../../data-pipeline/) and [NAICS Features Data](../../../data-pipeline/timelines/training/naics/)
 
-TO DO: Create input-ndustries.py that pulls data for features without saving locally.
+TO DO: Create input-industries.py that pulls data for factors columns without saving locally.
 
 Pull factors data from [community-timelines repo](../../../community-timelines)
 
