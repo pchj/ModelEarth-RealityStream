@@ -15,3 +15,6 @@ Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://doc
 
 **Blinks**
 <a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
+
+**Industries**
+<a href="input/industries/">Industry Data Features</a>

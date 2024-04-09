@@ -8,15 +8,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script type="text/javascript" src="/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
-<script type="text/javascript" src="/localsite/js/localsite.js?showheader=true"></script>
+<script type="text/javascript" src="/localsite/js/jquery.min.js" id="/localsite/js/jquery.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
 <script type="text/javascript" src="/localsite/js/earthscape.js" id="/localsite/js/earthscape.js"></script>
 <link type="text/css" rel="stylesheet" href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css">
 <link type="text/css" rel="stylesheet" href="/localsite/css/base.css" id="/localsite/css/base.css">
 <link type="text/css" rel="stylesheet" href="/localsite/css/base-tabulator.css" id="/localsite/css/base-tabulator.css">
+<script type="text/javascript" src="/localsite/js/localsite.js?showheader=true"></script>
 
 <script>
 loadMarkdown("README.md", "readmeDiv", "_parent");
+loadMarkdown("../../output/jobs/svc-accuracy.md", "svcDiv", "_parent");
 </script>
 
 </head>
@@ -28,7 +30,15 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 
   <!-- For D3 Embedded CSV Sheet -->
 
-  <b style='font-size:19px'>Random Bits Forest Classifier (Example from Blinks)</b><br>
+  <br><br>
+
+
+  <h1>Sample Output</h1>
+
+  <div id="svcDiv"></div>
+
+  <h2>Random Bits Forest Classifier</h2>
+  Example from Blinks
 
     <div style="overflow:scroll; max-width:100%;">
         <div class="eTable" id="forestTable"></div>
@@ -58,7 +68,7 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
   loadScript(theroot + 'js/d3.v5.min.js', function(results) { // For getScale
   waitForVariable('customD3loaded', function() {
     $(document).ready(function () {
-        const csvFile = "../blinks/blinks-rbforest-output.csv";
+        const csvFile = "../../output/blinks/blinks-rbforest-output.csv";
         // SyntaxError: await is only valid in async functions and the top level bodies of modules
         //const data = await FileAttachment(csvFile).csv();
         //function displayTable(data) {
