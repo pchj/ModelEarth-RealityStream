@@ -6,14 +6,18 @@ We'll have "toy" factors-dataset input for industries in factor subfolders:
 
 **Example factor file name:** input-industries-CountiesNaics4.csv
 
-The industry factors datasets will be merged with 2-column target-datasets within input folders for bees, trees and the industries folder itself. All will be usable with multiple models by using these 3 parameter for loading:
+The factor datasets will be merged with 2-column target-datasets.
+Sample for both will reside within input folders:
+bees, blinks, trees, jobs, industries
+
+The input datasets will be sent to multiple models by using these parameters:
 
 	python input-industries.py [factor-dataset] [target-dataset] [models]
 
 The parameters will be both shorthand ("bees") and paths ("input/bees/targets").
 
-Use all models could be: "all", the equivalent to "svc,rfc,lr,rbf,location-forest"
-The default model might be Random Bits Forest "rbf" when blank.
+Setting models to "all" could be the equivalent to "svc,rfc,lr,rbf,location-forest"
+The default model value might be "rbf" (Random Bits Forest) when blank.
 
 **Parameter rules:**
 If a slash / is in a parameter, treat it as a path.
