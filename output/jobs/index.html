@@ -17,10 +17,6 @@
 
 <script>
 loadMarkdown("README.md", "readmeDiv", "_parent");
-loadMarkdown("svc-accuracy.md", "svcDiv", "_parent");
-loadMarkdown("RFC_accuracy_01.md", "rfcDiv", "_parent");
-loadMarkdown("LR_accuracy_01.md", "lrDiv", "_parent");
-
 
 </script>
 
@@ -49,21 +45,26 @@ hr {
   my.dataset = myDataroot + "CV-LogisticRegression.csv";
   my.elementID = "earthscape1";
   loadEarthScape(my);
+  loadMarkdown("CV-LogisticRegression_accuracy.md", "cv_lrDiv", "_parent");
 
   my = {};
   my.dataset = myDataroot + "TFIDF-LogisticRegression.csv";
   my.elementID = "earthscape2";
   loadEarthScape(my);
+  loadMarkdown("TFIDF-LogisticRegression_accuracy.md", "tfidf_lrDiv", "_parent");
 
   my = {};
   my.dataset = myDataroot + "CV-RandomForestClassifier.csv";
   my.elementID = "earthscape3";
   loadEarthScape(my);
+  loadMarkdown("CV-RandomForestClassifier_accuracy.md", "cv_rfcDiv", "_parent");
 
   my = {};
   my.dataset = myDataroot + "TFIDF-SVC.csv";
   my.elementID = "earthscape4";
   loadEarthScape(my);
+  loadMarkdown("CV-LogisticRegression_accuracy.md", "tfidf_svcDiv", "_parent");
+  
 </script>
 
 <style>
@@ -74,9 +75,10 @@ hr {
 
 <div class="content contentpadding">
   <div id="readmeDiv"></div>
-  <div id="svcDiv"></div>
-  <div id="rfcDiv"></div>
-  <div id="lrDiv"></div>
+  <div id="cv_lrDiv"></div>
+  <div id="tfidf_lrDiv"></div>
+  <div id="cv_rfcDiv"></div>
+  <div id="tfidf_svcDiv"></div>
 
   <h2>Predictions</h2>
 
