@@ -31,3 +31,5 @@ to produce the file path "input/bees/targets/increase2024/bees-targets-increase2
 
 If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
 
+TO DO: Create a multi-model accuracy report by pulling multiple yaml reports into a single tabulator table. See our tabulator sample page.
+
