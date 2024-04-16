@@ -1,6 +1,6 @@
 ## About Path Parameters
 
-The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistical and social sciences.
+The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
 Sample features and target data will reside within "input" folders for:
 bees, blinks, trees, jobs, and industries
