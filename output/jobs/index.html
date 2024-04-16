@@ -17,9 +17,10 @@
 
 <script>
 loadMarkdown("README.md", "readmeDiv", "_parent");
-loadMarkdown("svc-accuracy.md", "svcDiv", "_parent");
-loadMarkdown("RFC_accuracy_01.md", "rfcDiv", "_parent");
-loadMarkdown("LR_accuracy_01.md", "lrDiv", "_parent");
+loadMarkdown("CV-LogisticRegression_accuracy.md", "cv_lrDiv", "_parent");
+loadMarkdown("TFIDF-LogisticRegression_accuracy.md", "tfidf_lrDiv", "_parent");
+loadMarkdown("CV-RandomForestClassifier_accuracy.md", "tfidf_lrDiv", "_parent");
+loadMarkdown("TFIDF-SVC_accuracy.md", "tfidf_svcDiv", "_parent");
 
 
 </script>
@@ -64,6 +65,7 @@ hr {
   my.dataset = myDataroot + "TFIDF-SVC.csv";
   my.elementID = "earthscape4";
   loadEarthScape(my);
+  
 </script>
 
 <style>
@@ -74,23 +76,24 @@ hr {
 
 <div class="content contentpadding">
   <div id="readmeDiv"></div>
-  <div id="svcDiv"></div>
-  <div id="rfcDiv"></div>
-  <div id="lrDiv"></div>
 
   <h2>Predictions</h2>
 
   Logistic Regression (CV)<br>
   <div id="earthscape1" style="overflow-x: auto;"></div><br>
-
+  <div id="cv_lrDiv"></div><br>
+  
   Logistic Regression (TFIDF)<br>
   <div id="earthscape2" style="overflow-x: auto;"></div><br>
+  <div id="tfidf_lrDiv"></div><br>
 
-  RandomForestClassifier<br>
+  Random Forest Classification<br>
   <div id="earthscape3" style="overflow-x: auto;"></div><br>
+  <div id="cv_rfcDiv"></div><br>
 
-  Support Vector Machines<br>
+  Support Vector Classification<br>
   <div id="earthscape4" style="overflow-x: auto;"></div><br>
+  <div id="tfidf_svcDiv"></div><br>
 
 </div>
 
