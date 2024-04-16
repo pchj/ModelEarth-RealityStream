@@ -1,6 +1,6 @@
 ## About Path Parameters
 
-The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistical and social sciences.
+The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
 Sample features and target data will reside within "input" folders for:
 bees, blinks, trees, jobs, and industries
@@ -30,4 +30,6 @@ to produce the file path "input/bees/targets/increase2024/bees-targets-increase2
 (Where "targets-increase2024" is the 1 or 2 child folder(s) on the right side of the input/[target name "bees"].)
 
 If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
+
+TO DO: Create a multi-model accuracy report by pulling multiple yaml reports into a single tabulator table. See our tabulator sample page.
 
