@@ -30,7 +30,7 @@ models = ['random forest classifier', 'logistic regression']
 
 '''
 
-
+'''
 page = st.sidebar.selectbox("Explore Or Predict Or Else", ("Understanding the Data","Compare Models","Predict"))
 
 if page == "Understanding the Data":
