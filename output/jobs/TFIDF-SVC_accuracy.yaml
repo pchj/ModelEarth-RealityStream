@@ -1,0 +1,31 @@
+accuracy_num: '98.3'
+best_threshold_num: 0.001
+classification_report:
+  '0':
+    f1-score: 0.99
+    precision: 0.98
+    recall: 1.0
+    support: 3395
+  '1':
+    f1-score: 0.79
+    precision: 1.0
+    recall: 0.66
+    support: 181
+  accuracy:
+    f1-score: 0.98
+    precision: ' '
+    recall: ' '
+    support: 3576
+  macro avg:
+    f1-score: 0.89
+    precision: 0.99
+    recall: 0.83
+    support: 3576
+  weighted avg:
+    f1-score: 0.98
+    precision: 0.98
+    recall: 0.98
+    support: 3576
+gmeans_num: 0.926
+model_fullname: TFIDF Support Vector Classifier (SVC)
+roc_auc: 97.0

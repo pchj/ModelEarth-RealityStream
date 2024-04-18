@@ -1,0 +1,31 @@
+accuracy_num: '93.9'
+best_threshold_num: 0.121
+classification_report:
+  '0':
+    f1-score: 0.97
+    precision: 0.99
+    recall: 0.95
+    support: 3395
+  '1':
+    f1-score: 0.55
+    precision: 0.44
+    recall: 0.75
+    support: 181
+  accuracy:
+    f1-score: 0.94
+    precision: ' '
+    recall: ' '
+    support: 3576
+  macro avg:
+    f1-score: 0.76
+    precision: 0.71
+    recall: 0.85
+    support: 3576
+  weighted avg:
+    f1-score: 0.95
+    precision: 0.96
+    recall: 0.94
+    support: 3576
+gmeans_num: 0.868
+model_fullname: CV Logistic Regression (LR)
+roc_auc: 92.0
