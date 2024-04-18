@@ -1,0 +1,31 @@
+accuracy_num: '97.6'
+best_threshold_num: 0.14
+classification_report:
+  '0':
+    f1-score: 0.99
+    precision: 0.98
+    recall: 1.0
+    support: 3395
+  '1':
+    f1-score: 0.71
+    precision: 0.93
+    recall: 0.57
+    support: 181
+  accuracy:
+    f1-score: 0.98
+    precision: ' '
+    recall: ' '
+    support: 3576
+  macro avg:
+    f1-score: 0.85
+    precision: 0.95
+    recall: 0.78
+    support: 3576
+  weighted avg:
+    f1-score: 0.97
+    precision: 0.97
+    recall: 0.98
+    support: 3576
+gmeans_num: 0.93
+model_fullname: CV Random Forest Classifier (RFC)
+roc_auc: 97.0
