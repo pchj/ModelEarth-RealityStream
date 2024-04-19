@@ -31,5 +31,13 @@ to produce the file path "input/bees/targets/increase2024/bees-targets-increase2
 
 If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
 
-TO DO: Create a multi-model accuracy report by pulling multiple yaml reports into a single tabulator table. See our tabulator sample page.
+TO DO: Create a multi-model accuracy report by pulling multiple yaml reports into a single tabulator table. See our [tabulator sample page](/data-pipeline/timelines/tabulator/) for merging with javascript.
 
+## Upcoming
+
+Thursday April 25 and Sunday next week
+
+1. Construct more models (i.e. XGBoost, neural networks)
+2. Improve the testing accuracy
+3. Generate the feature-importance report for available models, and 
+4. Formatize the jupyter notebook to convert it as a generalized pipeline, which takes different features and targets inputs
