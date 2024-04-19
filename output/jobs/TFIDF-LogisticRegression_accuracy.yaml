@@ -1,0 +1,31 @@
+accuracy_num: '92.6'
+best_threshold_num: 0.417
+classification_report:
+  '0':
+    f1-score: 0.96
+    precision: 0.99
+    recall: 0.93
+    support: 3395
+  '1':
+    f1-score: 0.52
+    precision: 0.39
+    recall: 0.8
+    support: 181
+  accuracy:
+    f1-score: 0.93
+    precision: ' '
+    recall: ' '
+    support: 3576
+  macro avg:
+    f1-score: 0.74
+    precision: 0.69
+    recall: 0.86
+    support: 3576
+  weighted avg:
+    f1-score: 0.94
+    precision: 0.96
+    recall: 0.93
+    support: 3576
+gmeans_num: 0.871
+model_fullname: TFIDF Logistic Regression (LR)
+roc_auc: 94.0
