@@ -4,7 +4,7 @@
 
 [Our Data Pipeline](../../../data-pipeline/) and [NAICS Features Data](../../../data-pipeline/timelines/training/naics/)
 
-TO DO: Create COLab for shared util called industry-timeline-bkup.py that pulls data for features columns without saving locally.
+TO DO: Implement work done by Yanqing (Lily) and Sijia which loads naics data into Pandas for 2017 to 2021 for Maine. [info](/data-pipeline/timelines/).  Create or modify CoLab for shared util called industry-timeline-bkup.py that pulls data for features columns without saving locally.
 
 Avoid saving large feature datasets in local files, use Pandas to send data directly to processing.
 
