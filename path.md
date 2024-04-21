@@ -2,12 +2,8 @@
 
 The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
-Sample features and target data will reside within "input" folders for:
+Small sample features and target data will reside within "input" folders for:
 bees, blinks, trees, jobs, and industries
-
-Sample features file path for industries:
-
-	RealityStream/input/industries/features/fips-naics4.csv
 
 The feature datasets will be merged with 2-column "target" datasets.
 
@@ -15,7 +11,7 @@ The merged data will be sent to multiple models by using these parameters:
 
 	python app.py [features] [target] [models]
 
-TO DO: Update app.py to take parameters. Test that it continues to work with Stremlit.
+TO DO: Update app.py to take parameters. Test that it continues to work with Streamlit.
 
 The parameters will be both shorthand ("bees") and paths ("input/bees/targets").
 
