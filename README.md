@@ -4,6 +4,7 @@ Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://doc
 
 <b>Machine Learning Classification Models</b>
 [Industry Features for Testing (Maine Naics2 Counties 2021)](https://github.com/ModelEarth/community-timelines/blob/main/training/naics2/US/counties/2021/US-ME-training-naics2-counties-2021.csv)
+TO DO: Load multiple years based on REST call to [Github folders](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
 
 **Jobs**
 <a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a>
