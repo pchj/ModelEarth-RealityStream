@@ -1,10 +1,23 @@
-[RealityStream](../../) - [Random Bits Forest](../../models/random-bits-forest/)
+[Industry Timelines Pipeline](../../../data-pipeline/timelines) - [RealityStream](../../) - [Random Bits Forest](../../models/random-bits-forest/)
 
-# Industries&nbsp;
+# Industries Input Data
 
-[Our Data Pipeline](../../../data-pipeline/) and [NAICS Features Data](../../../data-pipeline/timelines/training/naics/)
 
-TO DO: Implement work done by Yanqing (Lily) and Sijia which loads naics data into Pandas for 2017 to 2021 for Maine. [info](/data-pipeline/timelines/).  Create or modify CoLab for shared util called industry-timeline-bkup.py that pulls data for features columns without saving locally.
+
+**Source:** [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
+**Combine Years:** [Industry Features CoLab](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing)
+**Backup .ipynb to run locally:** [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
+**GitHub Output:** [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
+
+
+TO DO's in CoLab:
+
+Locally, add parameter for startyear and endyear. Default to full range when none.
+
+
+
+---
+
 
 Avoid saving large feature datasets in local files, use Pandas to send data directly to processing.
 

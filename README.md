@@ -2,13 +2,10 @@
 A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
 
-<b>Machine Learning Classification Models</b>
-[Industry Features for Testing (Maine Naics2 Counties 2021)](https://github.com/ModelEarth/community-timelines/blob/main/training/naics2/US/counties/2021/US-ME-training-naics2-counties-2021.csv)
-
-TO DO: Create a shared util (in a CoLab) backed up as utils/industry-timeline-bkup.py that loads multiple years based on REST pulled into Pandas from our [Github timeline files](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
+<b>ML Classification Models</b>
 
 **Industries**
-<a href="input/industries/">Industry Data Features</a>
+<a href="input/industries/">Industries Input Data</a>
 
 **Jobs**
 <a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a>
