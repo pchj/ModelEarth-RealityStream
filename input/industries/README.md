@@ -2,26 +2,18 @@
 
 # Industries Input Data
 
-
-
 **Source:** [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
 **Combine Years:** [Industry Features CoLab](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing)
-**Backup .ipynb to run locally:** [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
+**Save as backup to run locally:** [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
 **GitHub Output:** [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
 
-
-TO DO's in CoLab:
-
-Locally, add parameter for startyear and endyear. Default to full range when none.
-
-
-
 ---
-
 
 Avoid saving large feature datasets in local files, use Pandas to send data directly to processing.
 
 Send features and targets through other models (rbf.py, etc.)
+
+TO DO: Figure out how to call other .ipynb files from one main app .py file - and through Streamlit.
 
 TO DO: Create target datasets for prosperity and jobgrowth
 
