@@ -17,7 +17,7 @@ TO DO: Figure out how to call other .ipynb files from one main app .py file, and
 
 TO DO: Create target datasets for prosperity and jobgrowth
 
-**Prosperity** - Which features forecast prosperity?
+**Prosperity** - Which features forecast prosperity? (Wage growth and Value Added growth)
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
 **JobGrowth** - Which features forecast growth of quality jobs?

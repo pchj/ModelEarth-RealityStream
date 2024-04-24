@@ -1,11 +1,16 @@
 ## Path Parameters
 
+Each target dataset will contain 2 columns:  
+The value 1 or 0 in the "Target" column
+The location column with one of the following column names:  
+
+Country (2-char), State (2-digit fips), County (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char).
+
 The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
-Small sample features and target data will reside within "input" folders for:
-bees, blinks, trees, jobs, and industries
+Small sample features and target data will reside within the "input/[data]/features" folders for each data source.
 
-The feature datasets will be merged with 2-column "target" datasets.
+The feature datasets will be merged with 2-column "target" datasets on-the-fly to avoid storing merged files.
 
 The merged data will be sent to multiple models by using these parameters:
 
@@ -15,7 +20,7 @@ TO DO: Update app.py to take parameters. Test that it continues to work with Str
 
 The parameters will be both shorthand ("bees") and paths ("input/bees/targets").
 
-Setting models to "all" could be the equivalent to "svc,rfc,lr,rbf,location-forest"
+Setting the models parameter to "all" could be the equivalent to "svc,rfc,lr,rbf,location-forest"
 The default model value might be "rbf" (Random Bits Forest) when blank.
 
 **Parameter rules:**
