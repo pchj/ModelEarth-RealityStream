@@ -25,13 +25,24 @@ Example: For a parameter of "input/bees/targets/increase2024", append the file n
 
 If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
 
-TO DO: Create a multi-model accuracy report by pulling multiple yaml or json reports into a single tabulator table. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging with javascript.
+## Projects
 
-## Upcoming
+1. Construct more models (i.e. XGBoost, neural networks) - Honglin
+2. Improve the testing accuracy.
+3. Generate the feature-importance report for available models.
+4. Formalize the Jupyter notebooks to convert them into a generalized pipeline, which takes different features and targets inputs.
+5. Include industries-features-bkup.ipynb in the pipeline
+6. Add startyear and endyear to parameters and Streamlit interface.
+7. Maintain notes on how to run and update Streamlit interface locally.
+8. Pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
+9. Reuse report display process for other models
+10. Push "toy" feature data from CoLabs directly to Github annually.
 
-Thursday April 25 and Sunday next week
+## Streamlit Interface
 
-1. Construct more models (i.e. XGBoost, neural networks)
-2. Improve the testing accuracy
-3. Generate the feature-importance report for available models, and 
-4. Formalize the Jupyter notebook to convert it as a generalized pipeline, which takes different features and targets inputs
+Our Streamlit interface will include radio buttons for selecting targets, including:
+1. Bee population change (Irene created 4 columns, each would be its own file)
+2. Top 20% counties for job growth (to-do)
+3. Top 20% counties for wage growth (to-do)
+
+
