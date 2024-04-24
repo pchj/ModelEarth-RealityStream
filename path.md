@@ -34,4 +34,4 @@ Thursday April 25 and Sunday next week
 1. Construct more models (i.e. XGBoost, neural networks)
 2. Improve the testing accuracy
 3. Generate the feature-importance report for available models, and 
-4. Formatize the jupyter notebook to convert it as a generalized pipeline, which takes different features and targets inputs
+4. Formalize the Jupyter notebook to convert it as a generalized pipeline, which takes different features and targets inputs
