@@ -49,5 +49,3 @@ Our Streamlit interface will include radio buttons for selecting targets, includ
 1. Bee population change (Irene created 4 columns, each would be its own file)
 2. Top 20% counties for job growth (to-do)
 3. Top 20% counties for wage growth (to-do)
-
-

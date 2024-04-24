@@ -9,7 +9,7 @@
 
 ## Merging Data in Pandas
 
-Avoid saving large feature datasets in local files, use Pandas to merge features and 1 target column while processing.
+Avoid saving large feature datasets in local files, use Pandas to merge features and targets while processing.
 
 Send merged data through multiple models (rbf.py, etc.)
 
