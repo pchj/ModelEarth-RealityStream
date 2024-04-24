@@ -7,13 +7,13 @@
 **Save as backup to run locally:** [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
 **GitHub Output:** [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
 
----
+## Merging Data in Pandas
 
-Avoid saving large feature datasets in local files, use Pandas to send data directly to processing.
+Avoid saving large feature datasets in local files, use Pandas to merge features and 1 target column while processing.
 
-Send features and targets through other models (rbf.py, etc.)
+Send merged data through multiple models (rbf.py, etc.)
 
-TO DO: Figure out how to call other .ipynb files from one main app .py file - and through Streamlit.
+TO DO: Figure out how to call other .ipynb files from one main app .py file, and through local Streamlit UI.
 
 TO DO: Create target datasets for prosperity and jobgrowth
 

@@ -1,4 +1,4 @@
-## About Path Parameters
+## Path Parameters
 
 The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
@@ -20,14 +20,12 @@ The default model value might be "rbf" (Random Bits Forest) when blank.
 
 **Parameter rules:**
 If a slash / is in a parameter, treat it as a path.
-If the file name is omitted from a path, append the file name with this format:
-For a parameter of "input/bees/targets/increase2024", append "/bees-targets-increase2024.csv"
-to produce the file path "input/bees/targets/increase2024/bees-targets-increase2024.csv"
-(Where "targets-increase2024" is the 1 or 2 child folder(s) on the right side of the input/[target name "bees"].)
+If the file name is omitted from a path, append a file name.
+Example: For a parameter of "input/bees/targets/increase2024", append the file name "/bees-targets-increase2024.csv"
 
 If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
 
-TO DO: Create a multi-model accuracy report by pulling multiple yaml reports into a single tabulator table. See our [tabulator sample page](/data-pipeline/timelines/tabulator/) for merging with javascript.
+TO DO: Create a multi-model accuracy report by pulling multiple yaml or json reports into a single tabulator table. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging with javascript.
 
 ## Upcoming
 
