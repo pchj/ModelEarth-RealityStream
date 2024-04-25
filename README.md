@@ -2,7 +2,9 @@
 A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
 
-<b>ML Classification Models</b>
+TO DO: Test that app.py works with Streamlit, revise as needed. Document steps to launch UI locally.
+
+<b>ML Classification Data Sources</b>
 
 **Industries**
 <a href="input/industries/">Industries Input Data</a>

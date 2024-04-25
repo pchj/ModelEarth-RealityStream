@@ -1,34 +1,32 @@
 ## Path Parameters
 
+TO DO: Update main.py to take data path parameters and run indicated models. 
+
+	python main.py [features] [target] [models]
+
+The indicated features dataset will be merged with a 2-column "target" dataset on-the-fly usng Pandas to avoid storing merged files.
+
+The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
+
 Each target dataset will contain 2 columns:  
 The value 1 or 0 in the "Target" column
 The location column with one of the following column names:  
 
-Country (2-char), State (2-digit fips), County (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char).
-
-The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
+Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char).
 
 Small sample features and target data will reside within the "input/[data]/features" folders for each data source.
 
-The feature datasets will be merged with 2-column "target" datasets on-the-fly to avoid storing merged files.
+### About path name shortcuts
 
-The merged data will be sent to multiple models by using these parameters:
+The parameters will have three versions: short ("bees"), medium ("input/bees/targets") and full ("input/bees/targets/bees-targets.csv").
 
-	python app.py [features] [target] [models]
-
-TO DO: Update app.py to take parameters. Test that it continues to work with Streamlit.
-
-The parameters will be both shorthand ("bees") and paths ("input/bees/targets").
-
-Setting the models parameter to "all" could be the equivalent to "svc,rfc,lr,rbf,location-forest"
+Setting the models parameter to "all" would be the equivalent to "svc,rfc,lr,rbf,location-forest"
 The default model value might be "rbf" (Random Bits Forest) when blank.
 
 **Parameter rules:**
 If a slash / is in a parameter, treat it as a path.
 If the file name is omitted from a path, append a file name.
 Example: For a parameter of "input/bees/targets/increase2024", append the file name "/bees-targets-increase2024.csv"
-
-If the target shorthand parameter is simply "bees", the path would simply [bee](https://model.earth/replicate/): "input/bees/targets/bees-targets.csv"
 
 ## Projects
 

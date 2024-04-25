@@ -1,5 +1,3 @@
-[RealityStream](../)
-
 # Models
 
 - [Location Forest (bees)](location-forest)
