@@ -1,8 +1,11 @@
 # RealityStream
 A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
+<!-- For ML Classification. -->
 
 ## Models
+
+Our model skeletons are being designed to work with all feature and target datasets.
 
 - [Location Forest (Bees)](models/location-forest)
 - [Random Bits Forest (Blinks)](models/random-bits-forest)
@@ -24,9 +27,9 @@ TO DO: Test that app.py works with Streamlit, revise as needed. Document steps t
 
 ## Data Sources
 
-Each Data Source can act as both a feature dataset and a target.
+Each data source has a location column, so it can act as both a feature and target. Location column names:
 
-For ML Classification.
+Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char)
 
 **Industries (Features and Targets)**
 <a href="input/industries/">Industries Input Data</a>
