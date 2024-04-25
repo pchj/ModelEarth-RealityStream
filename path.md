@@ -1,6 +1,6 @@
 ## Path Parameters
 
-TO DO: Update main.py to take data path parameters and run indicated models. 
+TO DO: Update main.py to take data path parameters and run models. 
 
 	python main.py [features] [target] [models]
 
@@ -8,11 +8,10 @@ The indicated features dataset will be merged with a 2-column "target" dataset o
 
 The term "features" is more prevalent in machine learning and data science. "factors" has a stronger association with statistics and social sciences.
 
-Each target dataset will contain 2 columns:  
-The value 1 or 0 in the "Target" column
-The location column with one of the following column names:  
-
-Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char).
+Each target dataset will contain 2 columns.  
+1. The location column with one of the following column names:  
+Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char)
+2. The "Target" column containing 1 or 0
 
 Small sample features and target data will reside within the "input/[data]/features" folders for each data source.
 
@@ -31,7 +30,7 @@ Example: For a parameter of "input/bees/targets/increase2024", append the file n
 ## Projects
 
 1. Construct more models (i.e. XGBoost, neural networks) - Honglin
-2. Improve the testing accuracy.
+2. Improve the testing accuracy. - Honglin
 3. Generate the feature-importance report for available models.
 4. Formalize the Jupyter notebooks to convert them into a generalized pipeline, which takes different features and targets inputs.
 5. Include industries-features-bkup.ipynb in the pipeline
