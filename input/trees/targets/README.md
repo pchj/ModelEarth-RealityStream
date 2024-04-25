@@ -2,4 +2,4 @@
 
 Tree target data coming soon.
 
-[Biodiversity](/data-commons/docs/biodiversity/) and [Conservation](/data-commons/docs/conservation/)
+Data prep resides in our [Conservation Data Commons](../../../../data-commons/docs/conservation/)

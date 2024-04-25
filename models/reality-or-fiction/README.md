@@ -1,8 +1,8 @@
 [RealityStream Models](../)
 
-# Reality or Fiction
+# Reality or Fictional Jobs
 
-Anaylzes text to identify legit posts (using job descriptions)
+Anaylzes text to identify legitimate job posts
 
 Models:
 - Logistic Regression

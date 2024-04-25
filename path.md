@@ -42,9 +42,3 @@ For a target value of "bees increase2024" build the path "input/bees/targets/bee
 9. Reuse report display process for other models
 10. Push "toy" feature data from CoLabs directly to Github annually.
 
-## Streamlit Interface
-
-Our Streamlit interface will include radio buttons for selecting targets, including:
-1. Bee population change (Irene created 4 columns, each would be its own file)
-2. Top 20% counties for job growth (to-do)
-3. Top 20% counties for wage growth (to-do)

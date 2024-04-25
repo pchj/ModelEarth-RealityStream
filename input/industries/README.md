@@ -13,12 +13,12 @@ Avoid saving large feature datasets in local files, use Pandas to merge features
 
 Send merged data through multiple models (rbf.py, etc.)
 
-TO DO: Figure out how to call other .ipynb files from one main app .py file, and through local Streamlit UI.
+TO DO: Call -bkup.ipynb files from main.py file, and through local Streamlit UI.
 
-TO DO: Create target datasets for prosperity and jobgrowth
+TO DO: Create target datasets for Job Growth and Wage Growth.
 
-**Prosperity** - Which features forecast prosperity? (Wage growth and Value Added growth)
+**Job Growth** - Increase in local jobs for states and counties.
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
-**JobGrowth** - Which features forecast growth of quality jobs?
+**Wage Growth** - Increases in local pay levels
 Features: types of industries, education levels, employment levels, population density, environmental indicators

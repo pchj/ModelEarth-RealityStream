@@ -56,6 +56,8 @@ hr {
   my.elementID = "earthscape2";
   loadEarthScape(my);
 
+  /* Mostly redundant, so we hide to keep the page shorter. */
+  /*
   my = {};
   my.dataset = myDataroot + "CV-RandomForestClassifier.csv";
   my.elementID = "earthscape3";
@@ -65,7 +67,7 @@ hr {
   my.dataset = myDataroot + "TFIDF-SVC.csv";
   my.elementID = "earthscape4";
   loadEarthScape(my);
-  
+  */
 </script>
 
 <style>
@@ -77,24 +79,31 @@ hr {
 <div class="content contentpadding">
   <div id="readmeDiv"></div>
 
+  Accuracy Reports
+
+  <!--Logistic Regression (CV)<br>-->
+  <div id="cv_lrDiv"></div>
+  
+  <!--Logistic Regression (TFIDF)<br>-->
+  <div id="tfidf_lrDiv"></div>
+
+  <!--Random Forest Classification<br>-->
+  <div id="cv_rfcDiv"></div>
+
+  <!--Support Vector Classification<br>-->
+  <div id="tfidf_svcDiv"></div>
+
   <h2>Predictions</h2>
 
-  Logistic Regression (CV)<br>
+  The resulting .csv prediction files are almost identical since the accuracy range is from 98% to 99%. Only a few of the Prediction column values differ.<br><br>
+
+  <b>Logistic Regression (CV)</b><br>
   <div id="earthscape1" style="overflow-x: auto;"></div><br>
-  <div id="cv_lrDiv"></div><br>
   
-  Logistic Regression (TFIDF)<br>
+  <b>Logistic Regression (TFIDF)</b><br>
   <div id="earthscape2" style="overflow-x: auto;"></div><br>
-  <div id="tfidf_lrDiv"></div><br>
 
-  Random Forest Classification<br>
-  <div id="earthscape3" style="overflow-x: auto;"></div><br>
-  <div id="cv_rfcDiv"></div><br>
-
-  Support Vector Classification<br>
-  <div id="earthscape4" style="overflow-x: auto;"></div><br>
-  <div id="tfidf_svcDiv"></div><br>
-
+  <a href="../../">Return to RealityStream</a>
 </div>
 
 </body>
