@@ -22,7 +22,7 @@ Our Streamlit interface will include a dropdown menu for selecting targets, incl
 4. [Eye Blinks](output/blinks/) - Brain fMRI Voxels
 5. [Job Listings](output/jobs/) - Reality or Fiction
 
-Install the streamlit cli if you haven't yet
+Install the streamlit cli if you haven't yet.
 
 	pip install streamlit
 
@@ -35,6 +35,8 @@ Streamlit is instead removed, then restart terminal after it's removed from anac
 
 -->
 
+Initiate an environment before running streamlit run app.py . . .
+
 	python3 -m venv env
 	source env/bin/activate
 	pip install wordcloud
@@ -43,16 +45,18 @@ Streamlit is instead removed, then restart terminal after it's removed from anac
 	pip install scikit-learn
 	pip install imblearn
 	pip install markdown
+
+Indicate your features and target data sources and model(s):
+
 	streamlit run app.py "industries" "bees" "rbf"
 
-TO DO: Resolve current end-of-file error:
-SyntaxError: EOF while scanning triple-quoted string literal
+TO DO: When parameters above are omitted, use defaults.
 
 ## Data Sources
 
 Each data source has a location column, so it can act as both a feature and target. Location column names:
 
-Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char)
+Country (2-char), State (2-char), StateFips (2-digits), CountyFips (5-digits), Zip (5 char, 6 in China), or Voxel (2 char)
 
 **Industries (Features and Targets)**
 <a href="input/industries/">Industries Input Data</a>
