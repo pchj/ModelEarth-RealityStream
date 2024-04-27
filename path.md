@@ -1,8 +1,8 @@
 ## Path Parameters
 
-TO DO: Update main.py to take data path parameters and run models. 
+TO DO: Update app.py to take data path parameters and run additional models. 
 
-	python main.py [features] [target] [models]
+	python app.py [features] [target] [models]
 
 The indicated features dataset will be merged with a 2-column "target" dataset on-the-fly using Pandas to avoid storing merged files.
 

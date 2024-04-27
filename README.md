@@ -22,8 +22,31 @@ Our Streamlit interface will include a dropdown menu for selecting targets, incl
 4. [Eye Blinks](output/blinks/) - Brain fMRI Voxels
 5. [Job Listings](output/jobs/) - Reality or Fiction
 
-TO DO: Test that app.py works with Streamlit, revise as needed. Document steps to launch UI locally.
+Install the streamlit cli if you haven't yet
 
+	pip install streamlit
+
+<!--
+These are not used. 
+	import streamlit.web.cli as stcli
+	streamlit hello
+
+Streamlit is instead removed, then restart terminal after it's removed from anaconda
+
+-->
+
+	python3 -m venv env
+	source env/bin/activate
+	pip install wordcloud
+	pip install spacy
+	python -m spacy download en_core_web_sm
+	pip install scikit-learn
+	pip install imblearn
+	pip install markdown
+	streamlit run app.py "industries" "bees" "rbf"
+
+TO DO: Resolve current end-of-file error:
+SyntaxError: EOF while scanning triple-quoted string literal
 
 ## Data Sources
 

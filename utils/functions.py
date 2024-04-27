@@ -132,6 +132,6 @@ def spacy_process(text):
 
 # For Loading the Pickle File
 def load_model():
-    with open('./pickle/notebook_model.pkl', 'rb') as file:
+    with open('output/jobs/saved/notebook_model.pkl', 'rb') as file:
         data = pickle.load(file)
     return data

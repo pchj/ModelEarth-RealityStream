@@ -13,8 +13,6 @@ Avoid saving large feature datasets in local files, use Pandas to merge features
 
 Send merged data through multiple models (rbf.py, etc.)
 
-TO DO: Call -bkup.ipynb files from main.py file, and through local Streamlit UI.
-
 TO DO: Create target datasets for Job Growth and Wage Growth.
 
 **Job Growth** - Increase in local jobs for states and counties.
@@ -22,3 +20,5 @@ Features: types of industries, education levels, employment levels, population d
 
 **Wage Growth** - Increases in local pay levels
 Features: types of industries, education levels, employment levels, population density, environmental indicators
+
+TO DO: Try calling -bkup.ipynb files from app.py file.

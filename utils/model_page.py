@@ -8,7 +8,7 @@ def compare_model_page():
 
     st.title("Model Page")
 
-    df = pd.read_csv(r'datasets\clean_df.csv')
+    df = pd.read_csv(r'input/jobs/clean_df.csv')
 
     st.write("#### 1. Vectorizer Configuration")
 

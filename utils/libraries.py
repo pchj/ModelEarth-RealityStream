@@ -4,7 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import spacy
-#!python -m spacy download en_core_web_sm
 
 from numpy import sqrt, argmax
 from sklearn.model_selection import train_test_split
