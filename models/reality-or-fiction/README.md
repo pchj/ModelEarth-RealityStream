@@ -9,10 +9,8 @@ Models:
 - Random Forest
 - Support Vector Machines SVC
 
-To run locally:
 
-	python reality-or-fiction.ipynb jobs
-
+reality-or-fiction.ipynb is an alternative to running app.py 
 
 [Dataset Google Sheet](https://drive.google.com/file/d/1oNvbZLod123UhYbR8oqH7hPCc3n5CRan/view?usp=share_link)
 
