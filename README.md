@@ -30,7 +30,7 @@ This should launch a browser with demos:
 
 	streamlit hello
 
-If needed, you can uninstall all instances of Streamlit, the reinstall and restart terminal.  This should remove an older version from the anaconda folder.
+If you get a cli error, you can uninstall all instances of Streamlit. Then reinstall and restart terminal.  This should remove an older version from the anaconda folder.
 
 	pip uninstall streamlit
 	pip install streamlit
