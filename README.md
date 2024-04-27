@@ -26,14 +26,16 @@ Install the streamlit cli if you haven't yet.
 
 	pip install streamlit
 
-<!--
-These are not used. 
-	import streamlit.web.cli as stcli
+This should launch a browser with demos:
+
 	streamlit hello
 
-Streamlit is instead removed, then restart terminal after it's removed from anaconda
+If needed, you can uninstall all instances of Streamlit, the reinstall and restart terminal.  This should remove an older version from the anaconda folder.
 
--->
+	pip uninstall streamlit
+	pip install streamlit
+
+## View RealityStream in Streamlit
 
 Initiate an environment before running streamlit run app.py . . .
 
