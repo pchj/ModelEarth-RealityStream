@@ -42,15 +42,21 @@ Initiate an environment before running streamlit run app.py . . .
 	python3 -m venv env
 	source env/bin/activate
 	pip install wordcloud
-	pip install spacy
+	pip install spaCy
 	python -m spacy download en_core_web_sm
 	pip install scikit-learn
 	pip install imblearn
 	pip install markdown
 
+spaCy is an open-source natural language processing (NLP) library
+
 Indicate your features and target data sources and model(s):
 
 	streamlit run app.py "industries" "bees" "rbf"
+
+Or load from a [parameters.yaml](parameters.yaml) file (not yet implimented):
+
+	streamlit run app.py "parameters.yaml"
 
 TO DO: When parameters above are omitted, use defaults.
 

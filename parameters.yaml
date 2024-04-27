@@ -1,0 +1,5 @@
+features: "industries"
+	startyear: 2017
+	endyear: 2021
+targets: "bees"
+models: rbf"
