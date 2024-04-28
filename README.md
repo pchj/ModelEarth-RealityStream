@@ -64,7 +64,7 @@ TO DO: When parameters above are omitted, use defaults.
 
 Each data source has a location column, so it can act as both a feature and target. Location column names:
 
-Country (2-char), State (2-char), StateFips (2-digits), CountyFips (5-digits), Zip (5 char, 6 in China), or Voxel (2 char)
+Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
 
 **Industries (Features and Targets)**
 <a href="input/industries/">Industries Input Data</a>

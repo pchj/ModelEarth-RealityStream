@@ -27,7 +27,7 @@ Example of parameters.yaml format:
 
 Each target dataset will contain 2 columns.  
 1. The location column with one of the following column names:  
-Country (2-char), State (2-digit fips), County or Fips (5-digit fips), Zip (5 char, 6 in China), or Voxel (2 char)
+Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
 2. The "Target" column containing 1 or 0
 
 Sample features and targets datasets will reside within the "input/[data]/features" and "input/[data]/targets" folders for each data source.
