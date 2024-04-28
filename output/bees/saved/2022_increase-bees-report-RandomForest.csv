@@ -1,0 +1,286 @@
+Feature,Feature_Name,Importance
+Latitude-2019,Latitude-2019,0.006541756394065077
+Latitude-2020,Latitude-2020,0.006535150703936969
+Latitude-2017,Latitude-2017,0.006502225707527889
+Latitude-2021,Latitude-2021,0.0064236968288807535
+Latitude-2018,Latitude-2018,0.006171809624629689
+Km2-2018,Km2-2018,0.005943752737273396
+Pay-42-2017,Pay-Wholesale Trade-2017,0.005856224094325109
+Km2-2020,Km2-2020,0.005826211077903957
+Km2-2019,Km2-2019,0.005655060150634208
+Longitude-2018,Longitude-2018,0.005527086425388076
+Pay-42-2018,Pay-Wholesale Trade-2018,0.005441340280797673
+Km2-2021,Km2-2021,0.005423640274219024
+Pay-42-2021,Pay-Wholesale Trade-2021,0.005396970311423875
+Longitude-2021,Longitude-2021,0.005392065711290412
+Longitude-2020,Longitude-2020,0.005335208322388857
+Longitude-2019,Longitude-2019,0.0053252262646473645
+Longitude-2017,Longitude-2017,0.005279202961118168
+Km2-2017,Km2-2017,0.005188251789867504
+Emp-42-2017,Emp-Wholesale Trade-2017,0.005139340845180984
+Emp-56-2017,Emp-Admin and Support and Waste Management-2017,0.0050509487028772655
+Pay-62-2020,Pay-Health Care and Social Assistance-2020,0.005014553274311979
+Emp-52-2017,Emp-Finance and Insurance-2017,0.004933974256454044
+Emp-42-2018,Emp-Wholesale Trade-2018,0.004849608419438211
+Emp-42-2021,Emp-Wholesale Trade-2021,0.004848667277602017
+Pay-23-2019,Pay-Construction-2019,0.004839170217278271
+Pay-42-2020,Pay-Wholesale Trade-2020,0.004833704853738985
+Pay-54-2019,"Pay-Professional, Scientific, Technical Services-2019",0.00482418922904436
+Emp-42-2020,Emp-Wholesale Trade-2020,0.004768840581663682
+Pay-42-2019,Pay-Wholesale Trade-2019,0.004766899120280441
+Pay-62-2021,Pay-Health Care and Social Assistance-2021,0.004743057215831778
+Pay-23-2018,Pay-Construction-2018,0.004738570789831511
+Pay-23-2020,Pay-Construction-2020,0.004737858557759311
+Pay-53-2021,Pay-Real Estate and Rental and Leasing-2021,0.004702514999307688
+Emp-23-2021,Emp-Construction-2021,0.004696837796561604
+Pay-62-2018,Pay-Health Care and Social Assistance-2018,0.004689107245770184
+Pay-23-2017,Pay-Construction-2017,0.004622077735440126
+Emp-62-2020,Emp-Health Care and Social Assistance-2020,0.004579478024314259
+Emp-42-2019,Emp-Wholesale Trade-2019,0.004577014476418342
+Emp-62-2017,Emp-Health Care and Social Assistance-2017,0.0045605103210268625
+Pay-52-2017,Pay-Finance and Insurance-2017,0.004554797133376638
+Emp-23-2020,Emp-Construction-2020,0.004549697203376646
+Pay-54-2021,"Pay-Professional, Scientific, Technical Services-2021",0.0045439396318020945
+Emp-52-2019,Emp-Finance and Insurance-2019,0.0045240544770066065
+Emp-62-2019,Emp-Health Care and Social Assistance-2019,0.004501255820502018
+Pay-54-2020,"Pay-Professional, Scientific, Technical Services-2020",0.0044903906282349505
+Pay-54-2017,"Pay-Professional, Scientific, Technical Services-2017",0.004481768710605007
+Emp-52-2021,Emp-Finance and Insurance-2021,0.004478086046530795
+Emp-23-2019,Emp-Construction-2019,0.004476884465553605
+Pay-23-2021,Pay-Construction-2021,0.004469751918957015
+Est-72-2020,Est-Accommodation and Food Services-2020,0.0044455173058678
+Emp-62-2021,Emp-Health Care and Social Assistance-2021,0.004436580644577381
+Emp-23-2017,Emp-Construction-2017,0.00443155519161327
+Pay-11-2018,"Pay-Agriculture, Forestry, Fishing and Hunting-2018",0.004428731574761895
+Pay-62-2019,Pay-Health Care and Social Assistance-2019,0.004426770378091369
+Pay-52-2019,Pay-Finance and Insurance-2019,0.004399424496991955
+Pay-54-2018,"Pay-Professional, Scientific, Technical Services-2018",0.004398488364254719
+Pay-56-2017,Pay-Admin and Support and Waste Management-2017,0.0043949688802725805
+Pay-72-2021,Pay-Accommodation and Food Services-2021,0.004364045925051121
+Emp-52-2020,Emp-Finance and Insurance-2020,0.004353822811557374
+Pay-72-2019,Pay-Accommodation and Food Services-2019,0.004350345292684256
+Emp-23-2018,Emp-Construction-2018,0.004313038547753938
+Emp-62-2018,Emp-Health Care and Social Assistance-2018,0.004308137177524772
+Pay-51-2021,Pay-Information-2021,0.004305655850301204
+Pay-53-2018,Pay-Real Estate and Rental and Leasing-2018,0.004287218792203036
+Emp-53-2021,Emp-Real Estate and Rental and Leasing-2021,0.00428005171170239
+Pay-53-2019,Pay-Real Estate and Rental and Leasing-2019,0.004266132508424396
+Pay-72-2020,Pay-Accommodation and Food Services-2020,0.00424295512370941
+Pay-52-2021,Pay-Finance and Insurance-2021,0.004232204405130629
+Pay-11-2021,"Pay-Agriculture, Forestry, Fishing and Hunting-2021",0.004225487691671574
+Emp-56-2018,Emp-Admin and Support and Waste Management-2018,0.004216768820663459
+Pay-56-2018,Pay-Admin and Support and Waste Management-2018,0.004208406689897232
+Emp-56-2020,Emp-Admin and Support and Waste Management-2020,0.004204059793478583
+Pay-11-2020,"Pay-Agriculture, Forestry, Fishing and Hunting-2020",0.004202076878493612
+Est-23-2021,Est-Construction-2021,0.004199435892157796
+Emp-72-2019,Emp-Accommodation and Food Services-2019,0.004194435534953243
+Emp-54-2019,"Emp-Professional, Scientific, Technical Services-2019",0.0041874935878140505
+Pay-51-2020,Pay-Information-2020,0.004177140982051431
+Pay-62-2017,Pay-Health Care and Social Assistance-2017,0.004172699106640432
+Pay-52-2018,Pay-Finance and Insurance-2018,0.004172295595548697
+Emp-54-2020,"Emp-Professional, Scientific, Technical Services-2020",0.004168958410614173
+Pay-81-2021,Pay-Other Services-2021,0.004166017141856273
+Emp-56-2019,Emp-Admin and Support and Waste Management-2019,0.004161810462237487
+Pay-56-2019,Pay-Admin and Support and Waste Management-2019,0.004161648458953331
+Population-2020,Population-2020,0.004160080822719813
+Emp-51-2020,Emp-Information-2020,0.004152582172216701
+Emp-54-2021,"Emp-Professional, Scientific, Technical Services-2021",0.004138136919433474
+Pay-72-2018,Pay-Accommodation and Food Services-2018,0.004131322115561791
+Est-23-2018,Est-Construction-2018,0.004114465127492586
+Pay-51-2019,Pay-Information-2019,0.004103493440259278
+Pay-52-2020,Pay-Finance and Insurance-2020,0.0040985284929012334
+Emp-72-2021,Emp-Accommodation and Food Services-2021,0.004093567683521957
+Est-23-2020,Est-Construction-2020,0.004081043300699886
+Emp-11-2020,"Emp-Agriculture, Forestry, Fishing and Hunting-2020",0.004081018447232344
+Population-2017,Population-2017,0.004066080354680526
+Pay-56-2020,Pay-Admin and Support and Waste Management-2020,0.004059791959218701
+Emp-52-2018,Emp-Finance and Insurance-2018,0.00405652408445853
+Pay-56-2021,Pay-Admin and Support and Waste Management-2021,0.004045223737164879
+Population-2019,Population-2019,0.004032135621591355
+Est-72-2018,Est-Accommodation and Food Services-2018,0.004015935040571215
+Pay-81-2017,Pay-Other Services-2017,0.00401019357966097
+Pay-11-2017,"Pay-Agriculture, Forestry, Fishing and Hunting-2017",0.004008791766327784
+Est-72-2021,Est-Accommodation and Food Services-2021,0.004001825790138109
+Pay-21-2018,"Pay-Mining, Quarrying, Oil and Gas Extraction-2018",0.004000772446942863
+Emp-54-2018,"Emp-Professional, Scientific, Technical Services-2018",0.004000488517855099
+Emp-11-2021,"Emp-Agriculture, Forestry, Fishing and Hunting-2021",0.003991760505436873
+Emp-11-2019,"Emp-Agriculture, Forestry, Fishing and Hunting-2019",0.0039585421763008175
+Emp-11-2018,"Emp-Agriculture, Forestry, Fishing and Hunting-2018",0.003956737796449141
+Emp-54-2017,"Emp-Professional, Scientific, Technical Services-2017",0.003947609948775
+Emp-72-2020,Emp-Accommodation and Food Services-2020,0.003939251084832202
+Emp-51-2019,Emp-Information-2019,0.003934427792573635
+Pay-21-2021,"Pay-Mining, Quarrying, Oil and Gas Extraction-2021",0.003927268144973552
+Population-2021,Population-2021,0.0039271007400618705
+Pay-72-2017,Pay-Accommodation and Food Services-2017,0.003921821299690032
+Pay-81-2018,Pay-Other Services-2018,0.0039115691157638275
+Population-2018,Population-2018,0.0038995763693879934
+Emp-81-2021,Emp-Other Services-2021,0.0038895229508876263
+Est-62-2017,Est-Health Care and Social Assistance-2017,0.003882121675494351
+Est-72-2017,Est-Accommodation and Food Services-2017,0.0038779621796084466
+Emp-72-2017,Emp-Accommodation and Food Services-2017,0.0038563474154766626
+Pay-11-2019,"Pay-Agriculture, Forestry, Fishing and Hunting-2019",0.003833041868554048
+Emp-56-2021,Emp-Admin and Support and Waste Management-2021,0.003826279819152306
+Est-23-2017,Est-Construction-2017,0.0038142544914329096
+Est-23-2019,Est-Construction-2019,0.0038115374109407864
+Emp-53-2018,Emp-Real Estate and Rental and Leasing-2018,0.0038078816672132286
+Est-81-2021,Est-Other Services-2021,0.0037881146494446044
+Emp-21-2020,"Emp-Mining, Quarrying, Oil and Gas Extraction-2020",0.0037872971263857784
+Pay-61-2019,Pay-Educational Services-2019,0.003783994503341125
+Pay-51-2017,Pay-Information-2017,0.0037708044463817558
+Est-72-2019,Est-Accommodation and Food Services-2019,0.0037695598746709763
+Pay-71-2017,"Pay-Arts, Entertainment, and Recreation-2017",0.0037690101552397682
+Emp-71-2021,"Emp-Arts, Entertainment, and Recreation-2021",0.0037562391574151224
+Emp-51-2018,Emp-Information-2018,0.00374347364620088
+Est-42-2018,Est-Wholesale Trade-2018,0.0037424147245458702
+Est-62-2020,Est-Health Care and Social Assistance-2020,0.0037283687786901607
+Pay-21-2020,"Pay-Mining, Quarrying, Oil and Gas Extraction-2020",0.0037060705198695147
+Pay-21-2019,"Pay-Mining, Quarrying, Oil and Gas Extraction-2019",0.003705244664538323
+Pay-81-2020,Pay-Other Services-2020,0.003703739698956451
+Emp-81-2017,Emp-Other Services-2017,0.003702902404608581
+Pay-81-2019,Pay-Other Services-2019,0.0037019330701831077
+Pay-53-2017,Pay-Real Estate and Rental and Leasing-2017,0.003692176506828641
+Pay-71-2021,"Pay-Arts, Entertainment, and Recreation-2021",0.003685063576188298
+Emp-53-2019,Emp-Real Estate and Rental and Leasing-2019,0.0036788599595875054
+Emp-81-2019,Emp-Other Services-2019,0.0036767437549749243
+Pay-51-2018,Pay-Information-2018,0.0036673455328546096
+Est-42-2020,Est-Wholesale Trade-2020,0.0036569906384338086
+Emp-72-2018,Emp-Accommodation and Food Services-2018,0.0036435571667470237
+Est-62-2018,Est-Health Care and Social Assistance-2018,0.003607406918955467
+Emp-51-2017,Emp-Information-2017,0.00360647898527101
+Emp-71-2017,"Emp-Arts, Entertainment, and Recreation-2017",0.0035882918375492803
+Est-81-2020,Est-Other Services-2020,0.0035871959137411154
+Emp-21-2018,"Emp-Mining, Quarrying, Oil and Gas Extraction-2018",0.003575608416108063
+Pay-53-2020,Pay-Real Estate and Rental and Leasing-2020,0.003575153016964155
+Est-42-2017,Est-Wholesale Trade-2017,0.003561960036210378
+Emp-51-2021,Emp-Information-2021,0.0035605150170756905
+Est-42-2021,Est-Wholesale Trade-2021,0.0035595459280699476
+Emp-81-2018,Emp-Other Services-2018,0.003550498307261375
+Emp-81-2020,Emp-Other Services-2020,0.0035320107809723054
+Est-62-2021,Est-Health Care and Social Assistance-2021,0.0035316858562483406
+Emp-71-2020,"Emp-Arts, Entertainment, and Recreation-2020",0.0035252798193203586
+Pay-71-2018,"Pay-Arts, Entertainment, and Recreation-2018",0.003521503670209852
+Pay-71-2019,"Pay-Arts, Entertainment, and Recreation-2019",0.0035210521147875764
+Emp-11-2017,"Emp-Agriculture, Forestry, Fishing and Hunting-2017",0.003502583248030094
+Emp-53-2017,Emp-Real Estate and Rental and Leasing-2017,0.0034575317728917894
+Emp-71-2018,"Emp-Arts, Entertainment, and Recreation-2018",0.0034547466193956713
+Emp-53-2020,Emp-Real Estate and Rental and Leasing-2020,0.0034447226187487552
+Est-81-2017,Est-Other Services-2017,0.0034429272871699195
+Est-53-2021,Est-Real Estate and Rental and Leasing-2021,0.0034203607371098553
+Est-42-2019,Est-Wholesale Trade-2019,0.0034190305266974656
+Est-81-2019,Est-Other Services-2019,0.00338227860149386
+Pay-71-2020,"Pay-Arts, Entertainment, and Recreation-2020",0.0033638830409842874
+Est-54-2020,"Est-Professional, Scientific, Technical Services-2020",0.003359483045311251
+Emp-61-2019,Emp-Educational Services-2019,0.003340650360181222
+Est-56-2021,Est-Admin and Support and Waste Management-2021,0.003338879534520318
+Est-81-2018,Est-Other Services-2018,0.003334422731768109
+Emp-71-2019,"Emp-Arts, Entertainment, and Recreation-2019",0.003332219686538383
+Est-62-2019,Est-Health Care and Social Assistance-2019,0.003314195958696715
+UrbanDensity-2021,UrbanDensity-2021,0.0032942306694252695
+UrbanDensity-2020,UrbanDensity-2020,0.003251107024495966
+Est-54-2021,"Est-Professional, Scientific, Technical Services-2021",0.003242710318696795
+Est-54-2018,"Est-Professional, Scientific, Technical Services-2018",0.0032287493532107566
+Pay-22-2021,Pay-Utilities-2021,0.003218927852385612
+Est-52-2018,Est-Finance and Insurance-2018,0.003209750649996406
+Pay-22-2019,Pay-Utilities-2019,0.003205254861200806
+Emp-21-2019,"Emp-Mining, Quarrying, Oil and Gas Extraction-2019",0.003170996980055762
+Pay-22-2018,Pay-Utilities-2018,0.0031580803831278686
+Est-11-2019,"Est-Agriculture, Forestry, Fishing and Hunting-2019",0.0031519859603754133
+Emp-21-2021,"Emp-Mining, Quarrying, Oil and Gas Extraction-2021",0.003136132450934897
+Emp-61-2021,Emp-Educational Services-2021,0.003132151135160172
+Est-56-2018,Est-Admin and Support and Waste Management-2018,0.003128902219844706
+Est-52-2021,Est-Finance and Insurance-2021,0.003085330838055705
+Est-56-2017,Est-Admin and Support and Waste Management-2017,0.003072664450156235
+Emp-22-2021,Emp-Utilities-2021,0.0030632073069950558
+Est-52-2019,Est-Finance and Insurance-2019,0.003053886867235739
+Est-52-2020,Est-Finance and Insurance-2020,0.0030444884253053267
+Est-11-2020,"Est-Agriculture, Forestry, Fishing and Hunting-2020",0.0030419552918463555
+Est-53-2018,Est-Real Estate and Rental and Leasing-2018,0.00304169974896693
+Est-52-2017,Est-Finance and Insurance-2017,0.003033619623029842
+Emp-61-2020,Emp-Educational Services-2020,0.0030203300105162293
+Est-56-2019,Est-Admin and Support and Waste Management-2019,0.0030166882093574047
+Est-54-2019,"Est-Professional, Scientific, Technical Services-2019",0.003007346528057395
+Pay-61-2020,Pay-Educational Services-2020,0.0029945251072776022
+Est-53-2020,Est-Real Estate and Rental and Leasing-2020,0.0029806875028813426
+Pay-61-2021,Pay-Educational Services-2021,0.0029426874261353894
+Pay-22-2020,Pay-Utilities-2020,0.002922561276446725
+Est-53-2019,Est-Real Estate and Rental and Leasing-2019,0.0029146110190730393
+Emp-61-2018,Emp-Educational Services-2018,0.0029006586019624464
+Est-53-2017,Est-Real Estate and Rental and Leasing-2017,0.002896683752647817
+Est-54-2017,"Est-Professional, Scientific, Technical Services-2017",0.002890824610160758
+Pay-61-2018,Pay-Educational Services-2018,0.0028713159985524176
+UrbanDensity-2019,UrbanDensity-2019,0.0028516473035464164
+UrbanDensity-2017,UrbanDensity-2017,0.0028285391375476704
+Emp-21-2017,"Emp-Mining, Quarrying, Oil and Gas Extraction-2017",0.0028246269654044823
+Est-11-2017,"Est-Agriculture, Forestry, Fishing and Hunting-2017",0.002815963933678641
+Pay-21-2017,"Pay-Mining, Quarrying, Oil and Gas Extraction-2017",0.002812969263167418
+Est-56-2020,Est-Admin and Support and Waste Management-2020,0.002804622766617667
+Emp-22-2020,Emp-Utilities-2020,0.0027950919009787204
+Emp-22-2019,Emp-Utilities-2019,0.002794479452250797
+Est-11-2021,"Est-Agriculture, Forestry, Fishing and Hunting-2021",0.00274329027855263
+Emp-22-2018,Emp-Utilities-2018,0.0027400520239981127
+Est-11-2018,"Est-Agriculture, Forestry, Fishing and Hunting-2018",0.0027398610505930733
+Est-71-2021,"Est-Arts, Entertainment, and Recreation-2021",0.0026967964972511157
+Est-71-2019,"Est-Arts, Entertainment, and Recreation-2019",0.002673672158329015
+Est-21-2017,"Est-Mining, Quarrying, Oil and Gas Extraction-2017",0.002653539287677878
+UrbanDensity-2018,UrbanDensity-2018,0.002631198968073381
+Est-71-2017,"Est-Arts, Entertainment, and Recreation-2017",0.0024938407360113493
+Est-21-2018,"Est-Mining, Quarrying, Oil and Gas Extraction-2018",0.0024609161152642895
+Est-51-2021,Est-Information-2021,0.0024411395859050737
+Est-71-2018,"Est-Arts, Entertainment, and Recreation-2018",0.002428915226595892
+Est-71-2020,"Est-Arts, Entertainment, and Recreation-2020",0.0024120810924711587
+Emp-61-2017,Emp-Educational Services-2017,0.0024079570994085704
+Est-51-2019,Est-Information-2019,0.002334465783090239
+Pay-61-2017,Pay-Educational Services-2017,0.0023045304595794907
+PercentUrban-2019,PercentUrban-2019,0.002304276464350449
+Est-51-2020,Est-Information-2020,0.0022958349613998296
+Est-21-2021,"Est-Mining, Quarrying, Oil and Gas Extraction-2021",0.0022869506279106374
+Pay-55-2019,Pay-Management of Companies and Enterprises-2019,0.0022861640185211267
+Emp-55-2020,Emp-Management of Companies and Enterprises-2020,0.002250018599280005
+Emp-55-2018,Emp-Management of Companies and Enterprises-2018,0.002245461957912402
+Est-51-2017,Est-Information-2017,0.002237985094336436
+PercentUrban-2021,PercentUrban-2021,0.0022248481379396677
+Emp-55-2019,Emp-Management of Companies and Enterprises-2019,0.0022144627379768523
+Est-51-2018,Est-Information-2018,0.002213500290642585
+Emp-55-2021,Emp-Management of Companies and Enterprises-2021,0.0021938667443504806
+Pay-55-2021,Pay-Management of Companies and Enterprises-2021,0.0021917127718219967
+Pay-55-2018,Pay-Management of Companies and Enterprises-2018,0.0021854291874645057
+PercentUrban-2020,PercentUrban-2020,0.002173562321318716
+Est-21-2020,"Est-Mining, Quarrying, Oil and Gas Extraction-2020",0.0021347782519663587
+Est-21-2019,"Est-Mining, Quarrying, Oil and Gas Extraction-2019",0.002080831733417992
+PercentUrban-2017,PercentUrban-2017,0.0020801435083738907
+PercentUrban-2018,PercentUrban-2018,0.0020737768214260867
+Est-61-2021,Est-Educational Services-2021,0.001993113269621049
+Est-61-2019,Est-Educational Services-2019,0.0019895126696663984
+Est-61-2020,Est-Educational Services-2020,0.001987044986526198
+Pay-99-2018,Pay-99-2018,0.0019737396166111688
+Pay-55-2020,Pay-Management of Companies and Enterprises-2020,0.001965418874026785
+Est-22-2017,Est-Utilities-2017,0.001930725881381936
+Est-61-2017,Est-Educational Services-2017,0.0019271798073470631
+Emp-22-2017,Emp-Utilities-2017,0.0019200425907445976
+Pay-99-2020,Pay-99-2020,0.0018882294977697696
+Pay-99-2021,Pay-99-2021,0.0018360300627373778
+Pay-22-2017,Pay-Utilities-2017,0.0018072067270818164
+Est-22-2018,Est-Utilities-2018,0.0017634683482636807
+Pay-99-2019,Pay-99-2019,0.0017576120725634671
+Est-22-2019,Est-Utilities-2019,0.0017363572389751832
+Est-22-2021,Est-Utilities-2021,0.0017270293686954938
+Est-61-2018,Est-Educational Services-2018,0.0017128027142905946
+Est-22-2020,Est-Utilities-2020,0.0017118690986659363
+Emp-55-2017,Emp-Management of Companies and Enterprises-2017,0.0017096487211404488
+Pay-55-2017,Pay-Management of Companies and Enterprises-2017,0.0016542844547933905
+Emp-99-2020,Emp-99-2020,0.0016072762938580834
+Emp-99-2018,Emp-99-2018,0.0015154987296918693
+Emp-99-2021,Emp-99-2021,0.0014233930219785115
+Est-55-2017,Est-Management of Companies and Enterprises-2017,0.0013750962554369423
+Est-55-2021,Est-Management of Companies and Enterprises-2021,0.0013579763967127934
+Est-55-2018,Est-Management of Companies and Enterprises-2018,0.001339137384970875
+Emp-99-2019,Emp-99-2019,0.0012894414319737188
+Est-55-2019,Est-Management of Companies and Enterprises-2019,0.0012711273371013875
+Est-55-2020,Est-Management of Companies and Enterprises-2020,0.0012480790360601451
+Pay-99-2017,Pay-99-2017,0.001097224152754222
+Est-99-2020,Est-99-2020,0.0010896434389982552
+Est-99-2019,Est-99-2019,0.0010880122699402737
+Est-99-2018,Est-99-2018,0.0010103295399534814
+Emp-99-2017,Emp-99-2017,0.0008619710728309074
+Est-99-2021,Est-99-2021,0.0007479112864940997
+Est-99-2017,Est-99-2017,0.0006225800964450023
