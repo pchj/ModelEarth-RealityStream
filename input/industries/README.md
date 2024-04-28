@@ -13,7 +13,7 @@ Avoid saving large feature datasets in local files, use Pandas to merge features
 
 Send merged data through multiple models (rbf.py, etc.)
 
-TO DO: Create target datasets for Job Growth and Wage Growth.
+TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
 
 **Job Growth** - Increase in local jobs for states and counties.
 Features: types of industries, education levels, employment levels, population density, environmental indicators
