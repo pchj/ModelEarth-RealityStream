@@ -35,9 +35,9 @@ If you get a cli error, you can uninstall all instances of Streamlit. Then reins
 	pip uninstall streamlit
 	pip install streamlit
 
-## View RealityStream in Streamlit
+## View RealityStream in Streamlit Virtual Environment
 
-Initiate an environment before running streamlit run app.py . . .
+Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
 	python3 -m venv env
 	source env/bin/activate

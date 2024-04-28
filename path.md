@@ -1,13 +1,29 @@
 ## Path Parameters
 
-TO DO: Update app.py to take data path parameters and run additional models. 
+The term "features" is more prevalent in machine learning and data science.
+"factors" has a stronger association with statistics and social sciences.
+
+TO DO: Update our [Industry Features Colab](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing) to take data path parameters from [parameters.yaml](../../RealityStream/parameters.yaml) and run multiple models using -bkup.ipynb files. 
+
+[Using our virtual environment](./) local Streamlit app.py run steps, the features dataset is merged with a 2-column "target" dataset on-the-fly using Pandas to avoid storing merged files.
+
+We'll recognize two formats:
 
 	python app.py [features] [target] [models]
 
-The indicated features dataset will be merged with a 2-column "target" dataset on-the-fly using Pandas to avoid storing merged files.
+The above 3 parameters can also reside in one yaml file called by:
 
-The term "features" is more prevalent in machine learning and data science.
-"factors" has a stronger association with statistics and social sciences.
+	python app.py [parameters.yaml]
+
+Example of parameters.yaml format:
+
+	features: "industries"
+		startyear: 2017
+		endyear: 2021
+	 	path: "https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv"
+	targets: "bees"
+	models: rbf"
+
 
 Each target dataset will contain 2 columns.  
 1. The location column with one of the following column names:  
