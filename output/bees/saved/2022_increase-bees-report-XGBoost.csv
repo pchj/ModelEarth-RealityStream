@@ -1,275 +1,274 @@
 Feature,Feature_Name,Importance
-f175,f175,45.0
-f170,f170,41.0
-f180,f180,39.0
-f65,f65,24.0
-f50,f50,24.0
-f0,f0,22.0
-f250,f250,22.0
-f205,f205,21.0
-f194,f194,21.0
-f75,f75,20.0
-f2,f2,20.0
-f56,f56,20.0
-f60,f60,19.0
-f235,f235,18.0
-f237,f237,17.0
-f267,f267,17.0
-f1,f1,17.0
-f120,f120,17.0
-f81,f81,17.0
-f55,f55,17.0
-f54,f54,17.0
-f284,f284,17.0
-f9,f9,17.0
-f275,f275,16.0
-f25,f25,16.0
-f224,f224,16.0
-f105,f105,16.0
-f3,f3,16.0
-f283,f283,16.0
-f189,f189,16.0
-f4,f4,16.0
-f69,f69,15.0
-f74,f74,15.0
-f7,f7,15.0
-f253,f253,15.0
-f37,f37,15.0
-f196,f196,15.0
-f249,f249,15.0
-f19,f19,15.0
-f206,f206,15.0
-f15,f15,14.0
-f155,f155,14.0
-f66,f66,14.0
-f108,f108,14.0
-f10,f10,14.0
-f219,f219,14.0
-f14,f14,14.0
-f6,f6,14.0
-f104,f104,14.0
-f27,f27,14.0
-f239,f239,14.0
-f23,f23,14.0
-f79,f79,13.0
-f216,f216,13.0
-f223,f223,13.0
-f90,f90,13.0
-f214,f214,13.0
-f211,f211,13.0
-f229,f229,13.0
-f5,f5,13.0
-f100,f100,13.0
-f59,f59,13.0
-f34,f34,13.0
-f280,f280,13.0
-f8,f8,13.0
-f185,f185,13.0
-f36,f36,13.0
-f35,f35,13.0
-f24,f24,13.0
-f281,f281,13.0
-f122,f122,12.0
-f244,f244,12.0
-f221,f221,12.0
-f236,f236,12.0
-f251,f251,12.0
-f29,f29,12.0
-f87,f87,12.0
-f187,f187,12.0
-f62,f62,12.0
-f222,f222,12.0
-f143,f143,12.0
-f20,f20,12.0
-f204,f204,12.0
-f240,f240,12.0
-f265,f265,12.0
-f266,f266,12.0
-f156,f156,12.0
-f209,f209,12.0
-f44,f44,12.0
-f193,f193,11.0
-f145,f145,11.0
-f28,f28,11.0
-f203,f203,11.0
-f30,f30,11.0
-f32,f32,11.0
-f245,f245,11.0
-f186,f186,11.0
-f228,f228,11.0
-f225,f225,11.0
-f200,f200,11.0
-f164,f164,11.0
-f49,f49,11.0
-f40,f40,11.0
-f84,f84,11.0
-f260,f260,11.0
-f121,f121,10.0
-f115,f115,10.0
-f218,f218,10.0
-f11,f11,10.0
-f188,f188,10.0
-f18,f18,10.0
-f76,f76,10.0
-f33,f33,10.0
-f42,f42,10.0
-f67,f67,10.0
-f83,f83,10.0
-f85,f85,10.0
-f61,f61,10.0
-f272,f272,10.0
-f152,f152,9.0
-f210,f210,9.0
-f16,f16,9.0
-f207,f207,9.0
-f150,f150,9.0
-f151,f151,9.0
-f110,f110,9.0
-f213,f213,9.0
-f274,f274,9.0
-f202,f202,9.0
-f159,f159,9.0
-f201,f201,9.0
-f52,f52,9.0
-f51,f51,9.0
-f195,f195,9.0
-f39,f39,9.0
-f26,f26,9.0
-f262,f262,9.0
-f22,f22,9.0
-f243,f243,9.0
-f254,f254,9.0
-f73,f73,9.0
-f246,f246,9.0
-f248,f248,9.0
-f231,f231,9.0
-f128,f128,9.0
-f230,f230,9.0
-f257,f257,9.0
-f41,f41,8.0
-f191,f191,8.0
-f102,f102,8.0
-f38,f38,8.0
-f47,f47,8.0
-f116,f116,8.0
-f279,f279,8.0
-f117,f117,8.0
-f197,f197,8.0
-f103,f103,8.0
-f234,f234,8.0
-f242,f242,8.0
-f138,f138,8.0
-f158,f158,8.0
-f99,f99,8.0
-f95,f95,8.0
-f247,f247,8.0
-f270,f270,8.0
-f215,f215,8.0
-f126,f126,8.0
-f17,f17,8.0
-f269,f269,8.0
-f241,f241,7.0
-f261,f261,7.0
-f258,f258,7.0
-f192,f192,7.0
-f268,f268,7.0
-f199,f199,7.0
-f282,f282,7.0
-f227,f227,7.0
-f208,f208,7.0
-f148,f148,7.0
-f109,f109,7.0
-f119,f119,7.0
-f63,f63,7.0
-f129,f129,7.0
-f146,f146,7.0
-f88,f88,7.0
-f149,f149,7.0
-f154,f154,7.0
-f106,f106,7.0
-f160,f160,7.0
-f13,f13,7.0
-f94,f94,7.0
-f96,f96,7.0
-f46,f46,7.0
-f45,f45,7.0
-f70,f70,7.0
-f92,f92,6.0
-f89,f89,6.0
-f98,f98,6.0
-f226,f226,6.0
-f80,f80,6.0
-f101,f101,6.0
-f130,f130,6.0
-f111,f111,6.0
-f136,f136,6.0
-f147,f147,6.0
-f139,f139,6.0
-f168,f168,6.0
-f166,f166,6.0
-f48,f48,6.0
-f278,f278,6.0
-f58,f58,6.0
-f271,f271,6.0
-f144,f144,6.0
-f162,f162,6.0
-f161,f161,6.0
-f277,f277,5.0
-f43,f43,5.0
-f93,f93,5.0
-f91,f91,5.0
-f64,f64,5.0
-f21,f21,5.0
-f68,f68,5.0
-f86,f86,5.0
-f57,f57,5.0
-f259,f259,5.0
-f77,f77,5.0
-f72,f72,5.0
-f263,f263,5.0
-f264,f264,5.0
-f190,f190,5.0
-f137,f137,5.0
-f157,f157,5.0
-f135,f135,5.0
-f113,f113,5.0
-f114,f114,5.0
-f233,f233,5.0
-f238,f238,5.0
-f142,f142,5.0
-f124,f124,5.0
-f212,f212,5.0
-f127,f127,5.0
-f82,f82,4.0
-f217,f217,4.0
-f140,f140,4.0
-f220,f220,4.0
-f273,f273,4.0
-f107,f107,4.0
-f153,f153,4.0
-f198,f198,4.0
-f163,f163,4.0
-f123,f123,4.0
-f232,f232,4.0
-f165,f165,4.0
-f97,f97,4.0
-f167,f167,4.0
-f12,f12,4.0
-f53,f53,3.0
-f141,f141,3.0
-f112,f112,3.0
-f132,f132,3.0
-f78,f78,3.0
-f256,f256,3.0
-f255,f255,3.0
-f125,f125,3.0
-f252,f252,3.0
-f134,f134,2.0
-f131,f131,2.0
-f276,f276,2.0
-f173,f173,2.0
-f169,f169,2.0
-f31,f31,2.0
-f71,f71,1.0
-f118,f118,1.0
-f133,f133,1.0
+Latitude-2017,Latitude-2017,44.0
+Km2-2017,Km2-2017,32.0
+Longitude-2017,Longitude-2017,29.0
+Emp-11-2017,"Emp-Agriculture, Forestry, Fishing and Hunting-2017",25.0
+Pay-71-2017,"Pay-Arts, Entertainment, and Recreation-2017",24.0
+Emp-51-2018,Emp-Information-2018,22.0
+Emp-22-2021,Emp-Utilities-2021,21.0
+Pay-99-2020,Pay-99-2020,20.0
+Pay-21-2021,"Pay-Mining, Quarrying, Oil and Gas Extraction-2021",20.0
+Emp-42-2017,Emp-Wholesale Trade-2017,20.0
+Emp-99-2018,Emp-99-2018,20.0
+Emp-21-2018,"Emp-Mining, Quarrying, Oil and Gas Extraction-2018",20.0
+UrbanDensity-2020,UrbanDensity-2020,20.0
+Pay-11-2019,"Pay-Agriculture, Forestry, Fishing and Hunting-2019",19.0
+Pay-99-2019,Pay-99-2019,19.0
+Emp-61-2018,Emp-Educational Services-2018,19.0
+Pay-51-2021,Pay-Information-2021,19.0
+Est-11-2019,"Est-Agriculture, Forestry, Fishing and Hunting-2019",18.0
+Pay-11-2021,"Pay-Agriculture, Forestry, Fishing and Hunting-2021",18.0
+Pay-21-2019,"Pay-Mining, Quarrying, Oil and Gas Extraction-2019",18.0
+Pay-42-2017,Pay-Wholesale Trade-2017,18.0
+Emp-21-2020,"Emp-Mining, Quarrying, Oil and Gas Extraction-2020",18.0
+Emp-42-2021,Emp-Wholesale Trade-2021,18.0
+Emp-56-2021,Emp-Admin and Support and Waste Management-2021,18.0
+Pay-56-2019,Pay-Admin and Support and Waste Management-2019,18.0
+Emp-56-2017,Emp-Admin and Support and Waste Management-2017,17.0
+Pay-21-2020,"Pay-Mining, Quarrying, Oil and Gas Extraction-2020",17.0
+Pay-51-2017,Pay-Information-2017,17.0
+Emp-23-2017,Emp-Construction-2017,17.0
+Emp-51-2017,Emp-Information-2017,17.0
+Emp-11-2019,"Emp-Agriculture, Forestry, Fishing and Hunting-2019",16.0
+Emp-53-2021,Emp-Real Estate and Rental and Leasing-2021,16.0
+Emp-71-2018,"Emp-Arts, Entertainment, and Recreation-2018",16.0
+Pay-53-2017,Pay-Real Estate and Rental and Leasing-2017,16.0
+Pay-22-2018,Pay-Utilities-2018,16.0
+Emp-21-2019,"Emp-Mining, Quarrying, Oil and Gas Extraction-2019",16.0
+Emp-42-2020,Emp-Wholesale Trade-2020,16.0
+Pay-11-2020,"Pay-Agriculture, Forestry, Fishing and Hunting-2020",15.0
+Pay-61-2020,Pay-Educational Services-2020,15.0
+Est-23-2021,Est-Construction-2021,15.0
+Emp-72-2021,Emp-Accommodation and Food Services-2021,15.0
+Est-72-2020,Est-Accommodation and Food Services-2020,15.0
+Pay-11-2017,"Pay-Agriculture, Forestry, Fishing and Hunting-2017",15.0
+Pay-51-2020,Pay-Information-2020,14.0
+Emp-53-2018,Emp-Real Estate and Rental and Leasing-2018,14.0
+Emp-71-2017,"Emp-Arts, Entertainment, and Recreation-2017",14.0
+Pay-42-2018,Pay-Wholesale Trade-2018,14.0
+Pay-71-2021,"Pay-Arts, Entertainment, and Recreation-2021",14.0
+Emp-21-2017,"Emp-Mining, Quarrying, Oil and Gas Extraction-2017",14.0
+Est-22-2017,Est-Utilities-2017,14.0
+Emp-61-2017,Emp-Educational Services-2017,14.0
+Emp-11-2018,"Emp-Agriculture, Forestry, Fishing and Hunting-2018",14.0
+Emp-11-2020,"Emp-Agriculture, Forestry, Fishing and Hunting-2020",13.0
+Est-22-2021,Est-Utilities-2021,13.0
+Emp-22-2018,Emp-Utilities-2018,13.0
+Emp-56-2018,Emp-Admin and Support and Waste Management-2018,13.0
+Pay-99-2021,Pay-99-2021,13.0
+Emp-52-2020,Emp-Finance and Insurance-2020,13.0
+Emp-52-2019,Emp-Finance and Insurance-2019,13.0
+Pay-53-2021,Pay-Real Estate and Rental and Leasing-2021,13.0
+Pay-56-2018,Pay-Admin and Support and Waste Management-2018,13.0
+Pay-99-2018,Pay-99-2018,13.0
+Emp-23-2019,Emp-Construction-2019,13.0
+UrbanDensity-2019,UrbanDensity-2019,13.0
+Emp-22-2017,Emp-Utilities-2017,13.0
+Emp-53-2017,Emp-Real Estate and Rental and Leasing-2017,13.0
+Pay-42-2020,Pay-Wholesale Trade-2020,12.0
+Pay-52-2021,Pay-Finance and Insurance-2021,12.0
+Est-72-2017,Est-Accommodation and Food Services-2017,12.0
+Pay-71-2018,"Pay-Arts, Entertainment, and Recreation-2018",12.0
+Pay-71-2020,"Pay-Arts, Entertainment, and Recreation-2020",12.0
+UrbanDensity-2021,UrbanDensity-2021,12.0
+Emp-55-2021,Emp-Management of Companies and Enterprises-2021,12.0
+Emp-23-2021,Emp-Construction-2021,12.0
+Emp-11-2021,"Emp-Agriculture, Forestry, Fishing and Hunting-2021",12.0
+Emp-54-2021,"Emp-Professional, Scientific, Technical Services-2021",12.0
+Est-11-2017,"Est-Agriculture, Forestry, Fishing and Hunting-2017",11.0
+Emp-22-2020,Emp-Utilities-2020,11.0
+Pay-11-2018,"Pay-Agriculture, Forestry, Fishing and Hunting-2018",11.0
+Pay-21-2018,"Pay-Mining, Quarrying, Oil and Gas Extraction-2018",11.0
+Emp-55-2017,Emp-Management of Companies and Enterprises-2017,11.0
+Pay-55-2021,Pay-Management of Companies and Enterprises-2021,11.0
+Pay-56-2017,Pay-Admin and Support and Waste Management-2017,11.0
+Emp-51-2021,Emp-Information-2021,11.0
+Emp-42-2019,Emp-Wholesale Trade-2019,11.0
+Pay-55-2017,Pay-Management of Companies and Enterprises-2017,11.0
+Est-62-2017,Est-Health Care and Social Assistance-2017,11.0
+Pay-56-2020,Pay-Admin and Support and Waste Management-2020,11.0
+Pay-23-2021,Pay-Construction-2021,11.0
+Pay-56-2021,Pay-Admin and Support and Waste Management-2021,11.0
+Est-72-2018,Est-Accommodation and Food Services-2018,11.0
+Emp-99-2021,Emp-99-2021,11.0
+Emp-62-2017,Emp-Health Care and Social Assistance-2017,10.0
+Pay-61-2018,Pay-Educational Services-2018,10.0
+Est-51-2021,Est-Information-2021,10.0
+Pay-61-2019,Pay-Educational Services-2019,10.0
+Est-71-2021,"Est-Arts, Entertainment, and Recreation-2021",10.0
+Pay-53-2019,Pay-Real Estate and Rental and Leasing-2019,10.0
+Emp-71-2020,"Emp-Arts, Entertainment, and Recreation-2020",10.0
+Pay-22-2021,Pay-Utilities-2021,10.0
+Pay-62-2020,Pay-Health Care and Social Assistance-2020,10.0
+Est-11-2020,"Est-Agriculture, Forestry, Fishing and Hunting-2020",10.0
+Emp-71-2021,"Emp-Arts, Entertainment, and Recreation-2021",10.0
+Population-2017,Population-2017,10.0
+Est-54-2021,"Est-Professional, Scientific, Technical Services-2021",10.0
+Emp-21-2021,"Emp-Mining, Quarrying, Oil and Gas Extraction-2021",10.0
+Pay-54-2017,"Pay-Professional, Scientific, Technical Services-2017",10.0
+Emp-53-2019,Emp-Real Estate and Rental and Leasing-2019,10.0
+Pay-81-2020,Pay-Other Services-2020,10.0
+Est-61-2021,Est-Educational Services-2021,9.0
+Est-62-2021,Est-Health Care and Social Assistance-2021,9.0
+Emp-42-2018,Emp-Wholesale Trade-2018,9.0
+Emp-56-2020,Emp-Admin and Support and Waste Management-2020,9.0
+Emp-51-2020,Emp-Information-2020,9.0
+Emp-61-2020,Emp-Educational Services-2020,9.0
+Est-53-2020,Est-Real Estate and Rental and Leasing-2020,9.0
+Pay-21-2017,"Pay-Mining, Quarrying, Oil and Gas Extraction-2017",9.0
+Pay-23-2019,Pay-Construction-2019,9.0
+Pay-54-2020,"Pay-Professional, Scientific, Technical Services-2020",9.0
+Pay-54-2018,"Pay-Professional, Scientific, Technical Services-2018",9.0
+Emp-54-2017,"Emp-Professional, Scientific, Technical Services-2017",9.0
+Pay-53-2018,Pay-Real Estate and Rental and Leasing-2018,9.0
+Est-53-2021,Est-Real Estate and Rental and Leasing-2021,9.0
+Emp-61-2021,Emp-Educational Services-2021,9.0
+Est-53-2019,Est-Real Estate and Rental and Leasing-2019,9.0
+Est-51-2017,Est-Information-2017,9.0
+Emp-81-2017,Emp-Other Services-2017,9.0
+Est-11-2018,"Est-Agriculture, Forestry, Fishing and Hunting-2018",9.0
+Est-11-2021,"Est-Agriculture, Forestry, Fishing and Hunting-2021",9.0
+Est-21-2017,"Est-Mining, Quarrying, Oil and Gas Extraction-2017",9.0
+Est-21-2021,"Est-Mining, Quarrying, Oil and Gas Extraction-2021",9.0
+Emp-71-2019,"Emp-Arts, Entertainment, and Recreation-2019",9.0
+Est-23-2017,Est-Construction-2017,9.0
+Pay-99-2017,Pay-99-2017,9.0
+Pay-61-2021,Pay-Educational Services-2021,9.0
+Pay-72-2021,Pay-Accommodation and Food Services-2021,9.0
+Pay-71-2019,"Pay-Arts, Entertainment, and Recreation-2019",8.0
+Pay-22-2019,Pay-Utilities-2019,8.0
+Est-54-2017,"Est-Professional, Scientific, Technical Services-2017",8.0
+Emp-56-2019,Emp-Admin and Support and Waste Management-2019,8.0
+Emp-23-2018,Emp-Construction-2018,8.0
+Est-55-2017,Est-Management of Companies and Enterprises-2017,8.0
+Est-42-2017,Est-Wholesale Trade-2017,8.0
+Est-21-2020,"Est-Mining, Quarrying, Oil and Gas Extraction-2020",8.0
+Pay-55-2018,Pay-Management of Companies and Enterprises-2018,8.0
+Pay-61-2017,Pay-Educational Services-2017,8.0
+Est-21-2018,"Est-Mining, Quarrying, Oil and Gas Extraction-2018",8.0
+Est-81-2017,Est-Other Services-2017,8.0
+Est-72-2021,Est-Accommodation and Food Services-2021,8.0
+Emp-62-2018,Emp-Health Care and Social Assistance-2018,8.0
+Est-42-2019,Est-Wholesale Trade-2019,8.0
+Emp-61-2019,Emp-Educational Services-2019,8.0
+Pay-42-2021,Pay-Wholesale Trade-2021,8.0
+Emp-52-2018,Emp-Finance and Insurance-2018,8.0
+Est-71-2019,"Est-Arts, Entertainment, and Recreation-2019",8.0
+Pay-23-2018,Pay-Construction-2018,8.0
+Pay-52-2019,Pay-Finance and Insurance-2019,8.0
+UrbanDensity-2017,UrbanDensity-2017,8.0
+Pay-62-2021,Pay-Health Care and Social Assistance-2021,8.0
+Pay-42-2019,Pay-Wholesale Trade-2019,8.0
+Est-52-2019,Est-Finance and Insurance-2019,8.0
+Emp-54-2018,"Emp-Professional, Scientific, Technical Services-2018",8.0
+UrbanDensity-2018,UrbanDensity-2018,8.0
+Pay-52-2018,Pay-Finance and Insurance-2018,7.0
+Pay-23-2017,Pay-Construction-2017,7.0
+Emp-53-2020,Emp-Real Estate and Rental and Leasing-2020,7.0
+Emp-62-2020,Emp-Health Care and Social Assistance-2020,7.0
+Emp-54-2020,"Emp-Professional, Scientific, Technical Services-2020",7.0
+Est-54-2020,"Est-Professional, Scientific, Technical Services-2020",7.0
+Pay-54-2021,"Pay-Professional, Scientific, Technical Services-2021",7.0
+Est-53-2017,Est-Real Estate and Rental and Leasing-2017,7.0
+Emp-51-2019,Emp-Information-2019,7.0
+Pay-53-2020,Pay-Real Estate and Rental and Leasing-2020,7.0
+Est-56-2021,Est-Admin and Support and Waste Management-2021,7.0
+Pay-81-2017,Pay-Other Services-2017,7.0
+Emp-23-2020,Emp-Construction-2020,7.0
+Pay-62-2017,Pay-Health Care and Social Assistance-2017,7.0
+Est-99-2018,Est-99-2018,7.0
+Pay-55-2019,Pay-Management of Companies and Enterprises-2019,7.0
+Est-56-2020,Est-Admin and Support and Waste Management-2020,7.0
+Est-23-2018,Est-Construction-2018,7.0
+Emp-81-2018,Emp-Other Services-2018,6.0
+Pay-52-2017,Pay-Finance and Insurance-2017,6.0
+Emp-72-2017,Emp-Accommodation and Food Services-2017,6.0
+Emp-81-2021,Emp-Other Services-2021,6.0
+Pay-51-2019,Pay-Information-2019,6.0
+Est-52-2018,Est-Finance and Insurance-2018,6.0
+Emp-72-2018,Emp-Accommodation and Food Services-2018,6.0
+Est-62-2018,Est-Health Care and Social Assistance-2018,6.0
+Pay-54-2019,"Pay-Professional, Scientific, Technical Services-2019",6.0
+Est-62-2019,Est-Health Care and Social Assistance-2019,6.0
+Est-62-2020,Est-Health Care and Social Assistance-2020,6.0
+Emp-72-2020,Emp-Accommodation and Food Services-2020,6.0
+Est-53-2018,Est-Real Estate and Rental and Leasing-2018,6.0
+Est-51-2019,Est-Information-2019,6.0
+Pay-22-2017,Pay-Utilities-2017,6.0
+Est-23-2019,Est-Construction-2019,6.0
+Emp-22-2019,Emp-Utilities-2019,6.0
+Est-81-2021,Est-Other Services-2021,6.0
+Emp-55-2020,Emp-Management of Companies and Enterprises-2020,6.0
+Est-71-2017,"Est-Arts, Entertainment, and Recreation-2017",6.0
+Est-42-2018,Est-Wholesale Trade-2018,6.0
+Est-81-2018,Est-Other Services-2018,6.0
+Est-56-2017,Est-Admin and Support and Waste Management-2017,6.0
+Est-71-2020,"Est-Arts, Entertainment, and Recreation-2020",6.0
+Pay-81-2021,Pay-Other Services-2021,6.0
+Est-23-2020,Est-Construction-2020,6.0
+PercentUrban-2021,PercentUrban-2021,5.0
+Pay-81-2019,Pay-Other Services-2019,5.0
+PercentUrban-2020,PercentUrban-2020,5.0
+Emp-52-2017,Emp-Finance and Insurance-2017,5.0
+Pay-72-2017,Pay-Accommodation and Food Services-2017,5.0
+Est-56-2019,Est-Admin and Support and Waste Management-2019,5.0
+Est-42-2020,Est-Wholesale Trade-2020,5.0
+Est-99-2021,Est-99-2021,5.0
+Est-61-2020,Est-Educational Services-2020,5.0
+Est-52-2020,Est-Finance and Insurance-2020,5.0
+Est-52-2017,Est-Finance and Insurance-2017,5.0
+Est-42-2021,Est-Wholesale Trade-2021,5.0
+Est-22-2020,Est-Utilities-2020,5.0
+Est-61-2017,Est-Educational Services-2017,5.0
+Emp-54-2019,"Emp-Professional, Scientific, Technical Services-2019",5.0
+Pay-22-2020,Pay-Utilities-2020,5.0
+Pay-23-2020,Pay-Construction-2020,5.0
+Emp-99-2020,Emp-99-2020,4.0
+Pay-52-2020,Pay-Finance and Insurance-2020,4.0
+Est-54-2018,"Est-Professional, Scientific, Technical Services-2018",4.0
+Pay-72-2018,Pay-Accommodation and Food Services-2018,4.0
+Pay-72-2019,Pay-Accommodation and Food Services-2019,4.0
+Emp-99-2017,Emp-99-2017,4.0
+Pay-72-2020,Pay-Accommodation and Food Services-2020,4.0
+Pay-81-2018,Pay-Other Services-2018,4.0
+PercentUrban-2017,PercentUrban-2017,4.0
+Est-51-2018,Est-Information-2018,4.0
+Est-55-2018,Est-Management of Companies and Enterprises-2018,4.0
+Emp-99-2019,Emp-99-2019,4.0
+Population-2021,Population-2021,4.0
+Est-22-2019,Est-Utilities-2019,4.0
+Emp-52-2021,Emp-Finance and Insurance-2021,4.0
+Emp-72-2019,Emp-Accommodation and Food Services-2019,4.0
+Emp-55-2018,Emp-Management of Companies and Enterprises-2018,4.0
+Est-61-2018,Est-Educational Services-2018,4.0
+Emp-55-2019,Emp-Management of Companies and Enterprises-2019,4.0
+Est-71-2018,"Est-Arts, Entertainment, and Recreation-2018",4.0
+Emp-62-2019,Emp-Health Care and Social Assistance-2019,4.0
+Emp-62-2021,Emp-Health Care and Social Assistance-2021,3.0
+Est-21-2019,"Est-Mining, Quarrying, Oil and Gas Extraction-2019",3.0
+Est-55-2020,Est-Management of Companies and Enterprises-2020,3.0
+Population-2020,Population-2020,3.0
+Est-81-2020,Est-Other Services-2020,3.0
+Pay-55-2020,Pay-Management of Companies and Enterprises-2020,3.0
+Est-52-2021,Est-Finance and Insurance-2021,3.0
+Est-61-2019,Est-Educational Services-2019,3.0
+Pay-62-2018,Pay-Health Care and Social Assistance-2018,3.0
+Emp-81-2019,Emp-Other Services-2019,3.0
+Est-56-2018,Est-Admin and Support and Waste Management-2018,3.0
+Pay-51-2018,Pay-Information-2018,2.0
+PercentUrban-2019,PercentUrban-2019,2.0
+Est-22-2018,Est-Utilities-2018,2.0
+Emp-81-2020,Emp-Other Services-2020,2.0
+Est-54-2019,"Est-Professional, Scientific, Technical Services-2019",2.0
+Km2-2020,Km2-2020,2.0
+Est-99-2020,Est-99-2020,2.0
+Est-99-2019,Est-99-2019,2.0
+Est-51-2020,Est-Information-2020,2.0
+Est-81-2019,Est-Other Services-2019,2.0
+Est-72-2019,Est-Accommodation and Food Services-2019,2.0
+Pay-62-2019,Pay-Health Care and Social Assistance-2019,2.0
+PercentUrban-2018,PercentUrban-2018,1.0
+Km2-2021,Km2-2021,1.0
+Population-2019,Population-2019,1.0
+Est-99-2017,Est-99-2017,1.0
+Est-55-2021,Est-Management of Companies and Enterprises-2021,1.0
