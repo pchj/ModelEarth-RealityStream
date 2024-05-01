@@ -25,7 +25,7 @@ except SystemExit as e:
 
 models = ['random forest classifier', 'logistic regression']
 
-
+target = st.sidebar.selectbox("Targets", ("Honey Bees", "Job Growth", "Wage Growth", "Eye Blinks", "Job Listings","high wage"))
 page = st.sidebar.selectbox("Explore Or Predict Or Else", ("Understanding the Data","Compare Models","Predict"))
 
 if page == "Understanding the Data":
