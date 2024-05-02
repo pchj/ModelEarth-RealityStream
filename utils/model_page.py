@@ -10,6 +10,8 @@ def compare_model_page():
 
     df = pd.read_csv(r'input/jobs/clean_df.csv')
 
+    model = st.selectbox("**Select Model**", ("Logistic Regression","Random Forest","Support Vector Machine"))
+
     st.write("#### 1. Vectorizer Configuration")
 
     col1, col2, col3 = st.columns(3)
@@ -34,8 +36,6 @@ def compare_model_page():
         vectorizer = CountVectorizer(ngram_range=gram, max_features = no_features)
     elif vec == "TF-IDF":
         vectorizer = TfidfVectorizer(ngram_range=gram, max_features = no_features)
-
-    model = st.selectbox("**Select Model**", ("Logistic Regression","Random Forest","Support Vector Machine"))
 
     st.write("#### 2. Data Configuration")
 

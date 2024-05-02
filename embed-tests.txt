@@ -1,0 +1,40 @@
+# Not needed unless loading navigation localsite.js
+import requests
+import re
+
+
+# TESTS
+# Insert external JavaScript file URL for navigation - Not working yet
+js_url = "https://model.earth/localsite/js/localsite.js?showheader=true&embed=true"
+#js_url = "https://raw.githubusercontent.com/ModelEarth/localsite/main/js/localsite.js?showheader=true"
+js_script = f'test1<script src="{js_url}"></script>'
+#st.write(js_script, unsafe_allow_html=True)
+#st.write(f'test1<script src="{js_url}"></script>', unsafe_allow_html=True)
+#st.html(f'{js_script}')
+
+# Could be working, but might not find localsite folder expected when running on localhost
+st.write(f'test2<script type="text/javascript" src="' + js_url + '"></script>', unsafe_allow_html=True)
+
+# iFrame
+#st.components.v1.html(f'test3<link type="text/css" rel="stylesheet" href="https://model.earth/localsite/css/base.css" id="/localsite/css/base.css" />')
+
+# Works!
+#st.write(f'test3<link type="text/css" rel="stylesheet" href="https://model.earth/localsite/css/base.css" id="/localsite/css/base.css" />', unsafe_allow_html=True)
+
+# iFrame - loads but loops, probably because localsite expects a local /localsite folder
+#st.components.v1.html(f'<script src="{js_url}"></script>')
+
+# response = requests.get(js_url)
+# if response.status_code == 200:
+#     js_code = response.text
+
+#     pattern = r'<pre.*?>.*?</pre>'
+#     js_code = re.findall(pattern, js_code, flags=re.DOTALL)
+#     # Join the extracted JavaScript code
+#     js_code = '\n'.join(js_code)
+
+#     st.components.v1.html(f'test4<script>{js_code}</script>')
+#     #st.code(js_code, language='javascript')
+# else:
+#     st.error(f"Failed to fetch JavaScript file from URL: {js_url}")
+
