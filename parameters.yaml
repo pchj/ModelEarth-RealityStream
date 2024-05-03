@@ -1,6 +1,6 @@
-features: "industries"
+features: industries
   startyear: 2017
   endyear: 2021
-  path: "https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv"
-targets: "bees"
-models: "rbf"
+  path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
+targets: bees
+models: rbf
