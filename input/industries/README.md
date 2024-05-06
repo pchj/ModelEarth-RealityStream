@@ -22,6 +22,8 @@ Send merged data through multiple models (rbf.py, etc.)
 
 TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
 
+Our upcoming [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
+
 **Job Growth** - Increase in local jobs for states and counties.
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
