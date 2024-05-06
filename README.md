@@ -3,6 +3,10 @@ A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEa
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a>
 <!-- For ML Classification. -->
 
+## Colabs
+
+- [Industries](input/industries)
+
 ## Models
 
 Our model skeletons are being designed to work with all feature and target datasets.

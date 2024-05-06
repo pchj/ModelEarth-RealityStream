@@ -3,9 +3,16 @@
 # Industries Input Data
 
 **Source:** [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
-**Combine Years:** [Industry Features CoLab](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing)
-**Save as backup to run locally:** [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
-**GitHub Output:** [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
+
+Our two CoLabs:
+
+1. Create Feature Datasets: [Generate Industry Features](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing)
+GitHub Output: [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
+Saved and run locally: [input/industries/features/industries-features-bkup.ipynb](features/industries-features-bkup.ipynb)
+
+2. Run models: [Merge with Targets (Bees) for Forests and XGBoost](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing)
+Saved and run locally: [Merge-with-Target-XGBoost-bkup.ipynb](../../models/Merge-with-Target-XGBoost-bkup.ipynb)
+
 
 ## Merging Data in Pandas
 
