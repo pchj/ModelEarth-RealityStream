@@ -47,14 +47,21 @@ Initiate a virtual environment before running streamlit via `streamlit run app.p
 	pip install scikit-learn
 	pip install imblearn
 	pip install markdown
+	pip install seaborn sns
+
+<!--
+Also to try (didn't work first time)
+	pip install -r requirements.txt-->
 
 spaCy is an open-source natural language processing (NLP) library
 
-Indicate your features and target data sources and model(s):
+<!--Indicate your features and target data sources and model(s): "industries" "bees" "rbf"-->
 
-	streamlit run app.py "industries" "bees" "rbf"
+Launch our interface locally:
 
-Or load from a [parameters.yaml](parameters.yaml) file (not yet implimented):
+	streamlit run app.py 
+
+TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
 
 	streamlit run app.py "parameters.yaml"
 
