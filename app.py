@@ -3,6 +3,9 @@ from utils.explore_page import show_explore_page
 from utils.model_page import compare_model_page
 from utils.predict_page import show_predict_page
 
+# If working, polace your name here, and add other TO DOs for others
+# IVY - Add Randoms Bits Forest
+
 # Let's make the incoming parameters optional. Write them to the UI for now.
 # We could select dropdowns based on the incoming args.
 # index= is used to select dropdowns below.

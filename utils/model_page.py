@@ -10,7 +10,7 @@ def compare_model_page():
 
     df = pd.read_csv(r'input/jobs/clean_df.csv')
 
-    model = st.selectbox("**Select Model**", ("Logistic Regression","Random Forest","Support Vector Machine"))
+    model = st.selectbox("**Select Model**", ("Logistic Regression","Random Forest","Random Bits Forest","Support Vector Machine"))
 
     st.write("#### 1. Vectorizer Configuration")
 
@@ -107,6 +107,9 @@ def compare_model_page():
             trainer(df, test_size, over_sample, vectorizer, model)
             button = st.button('Save Random Forest as Pickle')
 
+    elif model == "Random Bit Forest":
+        return none;
+        
     elif model == "Support Vector Machine":
         col1, col2 = st.columns(2)
 
