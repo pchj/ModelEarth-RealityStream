@@ -20,6 +20,22 @@ Avoid saving large feature datasets in local files, use Pandas to merge features
 
 Send merged data through multiple models (rbf.py, etc.)
 
+# Parallel Modeling Environments
+
+| Inflow | Basket of Goods| Outflow | Predicted Results |
+| ----------- | ----------- | ----------- | ----------- |
+| [Ingredients](/data-commons/docs/food/) | [Healthy Meals](/OpenFootprint) | [Nutrients](/balance/) | [Impact on Body](/balance/label_checker.html) |
+| [Suppliers](/data-pipeline/research/economy/) | [Commodities](/localsite/info/) | [Products](https://github.com/ModelEarth/OpenFootprint/tree/main/products/US) | [Impact on Environment](/community/tools/) |
+| [Stimulus ML](/RealityStream/) | Brain Waves | [Brain Voxels Firing](/RealityStream/models/random-bits-forest/) | [Eye Blinks](/RealityStream/output/blinks/) |
+| [Local Industries](/localsite/info/) | Honey Bees | [Population Change](/data-pipeline/research/bees/) | [Healthy Bee Population](/RealityStream/output/bees) |
+| [Local Industries](/localsite/info/) | [Tree Canopy](/data-commons/docs/conservation/) | Biodiversity Change | Healthy Forest Growth |
+
+<br>
+
+## External Targets (Google Data Commons)
+
+## Industry Targets
+
 TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
 
 Our upcoming [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
