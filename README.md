@@ -64,7 +64,11 @@ spaCy is an open-source natural language processing (NLP) library
 Launch our interface locally:
 
 	streamlit run app.py 
+<!--
+To also try:
 
+	streamlit run https://raw.githubusercontent.com/streamlit/reality/master/app.py
+-->
 TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
 
 	streamlit run app.py "parameters.yaml"
