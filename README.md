@@ -43,6 +43,12 @@ If you get a cli error, you can uninstall all instances of Streamlit. Then reins
 
 Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
+<!--
+Seems pip upgrade does not need to be rerun `pip -V`
+Ran once in virtual environment, seemed to correct going forward.
+	python -m pip install --upgrade pip
+-->
+
 	python3 -m venv env
 	source env/bin/activate
 	pip install wordcloud
