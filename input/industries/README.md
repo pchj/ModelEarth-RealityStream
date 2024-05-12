@@ -2,16 +2,18 @@
 
 # Industries Input Data
 
-**Source:** [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)
+**Our primary CoLab:**
+[Run Models](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) (Includes XGBoost) - Merges Features with Targets based on parameters.yaml
+Backup and run locally @ models/Run-Models-bkup.ipynb
 
-Our two CoLabs for industries:
+**Initial CoLab**
+models/reality-or-fiction/reality-or-fiction.ipynb
 
-1. Create Feature Datasets: [Generate Industry Features](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing)
-GitHub Output: [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)
-Backup and run locally: input/industries/features/industries-features-bkup.ipynb
-
-2. Run models: [Merge with Targets (Bees) for Forests and XGBoost](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing)
-Backup and run locally: models/Merge-with-Target-XGBoost-bkup.ipynb
+**Industry Features Data Prep:**
+[Generate Industry Features](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing) (All years)  
+GitHub Output: [community-timelines/training/all-years](https://github.com/ModelEarth/community-timelines/tree/main/training/all-years)  
+Source: [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)  
+Backup and run locally @ input/industries/features/industries-features-bkup.ipynb
 
 
 ## Merging Data in Pandas
