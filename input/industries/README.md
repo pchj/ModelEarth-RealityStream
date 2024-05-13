@@ -47,14 +47,17 @@ Emissions by state
 
 ## Industry Targets
 
+TO DO: Contribute to our [Industry target CoLab](https://colab.research.google.com/drive/1urO9phMMt0GyAXRsowf2dbLjQ6DlWTKf?usp=sharing)
+
 TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
 
-Our upcoming [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
-
+<!--
+Blank [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
+-->
 **Job Growth** - Increase in local jobs for states and counties.
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
 **Wage Growth** - Increases in local pay levels
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
-TO DO: Try calling -bkup.ipynb files from app.py file.
+TO DO: Call -bkup.ipynb files from our Streamlit app.py files to build models and save reports.
