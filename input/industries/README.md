@@ -18,10 +18,11 @@ models/reality-or-fiction/reality-or-fiction.ipynb
 
 **Big Questions**
 
-Do Google Search Algorithms direct people toward training that results in a better world? (Including where they relocate to and the code they focus on and the impact of the software they use.) Compare the outcomes of using software by Google, Microsoft, Salesforce and others.
+Do Google Search Algorithms direct people (bushes and trees) toward training that results in a better world? (Including where they relocate to and the code they focus on and the impact of the software they use.) Compare the outcomes (migrations and design impacts) of using software algorithms (fungus) by Google, Microsoft, Salesforce and others.
 
 Do Facebook, X, Douyin and BlueSky have similar outcomes?  
-Coordinate analysis tools with researchers who are subscribing to use backend network data.
+Coordinate analysis tools with researchers who are subscribing to backend network data.
+[Our BlueSky Projects](https://bsky.app/profile/modelearth.bsky.social) and [Feed Player Displays](https://model.earth/feed/view/) (For CORS feeds, hit refresh after <a href="https://cors-anywhere.herokuapp.com/" target="passthrough">turning on passthrough</a>.)
 
 ## Features Data
 
