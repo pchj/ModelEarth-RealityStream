@@ -46,6 +46,7 @@ Initiate a virtual environment before running streamlit via `streamlit run app.p
 <!--
 Seems pip upgrade does not need to be rerun `pip -V`
 Ran once in virtual environment, seemed to correct going forward.
+
 	python -m pip install --upgrade pip
 -->
 

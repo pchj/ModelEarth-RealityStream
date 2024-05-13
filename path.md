@@ -47,14 +47,9 @@ For a target value of "bees increase2024" build the path "input/bees/targets/bee
 
 ## Projects
 
-1. Integrate XGBoost model Honglin created in Feature-Target Colab.
-2. Add neural networks model CoLab.
-3. Output features-importance reports for available models.
-4. Formalize the Jupyter notebooks to convert them into a generalized pipeline, which takes different features and targets inputs.
-5. Include industries-features-bkup.ipynb in the pipeline
-6. Add startyear and endyear to parameters and Streamlit interface.
-7. Maintain notes on how to run and update Streamlit interface locally.
-8. Pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
-9. Reuse report display process for other models
-10. Push "toy" feature data from CoLabs directly to Github annually.
-
+1. Generate features-importance reports for available models.
+2. Load industries-features.ipynb colab output into Run Models using parameters.yaml.
+3. Add startyear and endyear to Streamlit interface, load from parameters.yaml.
+4. Find a comparison process or pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
+5. Reuse report display process for other models.
+6. Automate updating "toy" feature data using Github Actions.

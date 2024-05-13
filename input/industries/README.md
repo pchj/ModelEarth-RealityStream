@@ -1,4 +1,4 @@
-[Industry Timelines Pipeline](../../../data-pipeline/timelines) - [RealityStream](../../) - [Random Bits Forest](../../models/random-bits-forest/)
+[Industry Timelines Pipeline](../../../data-pipeline/timelines) - [RealityStream](../../)
 
 # Industries Input Data
 
@@ -6,8 +6,24 @@
 [Run Models](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) (Includes XGBoost) - Merges Features with Targets based on parameters.yaml
 Backup and run locally @ models/Run-Models-bkup.ipynb
 
-**Initial CoLab**
+**Initial Python** (matched Streamlit)
 models/reality-or-fiction/reality-or-fiction.ipynb
+
+**Cool processes we're implementing in the Run Models CoLab**
+- Toggle between pulling data from Github and local files
+- Choose to send results to display, Github and/or local files
+- Allow user to save their own Github account in local storage
+- Build a yaml file from localStorage that the user can paste or pull into CoLab.
+- Run data updates automatically quarterly with Github Actions, send a report
+
+**Big Questions**
+
+Do Google Search Algorithms direct people toward training that results in a better world? (Including where they relocate to and the code they focus on and the impact of the software they use.) Compare the outcomes of using software by Google, Microsoft, Salesforce and others.
+
+Do Facebook, X, Douyin and BlueSky have similar outcomes?  
+Coordinate analysis tools with researchers who are subscribing to use backend network data.
+
+## Features Data
 
 **Industry Features Data Prep:**
 [Generate Industry Features](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing) (All years)  
@@ -15,6 +31,28 @@ GitHub Output: [community-timelines/training/all-years](https://github.com/Model
 Source: [Community-Timelines](https://github.com/ModelEarth/community-timelines/tree/main/training/naics2/US/counties)  
 Backup and run locally @ input/industries/features/industries-features-bkup.ipynb
 
+## Target Data
+
+**External Targets (Google Data Commons)**
+
+Tree Canopy improvements, Improvements in Emissions by state and country
+
+**Industry Targets**
+
+TO DO: Contribute to our [Industry target CoLab](https://colab.research.google.com/drive/1urO9phMMt0GyAXRsowf2dbLjQ6DlWTKf?usp=sharing)
+
+TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
+
+<!--
+Blank [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
+-->
+**Job Growth** - Increase in local jobs for states and counties.
+Features: types of industries, education levels, employment levels, population density, environmental indicators
+
+**Wage Growth** - Increases in local pay levels
+Features: types of industries, education levels, employment levels, population density, environmental indicators
+
+TO DO: Call -bkup.ipynb files from our Streamlit app.py files to build models and save reports.
 
 ## Merging Data in Pandas
 
@@ -41,23 +79,3 @@ Merge features and targets on locations (fips, voxels, foods)
 
 <br>
 
-## External Targets (Google Data Commons)
-
-Emissions by state
-
-## Industry Targets
-
-TO DO: Contribute to our [Industry target CoLab](https://colab.research.google.com/drive/1urO9phMMt0GyAXRsowf2dbLjQ6DlWTKf?usp=sharing)
-
-TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
-
-<!--
-Blank [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
--->
-**Job Growth** - Increase in local jobs for states and counties.
-Features: types of industries, education levels, employment levels, population density, environmental indicators
-
-**Wage Growth** - Increases in local pay levels
-Features: types of industries, education levels, employment levels, population density, environmental indicators
-
-TO DO: Call -bkup.ipynb files from our Streamlit app.py files to build models and save reports.
