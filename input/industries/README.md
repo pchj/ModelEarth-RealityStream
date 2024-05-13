@@ -36,7 +36,7 @@ Backup and run locally @ input/industries/features/industries-features-bkup.ipyn
 
 **External Targets (Google Data Commons)**
 
-Tree Canopy improvements, Improvements in Emissions by state and country
+[Tree Canopy improvements](https://model.earth/data-commons/docs/conservation/), Improvements in [Emissions](https://model.earth/data-commons/docs/air/) by state and country, [Honey Bee Populations](../../input/bees/).
 
 **Industry Targets**
 
@@ -53,7 +53,9 @@ Features: types of industries, education levels, employment levels, population d
 **Wage Growth** - Increases in local pay levels
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
-TO DO: Call -bkup.ipynb files from our Streamlit app.py files to build models and save reports.
+TO DO: Load features/industries-features-bkup.ipynb from models/Run-Models-bkup.ipynb
+
+TO DO: Add python to run external -bkup.ipynb files from within our Streamlit app.py files to build models and save reports.
 
 ## Merging Data in Pandas
 
