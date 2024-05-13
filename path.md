@@ -47,9 +47,13 @@ For a target value of "bees increase2024" build the path "input/bees/targets/bee
 
 ## Projects
 
-1. Generate features-importance reports for available models.
-2. Load industries-features.ipynb colab output into Run Models using parameters.yaml.
-3. Add startyear and endyear to Streamlit interface, load from parameters.yaml.
-4. Find a comparison process or pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
-5. Reuse report display process for other models.
-6. Automate updating "toy" feature data using Github Actions.
+Replace TO DO with your name as you work on a project.  
+Write Loren when you've submitted a pull request to show your name.  
+Update related .ipynb and app.py file to also add your name.
+
+1. TO DO: Generate features-importance reports for available models.
+2. TO DO: Load industries-features.ipynb colab output into Run Models using parameters.yaml.
+3. TO DO: Add startyear and endyear to Streamlit interface, load from parameters.yaml.
+4. TO DO: Find a comparison process or pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
+5. TO DO: Reuse report display process for other models.
+6. TO DO: Automate updating "toy" feature data using Github Actions.

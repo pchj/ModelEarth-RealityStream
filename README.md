@@ -26,7 +26,7 @@ Our Streamlit interface will include a dropdown menu for selecting targets, incl
 4. [Eye Blinks](output/blinks/) - Brain fMRI Voxels
 5. [Job Listings](output/jobs/) - Reality or Fiction
 
-Install the streamlit cli if you haven't yet.
+Install the streamlit Command-Line Interface (CLI) if you haven't yet.
 
 	pip install streamlit
 
@@ -34,21 +34,21 @@ This should launch a browser with demos:
 
 	streamlit hello
 
-If you get a cli error, you can uninstall all instances of Streamlit. Then reinstall and restart terminal.  This should remove an older version from the anaconda folder.
+If you get a CLI error due to an older version, you can uninstall all instances of Streamlit. Then reinstall and restart terminal.  This should remove an older version from the anaconda folder.
 
 	pip uninstall streamlit
 	pip install streamlit
+
+Run `pip -V` before and after you start your virtual environment.  
+In May 2024, the latest pip version is: pip 24
+Also running once in your virtual environment seems to correct going forward.
+
+	python -m pip install --upgrade pip
 
 ## View RealityStream in Streamlit Virtual Environment
 
 Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
-<!--
-Seems pip upgrade does not need to be rerun `pip -V`
-Ran once in virtual environment, seemed to correct going forward.
-
-	python -m pip install --upgrade pip
--->
 
 	python3 -m venv env
 	source env/bin/activate
