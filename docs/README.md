@@ -1,6 +1,11 @@
 [RealityStream](../)
 # Additional setup steps
+<!--
+	Was spacy>=3.7.2
 
+	Trying spacy==3.7.2 with en_core_web_sm-3.7.2 based on:
+	https://discuss.streamlit.io/t/how-to-include-en-core-web-sm-2-2-0-in-deployment/37673/3
+-->
 Occasionally you may want to update your local streamlit
 
 	pip install --upgrade streamlit
