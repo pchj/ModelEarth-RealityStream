@@ -24,6 +24,11 @@ Do Facebook, X, Douyin and BlueSky have similar outcomes?
 Coordinate analysis tools with researchers who are subscribing to backend network data.
 [Our BlueSky Projects](https://bsky.app/profile/modelearth.bsky.social) and [Feed Player Displays](https://model.earth/feed/view/) (For CORS feeds, hit refresh after <a href="https://cors-anywhere.herokuapp.com/" target="passthrough">turning on passthrough</a>.)
 
+<!--
+Fact or Fiction: Starlink will provide internet connectivity to 19,000 rural schools in Brazil, as well as environmental monitoring of the Amazon.
+https://www.yahoo.com/news/elon-musk-diplomacy-woo-wing-155604090.html
+-->
+
 ## Features Data
 
 **Industry Features Data Prep:**
@@ -40,9 +45,9 @@ Backup and run locally @ input/industries/features/industries-features-bkup.ipyn
 
 **Industry Targets**
 
-TO DO: Contribute to our [Industry target CoLab](https://colab.research.google.com/drive/1urO9phMMt0GyAXRsowf2dbLjQ6DlWTKf?usp=sharing)
+[Our Industry Targets Colab](https://colab.research.google.com/drive/1dbB9RHaJba7AyiGbGugzpui5F9v4bJOQ?usp=sharing) for Job Growth and Wage Growth. - Ronan
 
-TO DO: Create target datasets for Job Growth and Wage Growth. - Ronan
+[Initial CoLab](https://colab.research.google.com/drive/1urO9phMMt0GyAXRsowf2dbLjQ6DlWTKf?usp=sharing) - moving into link above
 
 <!--
 Blank [Industry target CoLab](https://colab.research.google.com/drive/19ReOauJDQHPU2a_Fln8-Kcgsd566IYtQ?usp=sharing)
