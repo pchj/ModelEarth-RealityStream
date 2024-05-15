@@ -99,7 +99,7 @@ def trainer(df, test_size, over_sample, vectorizer, model):
     evaluate(y_test, y_pred, y_pred_prob)
 
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy-legacy.load('en_core_web_sm')
 
 # Text Preprocessing with varoius combination
 
