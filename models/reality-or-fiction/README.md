@@ -9,8 +9,7 @@ Models:
 - Random Forest
 - Support Vector Machines SVC
 
-
-reality-or-fiction.ipynb is an alternative to running app.py 
+[reality-or-fiction.ipynb](reality-or-fiction.ipynb) (in the current folder) is an alternative to running app.py for these Job Description NLP models.
 
 [Dataset Google Sheet](https://drive.google.com/file/d/1oNvbZLod123UhYbR8oqH7hPCc3n5CRan/view?usp=share_link)
 

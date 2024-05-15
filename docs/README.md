@@ -1,7 +1,7 @@
 [RealityStream](../)
 # Additional setup steps
 <!--
-	Was spacy>=3.7.2
+	Was spacy>=3.7.2, but en_core_web_sm-3.7.2 not available
 
 	Trying spacy==3.7.2 with en_core_web_sm-3.7.2 based on:
 	https://discuss.streamlit.io/t/how-to-include-en-core-web-sm-2-2-0-in-deployment/37673/3

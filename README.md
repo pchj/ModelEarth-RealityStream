@@ -3,23 +3,26 @@ A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEa
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a> - [How to Embed](https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app/embed-your-app)
 <!-- For ML Classification. -->
 
-## CoLabs
+## Model CoLabs
 
-- [Industries](input/industries)
-
-## Models
-
-Our model skeletons are being designed to work with all feature and target datasets.
-
-- [Location Forest (Bees)](models/location-forest)
-- [Random Bits Forest (Blinks)](models/random-bits-forest)
-- [Logistic Regression (Reality or Fiction Jobs)](models/reality-or-fiction)
-- [Random Forest (Reality or Fiction Jobs)](models/reality-or-fiction)
-- [Support Vector Machines (Reality or Fiction Jobs)](models/reality-or-fiction)
+- [Run Models (Industries CoLab)](input/industries)
+- [Models Overview](models)
 
 ## Streamlit Interface
 
-Our Streamlit interface will include a dropdown menu for selecting targets, including:
+#### Feature Data Sources
+
+Our Streamlit interface includes a dropdown menu for selecting features (factors).
+
+Currently only the "Job Listings" feature is activated.
+
+#### Target Data Sources
+
+Our Streamlit interface includes a dropdown menu for selecting targets.
+
+Currently only the "Job Listings" target is activated.
+TO DO: Pull in data for the other targets. 
+
 1. [Honey Bee Health](output/bees/) - Bee population change (Irene created 4 columns, each would be its own file)
 2. [Job Growth](input/industries/) - Top 20% counties for job growth (to-do)
 3. [Wage Growth](input/industries/) - Top 20% counties for wage growth (to-do)

@@ -16,19 +16,6 @@ models/reality-or-fiction/reality-or-fiction.ipynb
 - Build a yaml file from localStorage that the user can paste or pull into CoLab.
 - Run data updates automatically quarterly with Github Actions, send a report
 
-**Big Questions**
-
-Do Google Search Algorithms direct people (bushes and trees) toward training that results in a better world? (Including where they relocate to and the code they focus on and the impact of the software they use.) Compare the outcomes (migrations and design impacts) of using software algorithms (fungus) by Google, Microsoft, Salesforce and others.
-
-Do Facebook, X, Douyin and BlueSky have similar outcomes?  
-Coordinate analysis tools with researchers who are subscribing to backend network data.
-[Our BlueSky Projects](https://bsky.app/profile/modelearth.bsky.social) and [Feed Player Displays](https://model.earth/feed/view/) (For CORS feeds, hit refresh after <a href="https://cors-anywhere.herokuapp.com/" target="passthrough">turning on passthrough</a>.)
-
-<!--
-Fact or Fiction: Starlink will provide internet connectivity to 19,000 rural schools in Brazil, as well as environmental monitoring of the Amazon.
-https://www.yahoo.com/news/elon-musk-diplomacy-woo-wing-155604090.html
--->
-
 ## Features Data
 
 **Industry Features Data Prep:**
@@ -68,22 +55,4 @@ Avoid saving large feature datasets in local files, use Pandas to merge features
 
 Send merged data through multiple models (rbf.py, etc.)
 
-<br>
-
-# Parallel Modeling Environments
-
-x-axis Features (naics, voxels, nutrients)  
-y-axis Locations (merged to targets on fips)
-
-Merge features and targets on locations (fips, voxels, foods)
-
-| Inflow | Basket of Goods| Outflow | Predicted Results |
-| ----------- | ----------- | ----------- | ----------- |
-| [Suppliers](/data-pipeline/research/economy/) | [Commodities](/localsite/info/) | [Products](https://github.com/ModelEarth/OpenFootprint/tree/main/products/US) | [Impact on Environment](/community/tools/) |
-| [Stimulus ML](../blinks/) | Brain Waves | [Brain Voxels Firing](/RealityStream/models/random-bits-forest/) | [Eye Blinks](/RealityStream/output/blinks/) |
-| [Local Industries](/localsite/info/) | Honey Bees | [Population Change](/data-pipeline/research/bees/) | [Healthy Bee Population](/RealityStream/output/bees) |
-| [Local Industries](/localsite/info/) | [Tree Canopy](/data-commons/docs/conservation/) | Biodiversity Change | Healthy Forest Growth |
-| [Ingredients](/data-commons/docs/food/) | [Healthy Meals](/OpenFootprint) | [Nutrients](/balance/) | [Impact on Body](/balance/label_checker.html) |
-
-<br>
 
