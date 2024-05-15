@@ -27,6 +27,7 @@ Our Streamlit interface will include a dropdown menu for selecting targets, incl
 5. [Job Listings](output/jobs/) - Reality or Fiction
 
 Install the streamlit Command-Line Interface (CLI) if you haven't yet.
+If you have an error during the install, our [docs page](docs) may have a fix.
 
 	pip install streamlit
 
@@ -34,43 +35,19 @@ This should launch a browser with demos:
 
 	streamlit hello
 
-If you get a CLI error due to an older version, you can uninstall all instances of Streamlit. Then reinstall and restart terminal.  This should remove an older version from the anaconda folder.
-
-	pip uninstall streamlit
-	pip install streamlit
-
-Run `pip -V` before and after you start your virtual environment.  
-In May 2024, the latest pip version is: pip 24
-Also running once in your virtual environment seems to correct going forward.
-
-	python -m pip install --upgrade pip
-
-## View RealityStream in Streamlit Virtual Environment
+## Launch in Virtual Environment
 
 Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
-
 	python3 -m venv env
 	source env/bin/activate
-	pip install wordcloud
-	pip install spaCy
-	python -m spacy download en_core_web_sm
-	pip install scikit-learn
-	pip install imblearn
-	pip install markdown
-	pip install seaborn sns
-
-<!--
-Also to try (didn't work first time)
-	pip install -r requirements.txt-->
-
-spaCy is an open-source natural language processing (NLP) library
-
-<!--Indicate your features and target data sources and model(s): "industries" "bees" "rbf"-->
 
 Launch our interface locally:
 
-	streamlit run app.py 
+	streamlit run app.py
+
+If an error occurs, our [docs page](docs) may have a fix.
+
 <!--
 To also try:
 
