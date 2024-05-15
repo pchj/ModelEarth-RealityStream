@@ -5,7 +5,7 @@ Occasionally you may want to update your local streamlit
 
 	pip install --upgrade streamlit
 
-If you encounter issues, try pulling down the required dependencies
+If you encounter issues, try installing the required dependencies
 
 	pip install -r requirements.txt
 
