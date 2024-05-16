@@ -1,6 +1,6 @@
 [RealityStream Models](../)
 
-# Reality or Fictional Jobs
+# Reality or Fiction Jobs
 
 Anaylzes text to identify legitimate job posts
 

@@ -4,11 +4,11 @@
 RealityStream is being designed to merge feature and target datasets in Pandas on-the-fly.
 
 - [Run Models (Industries CoLab)](../input/industries)
-- [Location Forest (Bees)](models/location-forest)
-- [Random Bits Forest (Blinks)](models/random-bits-forest)
-- [Logistic Regression (Reality or Fiction Jobs)](models/reality-or-fiction)
-- [Random Forest (Reality or Fiction Jobs)](models/reality-or-fiction)
-- [Support Vector Machines (Reality or Fiction Jobs)](models/reality-or-fiction)
+- [Location Forest (Bees)](location-forest)
+- [Random Bits Forest (Blinks)](random-bits-forest)
+- [Logistic Regression (Reality or Fiction Jobs)](reality-or-fiction)
+- [Random Forest (Reality or Fiction Jobs)](reality-or-fiction)
+- [Support Vector Machines (Reality or Fiction Jobs)](reality-or-fiction)
 
 Prior to including data, models are referred to as skeletons or blueprints. Skeletons define the structure and logic of how the model should work prior to loading data. Model skeletons are like having the blueprint of a house without the materials to build it.
 
