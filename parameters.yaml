@@ -1,7 +1,11 @@
 features: 
-  industries:
-  - startyear: 2017
-  - endyear: 2021
-  - path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
-targets: bees
+  data: industries
+  startyear: 2017
+  endyear: 2021
+  naics: [2,4,6]
+  state: ME
+  path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
+targets:
+  data: bees
+  path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/bees/targets/bees-targets-increase2022.csv
 models: rbf
