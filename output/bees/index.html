@@ -36,58 +36,70 @@ hr {
   let myDataroot = "";
 
   my = {};
-  my.dataset = myDataroot + "training/bees_init/bees-y-test.csv"; // Or another name
+  my.dataset = myDataroot + "training/2022_increase-bees-y-test.csv";
   my.elementID = "y-test";
   loadEarthScape(my);
 
   my = {};
-  my.dataset = myDataroot + "training/bees_init/bees-y-train.csv"; // Or another name
+  my.dataset = myDataroot + "training/2022_increase-bees-y-train.csv";
   my.elementID = "y-train";
   loadEarthScape(my);
 
   my = {};
-  my.dataset = myDataroot + "training/bees-test.csv"; // Or another name
+  my.dataset = myDataroot + "training/2022_increase-bees.csv";
   my.elementID = "earthscape1";
   loadEarthScape(my);
 
   my = {};
-  my.dataset = myDataroot + "training/bees-train.csv"; // Or another name
+  my.dataset = myDataroot + "training/2022_increase-bees-X-train.csv";
   my.elementID = "earthscape2";
   loadEarthScape(my);
 
   my = {};
-  my.dataset = myDataroot + "training/bees_init/bees-x-test.csv"; // Or another name
+  my.dataset = myDataroot + "training/2022_increase-bees-X-test.csv";
   my.elementID = "earthscape3";
   loadEarthScape(my);
 
 </script>
 
 <style>
+.floatTabulatorLeft {
+  float: left;
+  margin-right: 20px;
+}
 </style>
 </head>
 
 <body>
 
 <div class="content contentpadding">
-  <div id="readmeDiv"></div>
 
-  Bees Y Test<br>
-  <div id="y-test" style="overflow-x: auto; display: inline;"></div><br>
+<div id="readmeDiv"></div>
 
-  Bees Y Train<br>
-  <div id="y-train" style="overflow-x: auto; display: inline;"></div><br>
+<div class="floatTabulatorLeft">
+2022 Bees y Test (2 KB)<br>
+<div id="y-test" style=""></div><br>
+</div>
 
+<div class="floatTabulatorLeft">
+2022 Bees y Train (9 KB)<br>
+<div id="y-train" style=""></div><br>
+</div>
 
-  Bees Test (351 K)<br>
-  <div id="earthscape1" style="overflow-x: auto;"></div><br>
+<div class="floatTabulatorLeft">
+2022 Bees (4.1 MB)<br>
+<div id="earthscape1" style=""></div><br>
+</div>
 
-  Bees Train (1.4 MB)<br>
-  <div id="earthscape2" style="overflow-x: auto;"></div><br>
+<div class="floatTabulatorLeft">
+2022 Bees X Train (3.3 MB)<br>
+<div id="earthscape2" style=""></div><br>
+</div>
 
-  Bees Init - Bees X Test (47 K)<br>
-  <div id="earthscape3" style="overflow-x: auto;"></div><br>
-
-
+<div class="floatTabulatorLeft">
+2022 Bees X Test (817 K)<br>
+<div id="earthscape3" style=""></div><br>
+</div>
 
 </div>
 
