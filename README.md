@@ -24,7 +24,7 @@ Our Streamlit interface includes a dropdown menu for selecting targets.
 Currently only the "Job Listings" target is activated.
 TO DO: Pull in data for the other targets. 
 
-1. [Honey Bee Health](output/bees/) - Bee population change (Irene created 4 columns, each would be its own file)
+1. [Honey Bee Health](input/bees/) - Bee population change (Irene created 4 columns, each would be its own file)
 2. [Job Growth](input/industries/) - Top 20% counties for job growth (to-do)
 3. [Wage Growth](input/industries/) - Top 20% counties for wage growth (to-do)
 4. [Eye Blinks](output/blinks/) - Brain fMRI Voxels
