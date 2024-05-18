@@ -9,6 +9,8 @@ Using county industry changes to predict honey bee populations.
 - [Our Output CoLab](https://colab.research.google.com/drive/1y2A_XOFQrfu0HfXDPt2erg43Kn7Tc7xz?usp=sharing)
 - [Upcoming - "Run Models" with Bees](../industries/)
 
+- [Colab for creating 2-columns targets](https://colab.research.google.com/drive/11R3nSxPn91yTUBWhANBgdKCX0-YV1Dtk#scrollTo=Y9Un4FVwnxth)
+
 Backup and run locally in [models/location-forest](../../models/location-forest/):
 
 	python location-forest-input-bkup.ipynb bees
@@ -17,20 +19,23 @@ Backup and run locally in [models/location-forest](../../models/location-forest/
 
 [2-column Target tables](https://github.com/ModelEarth/RealityStream/tree/main/input/bees/targets) containing county Fips.
 
-[Prior Bees Output](../../output/bees/)
 
 We're updating our [Run Models colab](../industries/) to pull in 2-column bee target data for counties.
 
 ## Datasets
+
+Bee Pollinators USDA
+<!-- - [Bee Pollinator Decline](https://sustainableagriculture.net/blog/pnas-wild-bee-study/) -->
+
+Source: [quickstats.nass.usda.gov](https://quickstats.nass.usda.gov/). Download settings:
+
+<a href="img/USDA-bee-download.png"><img src="img/USDA-bee-download.png" style="width:100%;max-width:800px;"></a>
 
 <!--
 [Old CoLab](https://colab.research.google.com/drive/1o7HXhOl_NWhVm4Nn6L-sjDHsn0bokgeI?usp=sharing) 
 -->
 
 ### Bee Pollinators
-
-- Bee Pollinators USDA
-<!-- - [Bee Pollinator Decline](https://sustainableagriculture.net/blog/pnas-wild-bee-study/) -->
 
 <div style="overflow:auto; margin-top:0px; padding-right:50px">
 
@@ -53,3 +58,8 @@ We're updating our [Run Models colab](../industries/) to pull in 2-column bee ta
   </div>
   
 </div>
+
+
+  [Prior Bees Output](../../output/bees/)
+
+  [Upcoming: Run Models](../industries/) - combine industry features with bee targets
