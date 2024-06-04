@@ -1,0 +1,9 @@
+features: 
+  data: jobs
+  type: fake_job_postings
+  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/{type}.csv
+targets:
+  data: jobs
+  model: RandomForestClassifier
+  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/CV-{model}.csv
+models: rbf
