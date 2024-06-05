@@ -4,6 +4,5 @@ features:
   path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/{type}.csv
 targets:
   data: jobs
-  model: RandomForestClassifier
-  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/CV-{model}.csv
+  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/preprocessed.csv
 models: rbf
