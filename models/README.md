@@ -1,16 +1,14 @@
 [RealityStream](../)
 # Models
 
-RealityStream is being designed to merge feature and target datasets in Pandas on-the-fly.
+RealityStream merges feature and target datasets on-the-fly in Pandas, with the option to save CSV files.
 
 - [Run Models (Industries CoLab)](../input/industries)
 - [Location Forest (Bees)](location-forest)
 - [Random Bits Forest (Blinks)](random-bits-forest)
-- [Logistic Regression (Reality or Fiction Jobs)](reality-or-fiction)
-- [Random Forest (Reality or Fiction Jobs)](reality-or-fiction)
-- [Support Vector Machines (Reality or Fiction Jobs)](reality-or-fiction)
+- [Logistic Regression, Random Forest, Support Vector Machines (Reality or Fiction Jobs)](reality-or-fiction)
 
-Prior to including data, models are referred to as skeletons or blueprints. Skeletons define the structure and logic of how the model should work prior to loading data. Model skeletons are like having the blueprint of a house without the materials to build it.
+Models are referred to as skeletons or blueprints prior to including data. Model skeletons define the structure and logic of how the model should work prior to loading data. Model skeletons are like the blueprint of a house without the materials (data) to build it.
 
 **ML Framework:** A framework typically refers to a structured set of tools, libraries, and conventions that provide a foundation for building something. In the case of machine learning, frameworks like TensorFlow, PyTorch, or scikit-learn provide the infrastructure and tools necessary to implement machine learning algorithms. If you have a Python script implementing a Random Forest algorithm but without data, it could be seen as a part of a machine learning framework.
 
@@ -18,7 +16,7 @@ Prior to including data, models are referred to as skeletons or blueprints. Skel
 # Parallel Modeling Environments
 
 x-axis Features (naics, voxels, nutrients)  
-y-axis Locations (merged to targets on fips)
+y-axis Locations merged with target column on county, zip code, or other common attribute.
 
 Merge features and targets on locations (fips, voxels, foods)
 

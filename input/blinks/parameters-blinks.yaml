@@ -1,0 +1,8 @@
+features: 
+  data: blinks
+  path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/{data}/{data}-target.csv
+targets:
+  data: blinks
+  column: y
+  path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/{data}/{data}-target.csv
+models: RandomForest, rbf
