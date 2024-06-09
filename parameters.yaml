@@ -2,7 +2,7 @@ features:
   data: industries
   startyear: 2017
   endyear: 2021
-  naics: [2,4,6]
+  naics: [6]
   state: ME
   path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
 targets:
