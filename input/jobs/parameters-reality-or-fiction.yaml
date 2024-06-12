@@ -1,0 +1,8 @@
+features: 
+  data: jobs
+  type: fake_job_postings
+  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/{type}.csv
+targets:
+  data: jobs
+  path: https://github.com/ModelEarth/RealityStream/blob/main/input/{data}/preprocessed.csv
+models: rbf

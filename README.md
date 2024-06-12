@@ -1,6 +1,8 @@
 [Active Projects](/projects)
+
 # RealityStream
 A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
+
 Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a> - [How to Embed](https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app/embed-your-app)
 <!-- For ML Classification. -->
 
@@ -11,13 +13,13 @@ Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://doc
 
 ## Streamlit Interface
 
-#### Feature Data Sources
+### Feature Data Sources
 
 Our Streamlit interface includes a dropdown menu for selecting features (factors).
 
 Currently only the "Job Listings" feature is activated.
 
-#### Target Data Sources
+### Target Data Sources
 
 Our Streamlit interface includes a dropdown menu for selecting targets.
 
@@ -33,22 +35,35 @@ TO DO: Pull in data for the other targets.
 Install the streamlit Command-Line Interface (CLI) if you haven't yet.
 If you have an error during the install, our [docs page](docs) may have a fix.
 
+```sh
 	pip install streamlit
+```
 
 This should launch a browser with demos:
 
+```sh
 	streamlit hello
+```
 
 ## Launch in Virtual Environment
 
 Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
+```py
 	python3 -m venv env
 	source env/bin/activate
+```
+
+For Windows,
+
+```py
+	.\env\Scripts\activate
+```
 
 Launch our interface locally:
-
+```sh
 	streamlit run app.py
+```
 
 If an error occurs, our [docs page](docs) may have a fix.
 
