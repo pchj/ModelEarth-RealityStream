@@ -1,6 +1,3 @@
-[ML Forecasting](/data-pipeline/timelines/) - [RealityStream](../../)
-# Bee the Predictor
-
 ## Random Forests for Bees
 
 Using county industry changes to predict honey bee populations.
@@ -22,18 +19,7 @@ Backup and run locally in [models/location-forest](../../models/location-forest/
 
 We're updating our [Run Models colab](../industries/) to pull in 2-column bee target data for counties.
 
-## Datasets
 
-Bee Pollinators USDA
-<!-- - [Bee Pollinator Decline](https://sustainableagriculture.net/blog/pnas-wild-bee-study/) -->
-
-Source: [quickstats.nass.usda.gov](https://quickstats.nass.usda.gov/). Download settings:
-
-<a href="img/USDA-bee-download.png"><img src="img/USDA-bee-download.png" style="width:100%;max-width:800px;"></a>
-
-<!--
-[Old CoLab](https://colab.research.google.com/drive/1o7HXhOl_NWhVm4Nn6L-sjDHsn0bokgeI?usp=sharing) 
--->
 
 ### Bee Pollinators
 
@@ -63,3 +49,14 @@ Source: [quickstats.nass.usda.gov](https://quickstats.nass.usda.gov/). Download 
   [Prior Bees Output](../../output/bees/)
 
   [Upcoming: Run Models](../industries/) - combine industry features with bee targets
+
+
+## Datasets
+
+Bee Pollinators USDA
+<!-- - [Bee Pollinator Decline](https://sustainableagriculture.net/blog/pnas-wild-bee-study/) -->
+
+
+<!--
+[Old CoLab](https://colab.research.google.com/drive/1o7HXhOl_NWhVm4Nn6L-sjDHsn0bokgeI?usp=sharing) 
+-->
