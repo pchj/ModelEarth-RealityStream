@@ -3,7 +3,8 @@ features:
   startyear: 2017
   endyear: 2021
   naics: [6]
-  state: ME
+  state: ME,NY
+  common: Fips
   path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
 targets:
   data: bees

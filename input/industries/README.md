@@ -45,14 +45,4 @@ Features: types of industries, education levels, employment levels, population d
 **Wage Growth** - Increases in local pay levels
 Features: types of industries, education levels, employment levels, population density, environmental indicators
 
-TO DO: Load features/industries-features-bkup.ipynb from models/Run-Models-bkup.ipynb
-
-TO DO: Add python to run external -bkup.ipynb files from within our Streamlit app.py files to build models and save reports.
-
-## Merging Data in Pandas
-
-Avoid saving large feature datasets in local files, use Pandas to merge features and targets while processing.
-
-Send merged data through multiple models (rbf.py, etc.)
-
 

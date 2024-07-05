@@ -8,8 +8,32 @@ Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://doc
 
 ## Model CoLabs
 
-- [Run Models (Industries CoLab)](input/industries)
+- [Run Models (CoLab)](input/industries) - For any data source with multiple locations
 - [Models Overview](models)
+
+## Sample Location Data Sources
+
+Our CoLab supports any data with a location column containing multiple locations. 
+Add paths to external data by editing a copy of the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file.
+
+The location column joins features and targets. Location column names:  
+Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
+
+**Industries (Features and Targets)**
+<a href="input/industries/">Industries Input Data</a>
+
+**Jobs**
+<a href="models/reality-or-fiction/">Reality or Fiction</a>
+
+**Bees (Target)**
+<a href="input/bees/">Random Forest (Bees)</a>
+
+**Blinks**
+<a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
+
+**Trees (Target)**
+[Tree Targets](input/trees/)
+
 
 ## Streamlit Interface
 
@@ -78,23 +102,3 @@ TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
 
 TO DO: When parameters above are omitted, use defaults.
 
-## Data Sources
-
-Each data source has a location column, so it can act as both a feature and target. Location column names:
-
-Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
-
-**Industries (Features and Targets)**
-<a href="input/industries/">Industries Input Data</a>
-
-**Jobs**
-<a href="models/reality-or-fiction/">Logistic Regression (Jobs)</a>
-
-**Bees (Target)**
-<a href="input/bees/">Random Forest (Bees)</a>
-
-**Blinks**
-<a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
-
-**Trees (Target)**
-[Tree Targets](input/trees/)

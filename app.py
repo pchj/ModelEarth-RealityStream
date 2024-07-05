@@ -34,6 +34,11 @@ from utils.predict_page import show_predict_page
 
 #st.write("[Model.Earth](https://model.earth)")
 
+# Should work, but doesn't
+st.write(f'<link type="text/css" rel="stylesheet" href="https://model.earth/localsite/css/base.css" id="/localsite/css/base.css" /><script type="text/javascript" src="https://model.earth/localsite/js/localsite.js?showheader=true"></script>', unsafe_allow_html=True)
+
+# st.experimental_get_query_params("test")
+
 features = st.sidebar.selectbox("Features", ("Local Industries", "Local Places", "Local Products", "Job Descriptions", "Brain Voxels"), index=3)
 targets = st.sidebar.selectbox("Target", ("Honey Bees", "Job Growth", "Wage Growth", "High Wages", "Real Job Listings", "Tree Canopy", "Eye Blinks"), index=4)
 models = st.sidebar.selectbox("Model", ("Location Forest", "Random Forest", "Random Bits Forest", "Logistic Regression ", "Support Vector Machines", "XGBoost Gradient Boosted Trees", "MLP Neural Network"), index=3)
