@@ -59,35 +59,29 @@ TO DO: Pull in data for the other targets.
 Install the streamlit Command-Line Interface (CLI) if you haven't yet.
 If you have an error during the install, our [docs page](docs) may have a fix.
 
-```sh
 	pip install streamlit
-```
 
 This should launch a browser with demos:
 
-```sh
 	streamlit hello
-```
 
 ## Launch in Virtual Environment
 
 Initiate a virtual environment before running streamlit via `streamlit run app.py`
 
-```py
 	python3 -m venv env
 	source env/bin/activate
-```
 
 For Windows,
 
-```py
+	python3 -m venv env
 	.\env\Scripts\activate
-```
+
 
 Launch our interface locally:
-```sh
+
 	streamlit run app.py
-```
+
 
 If an error occurs, our [docs page](docs) may have a fix.
 
