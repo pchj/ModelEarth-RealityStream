@@ -34,7 +34,7 @@ Merge features and targets on locations (fips, voxels, foods)
 We're working with Google Data Commons data to explore trends across time.
 [Our BlueSky Projects](https://bsky.app/profile/modelearth.bsky.social) and [Feed Player Displays](https://model.earth/feed/view/) merge industry and environmental data to explore outcomes.
 
-Do Google search algorithms direct people toward training that results in a better world?  Trees grow based on supporting networks of fungi using biological algorithms. Are the locations where people relocate driven by the software they use, and the skills they offer? Does using Facebook, Microsoft, X, Douyin and BlueSky foster similar outcomes? The Google jobs API is also being integrated.
+Do Google search algorithms direct people toward training that results in a better world?  Trees grow based on supporting networks of fungi using biological algorithms. Are the locations where people relocate driven by the software they use, and the skills they offer? Does using Facebook, Microsoft, X, Douyin and BlueSky foster similar outcomes? The Google jobs API is being integrated using [Serp](/feed/view/#feed=serp).
 
 [Does expanding access to Starlink actually help increase tree canopy?](https://www.yahoo.com/news/elon-musk-diplomacy-woo-wing-155604090.html) In Brazil, Starlink was slated to provide internet connectivity to 19,000 rural schools, along with environmental monitoring of the Amazon. Let's explore changes to [world forest coverage over time](/data-commons/docs/conservation/).
 

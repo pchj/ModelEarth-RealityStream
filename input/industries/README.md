@@ -1,13 +1,12 @@
-[Industry Timelines Pipeline](../../../data-pipeline/timelines) - [RealityStream](../../)
+[RealityStream](../../)
 
-# Industries Input Data
+# Run Models Colab
 
 **Our primary CoLab:**
 [Run Models](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) (Includes XGBoost) - Merges Features with Targets based on parameters.yaml
 Backup and run locally @ models/Run-Models-bkup.ipynb
 
-**Initial Python** (matched Streamlit)
-models/reality-or-fiction/reality-or-fiction.ipynb
+Data prep for [Industry Features and Targets](../../../data-pipeline/timelines)
 
 **Cool processes we're implementing in the Run Models CoLab**
 - Toggle between pulling data from Github and local files
