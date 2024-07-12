@@ -1,23 +1,41 @@
 [Active Projects](/projects)
 
+<a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
 # RealityStream
-A Streamlit App which weighs possibilities - <a href="https://github.com/ModelEarth/RealityStream/">Github</a>
+Parallel development of our [Run Models CoLab](input/industries) and [Reality Streamlit App](https://reality.streamlit.app/)  
+which will both weigh correlations between location features and location targets.
 
-Expanded by <a href="https://Model.earth">Model.earth</a> - <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a> - [How to Embed](https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app/embed-your-app)
-<!-- For ML Classification. -->
+**Our Colab provides:** Logistic Regression, SVM, MLP, RandomForest, XGBoost  
+**StreamLit provides:** Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
 
-## Model CoLabs
+**Example of parameters.yaml format**
 
-- [Run Models (CoLab)](input/industries) - For any data source with multiple locations
+	features: "industries"
+		startyear: 2017
+		endyear: 2021
+	 	path: "https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv"
+	targets: "bees"
+	models: rbf"
+
+
+TO DO: Let's figure out how to pass a URL hash value into both the CoLab and StreamLit  
+so we can pass in paths to different parameters.yaml files, live this: 
+
+	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
+
+## Run Models CoLab
+
+- [Run Models (CoLab)](input/industries) - For feature and target datasets merged on their location columns.
 - [Models Overview](models)
-
-## Sample Location Data Sources
-
-Our CoLab supports any data with a location column containing multiple locations. 
-Add paths to external data by editing a copy of the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file.
 
 The location column joins features and targets. Location column names:  
 Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
+
+## Sample Location Data Sources
+
+Our CoLab supports any data with a location column containing multiple locations.  
+
+Add paths to external data by editing a copy of the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file.
 
 **Industries (Features and Targets)**
 <a href="input/industries/">Industries Input Data</a>
