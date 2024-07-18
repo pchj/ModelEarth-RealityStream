@@ -3,6 +3,7 @@ import streamlit as st
 import requests
 import base64
 import time
+import json
 
 # Creating a Dataframe with word-vectors in TF-IDF form and Target values
 
@@ -86,19 +87,32 @@ def evaluate(y_test, y_pred, y_pred_prob):
 
     st.write("**Classification Report:**")
     st.text(classification_report(y_test, y_pred))
-    upload_cf_report = "x"
-    text_bytes = upload_cf_report.encode('utf-8')
+
+    
+    cf_report_dict = classification_report(y_test, y_pred, output_dict = True)
+    report_json_str = json.dumps(cf_report_dict)
+
+    report_bytes = report_json_str.encode('utf-8')
+    report_base64 = base64.b64encode(report_bytes).decode('utf-8')
+
+    
+    #text_bytes = upload_cf_report.encode('utf-8')
     #classification_report(y_test, y_pred)
     url = "https://api.github.com/repos/Ultracatx/RealityStream/contents/test_upload/test_1"
     headers = {
-            "Authorization": "token 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",
+            "Authorization": "token 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",
             #"Accept": "application/vnd.github.v3+json",
         }
     data = {
         #"message": commit_message,
-        "content": base64.b64encode(text_bytes).decode('utf-8'),
+        "content": report_base64,
         "branch": "interaction_test",
            }
+    response = requests.put(url, json=data, headers=headers)
+    if response.status_code == 201:
+        st.success("Image successfully uploaded to GitHub.")
+    else:
+        st.error(f"Failed to upload image: {response.content}")
     #     response = requests.put(url, json=data, headers=headers)
     #     if response.status_code == 201:
     #         st.success("Image successfully uploaded to GitHub.")
