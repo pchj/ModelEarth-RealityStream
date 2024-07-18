@@ -1,4 +1,8 @@
 from utils.libraries import *
+import streamlit as st
+import requests
+import base64
+import time
 
 # Creating a Dataframe with word-vectors in TF-IDF form and Target values
 
@@ -82,6 +86,42 @@ def evaluate(y_test, y_pred, y_pred_prob):
 
     st.write("**Classification Report:**")
     st.text(classification_report(y_test, y_pred))
+    upload_cf_report = "x"
+    text_bytes = upload_cf_report.encode('utf-8')
+    #classification_report(y_test, y_pred)
+    url = "https://api.github.com/repos/Ultracatx/RealityStream/contents/test_upload/test_1"
+    headers = {
+            "Authorization": "token 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",
+            #"Accept": "application/vnd.github.v3+json",
+        }
+    data = {
+        #"message": commit_message,
+        "content": base64.b64encode(text_bytes).decode('utf-8'),
+        "branch": "interaction_test",
+           }
+    #     response = requests.put(url, json=data, headers=headers)
+    #     if response.status_code == 201:
+    #         st.success("Image successfully uploaded to GitHub.")
+    #     else:
+    #         st.error(f"Failed to upload image: {response.content}") 
+    
+    # def save_image_to_github(image_content, filename, repo_name, path_in_repo, commit_message, github_token):
+    #     url = f"https://api.github.com/repos/{repo_name}/contents/{path_in_repo}/{filename}"
+    #     headers = {
+    #         "Authorization": f"token {github_token}",
+    #         "Accept": "application/vnd.github.v3+json",
+    #     }
+    #     data = {
+    #         "message": commit_message,
+    #         "content": base64.b64encode(image_content).decode('utf-8'),
+    #         "branch": "main",
+    #     }
+    #     response = requests.put(url, json=data, headers=headers)
+    #     if response.status_code == 201:
+    #         st.success("Image successfully uploaded to GitHub.")
+    #     else:
+    #         st.error(f"Failed to upload image: {response.content}") 
+
 
 def trainer(df, test_size, over_sample, vectorizer, model):
     model, x_test, y_test, y_pred_prob = train_model(
@@ -135,3 +175,21 @@ def load_model():
     with open('output/jobs/saved/notebook_model.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
+
+
+def save_report_to_github(image_content, filename, repo_name, path_in_repo, commit_message, github_token):
+    url = f"https://api.github.com/repos/{repo_name}/contents/{path_in_repo}/{filename}"
+    headers = {
+        "Authorization": f"token {github_token}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+    data = {
+        "message": commit_message,
+        "content": base64.b64encode(image_content).decode('utf-8'),
+        "branch": "main",
+    }
+    response = requests.put(url, json=data, headers=headers)
+    if response.status_code == 201:
+        st.success("Image successfully uploaded to GitHub.")
+    else:
+        st.error(f"Failed to upload image: {response.content}") 
