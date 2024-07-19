@@ -8,7 +8,14 @@ which will both weigh correlations between location features and location target
 **Our Colab provides:** Logistic Regression, SVM, MLP, RandomForest, XGBoost  
 **StreamLit provides:** Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
 
-**Example of parameters.yaml format**
+**TO DO:** Let's figure out how to pass a URL hash value into both the CoLab and StreamLit  
+We'll pass in different parameters.yaml paths, like this: 
+
+	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
+
+<br>
+
+**Our default parameters.yaml format**
 
 	features: "industries"
 		startyear: 2017
@@ -17,16 +24,11 @@ which will both weigh correlations between location features and location target
 	targets: "bees"
 	models: rbf"
 
-
-TO DO: Let's figure out how to pass a URL hash value into both the CoLab and StreamLit  
-so we can pass in paths to different parameters.yaml files, live this: 
-
-	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
-
 ## Run Models CoLab
 
 - [Run Models (CoLab)](input/industries) - For feature and target datasets merged on their location columns.
 - [Models Overview](models)
+- [Accuracy Reports](output/jobs/) - Jobs Example
 
 The location column joins features and targets. Location column names:  
 Country (2-char), State (2-char), Fips (5-digits for state and county), Zip (5 char, 6 in China), or Voxel (2 char)
