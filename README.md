@@ -9,11 +9,13 @@ which will both weigh correlations between location features and location target
 **StreamLit provides:** Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
 
 **TO DO:** Let's figure out how to pass a URL hash value into both the CoLab and StreamLit  
+
+[Load hash value into Streamlit](https://discuss.streamlit.io/t/get-query-params-not-working-with-instead-of/20314) - Manoj
+
 We'll pass in different parameters.yaml paths, like this: 
 
 	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
 
-<br>
 
 **Our default parameters.yaml format**
 
