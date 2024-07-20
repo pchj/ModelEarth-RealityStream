@@ -11,6 +11,10 @@ which will both weigh correlations between location features and location target
 **TO DO:** Let's figure out how to pass a URL hash value into both the CoLab and StreamLit  
 
 [Load hash value into Streamlit](https://discuss.streamlit.io/t/get-query-params-not-working-with-instead-of/20314) - Manoj
+<!--
+	And after ? in Streamlit URL:
+	https://docs.streamlit.io/develop/api-reference/caching-and-state/st.query_params
+-->
 
 We'll pass in different parameters.yaml paths, like this: 
 
