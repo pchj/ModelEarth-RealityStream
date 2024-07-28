@@ -1,5 +1,5 @@
 from utils.libraries import *
-from utils.functions import train_model, evaluate, trainer
+from utils.functions import train_model, evaluate, trainer, get_cf_report_dict
 
 
 def compare_model_page():
@@ -131,8 +131,12 @@ def compare_model_page():
             st.write("#### 4. Model Evaluation")
             trainer(df, test_size, over_sample, vectorizer, model)
             button = st.button('Save Support Vector Machine as Pickle')
-
+        
     if button:
         data = {"model": model}
         with open(r'pickle\app_model.pkl', 'wb') as file:
             pickle.dump(data, file)
+        
+        
+
+
