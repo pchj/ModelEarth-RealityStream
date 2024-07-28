@@ -4,8 +4,11 @@ import requests
 import base64
 import time
 import json
+import random
 
 # Creating a Dataframe with word-vectors in TF-IDF form and Target values
+
+github_token = st.secrets["GITHUB_TOKEN"]
 
 def final_df(df, is_train, vectorizer, column):
 
@@ -88,53 +91,10 @@ def evaluate(y_test, y_pred, y_pred_prob):
     st.write("**Classification Report:**")
     st.text(classification_report(y_test, y_pred))
 
-    
+
+def get_cf_report_dict(y_test, y_pred):
     cf_report_dict = classification_report(y_test, y_pred, output_dict = True)
-    report_json_str = json.dumps(cf_report_dict)
-
-    report_bytes = report_json_str.encode('utf-8')
-    report_base64 = base64.b64encode(report_bytes).decode('utf-8')
-
-    
-    #text_bytes = upload_cf_report.encode('utf-8')
-    #classification_report(y_test, y_pred)
-    url = "https://api.github.com/repos/Ultracatx/RealityStream/contents/test_upload/test_1"
-    headers = {
-            "Authorization": "token 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",
-            #"Accept": "application/vnd.github.v3+json",
-        }
-    data = {
-        #"message": commit_message,
-        "content": report_base64,
-        "branch": "interaction_test",
-           }
-    response = requests.put(url, json=data, headers=headers)
-    if response.status_code == 201:
-        st.success("Image successfully uploaded to GitHub.")
-    else:
-        st.error(f"Failed to upload image: {response.content}")
-    #     response = requests.put(url, json=data, headers=headers)
-    #     if response.status_code == 201:
-    #         st.success("Image successfully uploaded to GitHub.")
-    #     else:
-    #         st.error(f"Failed to upload image: {response.content}") 
-    
-    # def save_image_to_github(image_content, filename, repo_name, path_in_repo, commit_message, github_token):
-    #     url = f"https://api.github.com/repos/{repo_name}/contents/{path_in_repo}/{filename}"
-    #     headers = {
-    #         "Authorization": f"token {github_token}",
-    #         "Accept": "application/vnd.github.v3+json",
-    #     }
-    #     data = {
-    #         "message": commit_message,
-    #         "content": base64.b64encode(image_content).decode('utf-8'),
-    #         "branch": "main",
-    #     }
-    #     response = requests.put(url, json=data, headers=headers)
-    #     if response.status_code == 201:
-    #         st.success("Image successfully uploaded to GitHub.")
-    #     else:
-    #         st.error(f"Failed to upload image: {response.content}") 
+    return cf_report_dict
 
 
 def trainer(df, test_size, over_sample, vectorizer, model):
@@ -151,6 +111,46 @@ def trainer(df, test_size, over_sample, vectorizer, model):
     y_pred_prob = model.predict_proba(x_test)
 
     evaluate(y_test, y_pred, y_pred_prob)
+    
+    #get classification report variable
+    cf_report_dict = get_cf_report_dict(y_test,y_pred)
+
+     #generate json file
+    report_json_str = json.dumps(cf_report_dict)
+
+    report_bytes = report_json_str.encode('utf-8')
+    report_base64 = base64.b64encode(report_bytes).decode('utf-8')
+
+    #Generate the name of the file
+    model_name = str(model.__class__.__name__)
+    random_int = random.randint(1, 1000000)
+
+    #defne the repo route
+    url = f"https://api.github.com/repos/Ultracatx/RealityStream/contents/output/user_generated_json/{model_name}_{random_int}"
+    headers = {
+            "Authorization": f"token {github_token}",
+            #"Accept": "application/vnd.github.v3+json",
+        }
+    data = {
+        "message": "testing json file upload",
+        "content": report_base64,
+        "branch": "interaction_test",
+           }
+    
+    #determine upload status
+    response = requests.put(url, json=data, headers=headers)
+    if response.status_code == 201:
+        st.success("Report successfully uploaded to GitHub.")
+    else:
+        st.error(f"Failed to upload: {response.content}")
+
+    #create a download button for user to download the json file
+    st.download_button(
+    label ="Download Classification Report as JSON",
+    data = report_json_str,
+    file_name ="classification_report.json",
+    mime = "application/json")
+    
 
 
 nlp = spacy.load('en_core_web_sm')
@@ -190,7 +190,7 @@ def load_model():
         data = pickle.load(file)
     return data
 
-
+'''
 def save_report_to_github(image_content, filename, repo_name, path_in_repo, commit_message, github_token):
     url = f"https://api.github.com/repos/{repo_name}/contents/{path_in_repo}/{filename}"
     headers = {
@@ -207,3 +207,4 @@ def save_report_to_github(image_content, filename, repo_name, path_in_repo, comm
         st.success("Image successfully uploaded to GitHub.")
     else:
         st.error(f"Failed to upload image: {response.content}") 
+'''
