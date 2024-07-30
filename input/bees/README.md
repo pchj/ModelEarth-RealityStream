@@ -8,6 +8,9 @@ Using county industry changes to predict honey bee populations.
 
 - [Colab for creating 2-columns targets](https://colab.research.google.com/drive/11R3nSxPn91yTUBWhANBgdKCX0-YV1Dtk#scrollTo=Y9Un4FVwnxth)
 
+NOTE: bees-targets.csv is a copy of bees-targets-increase2022.csv
+bees-targets.csv would be the default when the target path is simply "bees"
+
 Backup and run locally in [models/location-forest](../../models/location-forest/):
 
 	python location-forest-input-bkup.ipynb bees
