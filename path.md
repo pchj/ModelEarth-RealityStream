@@ -34,7 +34,11 @@ Sample features and targets datasets will reside within the "input/[data]/featur
 
 ### About path name shortcuts
 
-The parameters will have three versions: short ("bees"), medium ("input/bees/targets") and full ("input/bees/targets/bees-targets.csv").
+The parameters will have several shortnad version and a full version from GitHub:
+short - bees  
+medium - input/bees/targets  
+long - input/bees/targets/bees-targets.csv  
+full - https://github.com/ModelEarth/RealityStream/raw/main/input/bees/targets/bees-targets.csv
 
 Setting the models parameter to "all" would be the equivalent to "svc, rfc, lr, rbf, location-forest"
 The default model will be "rbf" (Random Bits Forest) when blank.
