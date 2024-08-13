@@ -95,28 +95,33 @@ Default features and targets datasets reside in the "input/[data]/features" and 
 
 The simplest form of the parameters.yaml would be:
 
-	features: "industries"
-	targets: "bees"
+	features: industries
+	targets: bees
 
-In the above, the default model(s) would be used with these two file paths:
+That's the equivalent to:
 
-input/industries/input/industries-targets.csv
-input/bees/targets/bees-targets.csv
+	features: industries
+	 	path: https://github.com/ModelEarth/RealityStream/raw/main/input/industries/features/industries-features.csv
+	targets: bees
+		path: https://github.com/ModelEarth/RealityStream/raw/main/input/bees/targets/bees-targets.csv
+	models: rbf
+
 
 The features.path and targets.path will have several shorthand versions and a full version from GitHub:
 
-short - bees  
-medium - input/bees/targets  
-long - input/bees/targets/bees-targets.csv  
-full - https://github.com/ModelEarth/RealityStream/raw/main/input/bees/targets/bees-targets.csv
+**short** - bees  
+**medium** - input/bees/targets  
+**long** - input/bees/targets/bees-targets.csv  
+**full** - https://github.com/ModelEarth/RealityStream/raw/main/input/bees/targets/bees-targets.csv
 
 
 
-**Parameter rules:**
-If a slash / is in a parameter, treat it as a path.
-If the file name is omitted from a path, append a file name.
+**Path processing rules:**
+If there's no slash / in a path parameter, start from the root of the RealityStream repo.
+If the file extension is omitted from a path, append .csv.
 For a target value of "bees" build the path "input/bees/targets/bees-targets.csv"
-For a target value of "bees increase2024" build the path "input/bees/targets/bees-targets-increase2024.csv"
+Replace a space with -targets- in the path.
+So for a target value of "bees increase2024" build the path "input/bees/targets/bees-targets-increase2024.csv"
 
 ## Projects
 
