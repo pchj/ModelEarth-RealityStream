@@ -72,7 +72,7 @@ Example of parameters.yaml format:
 	 	path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
 	targets: bees
 		path: https://github.com/ModelEarth/RealityStream/raw/main/input/bees/targets/bees-targets.csv
-	models: rbf
+	models: svc, rfc, lr, rbf, location-forest
 
 <!-- For later
 	python Run-Models-bkup.ipynb [features] [target] [models]
