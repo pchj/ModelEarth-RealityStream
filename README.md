@@ -5,24 +5,25 @@
 Our primary development is in our [Run Models CoLab](input/industries). Interface concepts are in our StreamLit [reality.streamlit.app](https://reality.streamlit.app/).<!--Both will weigh correlations between location features and location targets.-->  
 Our main input is currently industry features by county for exploring environmental impact targets.
 
-**[Our Run Models Colab](input/industries)** provides Logistic Regression, SVM, MLP, RandomForest, XGBoost  
+**[Our Run Models Colab](input/industries)** provides Logistic Regression, Support Vector Machines (SVM), MLP, RandomForest, XGBoost  
 **[Our StreamLit App](streamlit)** provides Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
 
 [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) is a backup of the [CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append "-bkup" to indicate it is not the primary source.
 
 ## Run Models CoLab
 
-- [Run Models (CoLab)](input/industries) - For feature and target datasets merged on their location columns.
+- [Run Models (CoLab)](input/industries) - For features and targets merged on their location columns.
 - [Models Overview](models)
 - [Accuracy Reports](output/jobs/) - Jobs Example
 
-In Run Models, the "features" dataset is merged with a 2-column "target" dataset on-the-fly using either .csv files or Pandas to avoid storing merged .csv files. The location column joins features and targets. Location column data types:  
+In Run Models, the "features" dataset is merged with a 2-column "targets" dataset on-the-fly using either .csv files or Pandas to avoid storing merged .csv files. The location column joins features and targets.
 
+Location column data types:  
 World Region (TBD), Country (2-char), State (2-char), County Fips (5-digits for state and county), Zip (5 char, 6 in China), or Brain Voxel (2 char)
 
 ## Default Data Sources
 
-Our CoLab feature-target merge supports any data with a location column containing multiple locations.  
+Our features-targets merge supports any data with a location column containing multiple locations.  
 Our default data will always use County Fips so features and targets align.
 
 **Industries (Features and Targets)** - County Fips
@@ -38,7 +39,7 @@ Our default data will always use County Fips so features and targets align.
 **Jobs** - Not location-based yet
 <a href="models/reality-or-fiction/">Reality or Fiction</a>
 
-**Blinks** - Location is brain voxel columns (Location does not merge features-targets)
+**Blinks** - Location is brain voxel columns - multiple locations have one target column
 <a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
 
 
