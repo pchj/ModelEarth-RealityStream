@@ -2,13 +2,13 @@
 
 <a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
 # RealityStream
-Parallel development of our [Run Models CoLab](input/industries) and [Reality Streamlit App](https://reality.streamlit.app/)  
-which will both weigh correlations between location features and location targets.
+Our primary development is in our [Run Models CoLab](input/industries). Interface concepts are in our StreamLit [reality.streamlit.app](https://reality.streamlit.app/).<!--Both will weigh correlations between location features and location targets.-->  
+Our main input is currently industry features by county for exploring environmental impact targets.
 
-**Our Colab provides:** Logistic Regression, SVM, MLP, RandomForest, XGBoost  
-**StreamLit provides:** Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
+**[Our Run Models Colab](input/industries)** provides Logistic Regression, SVM, MLP, RandomForest, XGBoost  
+**[Our StreamLit App](streamlit)** provides Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
 
-[Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) is a backup of the [CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append -bkup to indicate it is not the primary source.
+[Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) is a backup of the [CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append "-bkup" to indicate it is not the primary source.
 
 ## Run Models CoLab
 
@@ -38,7 +38,7 @@ Our default data will always use County Fips so features and targets align.
 **Jobs** - Not location-based yet
 <a href="models/reality-or-fiction/">Reality or Fiction</a>
 
-**Blinks** - Location is brain voxels
+**Blinks** - Location is brain voxel columns (Location does not merge features-targets)
 <a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
 
 
@@ -54,16 +54,14 @@ The term "features" is more prevalent in machine learning and data science.
 "factors" has a stronger association with statistics and social sciences.
 -->
 
-TO DO: Finish updating our [Industry Features Colab](https://colab.research.google.com/drive/1HJnuilyEFjBpZLrgxDa4S0diekwMeqnh?usp=sharing) to take data path parameters from [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml)  
-
-TO DO: Add a python command that the default models locally using [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models), so the user does not need to open a notebook. Pass a parameters.yaml path in. 
+TO DO: Add a python command that loads parameters.yaml to runs [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) locally, so the user does not need to open a notebook. Pass a parameters.yaml path in. 
 
 The Run-Models-bkup.ipynb equivalent for our Streamlit version is app.py
 
 
-Parameters are loaded from the parameters.yaml file:
+Parameters are loaded from the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file:
 
-	python Run-Models-bkup.ipynb [[path to parameters.yaml]()]
+	python Run-Models-bkup.ipynb [path to parameters.yaml]
 
 Example of parameters.yaml format:
 
@@ -131,90 +129,6 @@ Update related .ipynb and app.py file to also add your name.
 4. TO DO: Find a comparison process or pull accuracy reports (from Ivy's yaml or json files) into one tabulator table for viewing. See our [tabulator sample page](../../data-pipeline/timelines/tabulator/) for merging within javascript.
 5. TO DO: Reuse report display process for other models.
 6. TO DO: Automate updating "toy" feature data using Github Actions.
-
-
-
-## Streamlit Interface
-
-TO DO: Set up [sending a hash value into Streamlit](https://discuss.streamlit.io/t/get-query-params-not-working-with-instead-of/20314) - Manoj
-
-<!--
-	And after ? in Streamlit URL:
-	https://docs.streamlit.io/develop/api-reference/caching-and-state/st.query_params
--->
-
-We'll pass in different parameters.yaml paths, like this: 
-
-	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
-
-
-### Feature Data Sources
-
-Our Streamlit interface includes a dropdown menu for selecting features (factors).
-
-Currently only the "Job Listings" feature is activated.
-
-### Target Data Sources
-
-Our Streamlit interface includes a dropdown menu for selecting targets.
-
-Currently only the "Job Listings" target is activated.
-TO DO: Pull in data for the other targets. 
-
-1. [Honey Bee Health](input/bees/) - Bee population change (Irene created 4 columns, each would be its own file)
-2. [Job Growth](input/industries/) - Top 20% counties for job growth (to-do)
-3. [Wage Growth](input/industries/) - Top 20% counties for wage growth (to-do)
-4. [Eye Blinks](output/blinks/) - Brain fMRI Voxels
-5. [Job Listings](output/jobs/) - Reality or Fiction
-
-Install the streamlit Command-Line Interface (CLI) if you haven't yet.
-If you have an error during the install, our [docs page](docs) may have a fix.
-
-	pip install streamlit
-
-This should launch a browser with demos:
-
-	streamlit hello
-
-## Launch Streamlit app in a Virtual Environment
-
-Initiate a virtual environment before running streamlit via `streamlit run app.py`
-
-	python3 -m venv env
-	source env/bin/activate
-
-For Windows,
-
-	python3 -m venv env
-	.\env\Scripts\activate
-
-
-Launch our interface locally:
-
-	streamlit run app.py
-
-
-If an error occurs, our [docs page](docs) may have a fix.
-
-<!--
-To also try:
-
-	streamlit run https://raw.githubusercontent.com/streamlit/reality/master/app.py
--->
-TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
-
-	streamlit run app.py "parameters.yaml"
-
-TO DO: When parameters above are omitted, use defaults (below).
-
-
-## Send Data from Streamlit to GitHub
-
-Our Streamlit app can push user-generated model performance reports directly to a designated repository location (output/user_generated_json).
-
-To configure your credentials, copy the example_secrets.toml file to secrets.toml and update it with your own information. The secret is stored under the .streamlit directory.
-
-When a user runs a model, the report is sent to the specified repository location, and a download option is provided.
 
 
 
