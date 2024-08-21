@@ -72,14 +72,3 @@ TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
 
 TO DO: When parameters above are omitted, use defaults (below).
 
-
-## Send Data from Streamlit to GitHub
-
-Our Streamlit app can push user-generated model performance reports directly to a designated repository location (output/user_generated_json).
-
-To configure your credentials, copy the example_secrets.toml file to secrets.toml and update it with your own information. The secret is stored under the .streamlit directory.
-
-When a user runs a model, the report is sent to the specified repository location, and a download option is provided.
-
-
-<a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">How to create a Streamlit App</a> - <a href="https://docs.streamlit.io/deploy/streamlit-community-cloud/share-your-app/embed-your-app">How to Embed (both use iFrames)</a>
