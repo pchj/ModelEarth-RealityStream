@@ -5,7 +5,7 @@ features:
   naics: [2]
   state: ME,VT,NH,MA
   common: Fips
-  path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
+  path: https://raw.githubusercontent.com/ModelEarth/community-zipcodes/main/industries/naics{naics}/US/zip/{state}/US-{state}-census-naics{naics}-zip-{year}.csv
 targets:
   data: bees
   path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/bees/targets/bees-targets.csv
