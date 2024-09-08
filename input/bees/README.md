@@ -48,10 +48,7 @@ We're updating our [Run Models colab](../industries/) to pull in 2-column bee ta
   
 </div>
 
-
-  [Prior Bees Output](../../output/bees/)
-
-  [Upcoming: Run Models](../industries/) - combine industry features with bee targets
+[Prior Bees Output](../../output/bees/)
 
 
 ## Datasets
