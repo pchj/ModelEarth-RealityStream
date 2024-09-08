@@ -49,23 +49,25 @@ You can add paths to external data by editing a copy of the [parameters.yaml](ht
 
 ## Path Parameters
 
-
-<!--
 The term "features" is more prevalent in machine learning and data science.
-"factors" has a stronger association with statistics and social sciences.
--->
+"factors" has a stronger association with statistics and social sciences. The term factors is used for impact attributes like emissions.
 
 TO DO: Add a python command that loads parameters.yaml to runs [Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) locally, so the user does not need to open a notebook. Pass a parameters.yaml path in. 
 
 The Run-Models-bkup.ipynb equivalent for our Streamlit version is app.py
 
 
-Parameters are loaded from the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file:
+Parameters are loaded from the parameters.yaml file:
 
-	python Run-Models-bkup.ipynb [path to parameters.yaml]
+	python Run-Models-bkup.ipynb [raw path to parameters.yaml]
+
+Some paths - only the first one is ready to use:  
+[parameters.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml) - Predicts bee population growth by industry  
+[parameters-zip.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters-zip.yaml) - Needs zip code target  
 
 Example of parameters.yaml format:
 
+	folder: naics6-bees-counties
 	features: industries
 		startyear: 2017
 		endyear: 2021
