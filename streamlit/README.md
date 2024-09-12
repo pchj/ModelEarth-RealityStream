@@ -1,18 +1,6 @@
 [RealityStream](../)
 # Streamlit Interface
 
-TO DO: [Send a #parameters hash value into Streamlit](https://discuss.streamlit.io/t/get-query-params-not-working-with-instead-of/20314) - Manoj
-
-<!--
-	And after ? in Streamlit URL:
-	https://docs.streamlit.io/develop/api-reference/caching-and-state/st.query_params
--->
-
-We'll pass in different parameters.yaml paths, like this: 
-
-	#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
-
-
 ### Feature Data Sources
 
 Our Streamlit interface includes a dropdown menu for selecting feature datasets.
@@ -71,4 +59,31 @@ TO DO: load [parameters.yaml](parameters.yaml) file, add more parameters:
 	streamlit run app.py "parameters.yaml"
 
 TO DO: When parameters above are omitted, use defaults (below).
+
+
+# Send Data from Streamlit to GitHub
+
+Our Realitystream Streamlit app can push user-generated model performance reports directly to a designated repository location [/output/user_generated_json](https://github.com/ModelEarth/RealityStream/tree/main/output/user_generated_json). 
+
+To configure your credentials, simply copy the example_secrets.toml file to secrets.toml and update it with your own information. The secret is stored under the [.streamlit directory](https://github.com/ModelEarth/RealityStream/tree/main/.streamlit).
+
+When a user runs a model, the report is sent to the specified repository location, and a download option is provided.
+
+
+# Streamlit URL Parameters
+
+TO DO: [Send a #parameters hash value into Streamlit](https://discuss.streamlit.io/t/get-query-params-not-working-with-instead-of/20314)
+
+Pass in a URL hash #parameters= value with the path to parameters.yaml, like this:  
+https://reality.streamlit.app/#parameters=https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml
+
+
+Test when building the app.py to a localhost port.  
+The build steps are here: https://model.earth/RealityStream
+
+Or test by deploying your fork. Sign into share.streamlit.io
+Click 'Deploy an app' and then paste in your GitHub fork URL
+
+Parameter can also reside [after ? in Streamlit URL](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.query_params)
+
 
