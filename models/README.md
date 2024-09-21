@@ -10,7 +10,9 @@ RealityStream merges feature and target datasets in Pandas, with the option to s
 
 **Model skeletons/blueprints** Prior to passing in data, model code is also referred to as a skeleton or blueprint. Model skeletons define the structure and logic, like the blueprint of a house without the materials (data) to build the output.
 
-**Parameters.yaml models:** lr, rbf, svc, rfc, location-forest, xgboost
+**Parameters.yaml models:** 
+LogisticRegression, SVM, MLP, RandomForest, XGBoost
+<!--lr, rbf, svc, rfc, location-forest, xgboost-->
 
 ## Logistic Regression (lr)
 - **Type**: Linear model for binary classification (extendable to multiclass).
