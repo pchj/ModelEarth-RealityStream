@@ -14,7 +14,7 @@ RealityStream merges feature and target datasets in Pandas, with the option to s
 LogisticRegression, SVM, MLP, RandomForest, XGBoost
 <!--lr, rbf, svc, rfc, location-forest, xgboost-->
 
-## Logistic Regression (lr)
+## <input id="model-lr" type="checkbox" onclick="updateModelsHash()"> Logistic Regression (lr)
 - **Type**: Linear model for binary classification (extendable to multiclass).
 - **Key Feature**: Predicts probabilities using the logistic (sigmoid) function.
 - **Best for**: Clean, balanced datasets with approximately linear relationships between features and target.
