@@ -1,6 +1,4 @@
-[Active Projects](/projects)
-
-<a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
+[Active Projects](/projects)<a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
 # RealityStream
 Our primary development is in our [Run Models CoLab](input/industries). Interface concepts are in our StreamLit [reality.streamlit.app](https://reality.streamlit.app/).<!--Both will weigh correlations between location features and location targets.-->  
 Our main input is currently industry features by county for exploring environmental impact targets.
