@@ -1,12 +1,14 @@
 [Active Projects](/projects)<a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
 # RealityStream
-Our primary development is in our [Run Models CoLab](input/industries). Interface concepts are in our StreamLit [reality.streamlit.app](https://reality.streamlit.app/).<!--Both will weigh correlations between location features and location targets.-->  
+Our primary development is in our [Run Models CoLab](input/industries).  
 Our main input is currently industry features by county for exploring environmental impact targets.
 
+<!--
 **[Our Run Models Colab](input/industries)** provides Logistic Regression, Support Vector Machines (SVM), MLP, RandomForest, XGBoost  
 **[Our StreamLit App](streamlit)** provides Logistic Regression, RandomForest, Support Vector Machines (currently only for [Jobs: Reality-or-Fiction](output/jobs))
+-->
 
-[Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) is a backup of the [CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append "-bkup" to indicate it is not the primary source.
+[Run-Models-bkup.ipynb](https://github.com/ModelEarth/RealityStream/tree/main/models) is a backup of the [Run Models CoLab](https://colab.research.google.com/drive/1zu0WcCiIJ5X3iN1Hd1KSW4dGn0JuodB8?usp=sharing) that we run locally. We append "-bkup" to indicate it is not the primary source.
 
 ## Run Models CoLab
 
@@ -41,7 +43,6 @@ Our default data will always use County Fips so features and targets align.
 <a href="models/random-bits-forest/">Random Bits Forest (Blinks)</a><br>
 
 
-
 You can add paths to external data by editing a copy of the [parameters.yaml](https://github.com/ModelEarth/RealityStream/blob/main/parameters.yaml) file.
 
 
@@ -61,6 +62,7 @@ Parameters are loaded from the parameters.yaml file:
 
 Some paths - only the first one is ready to use:  
 [parameters.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml) - Predicts bee population growth by industry  
+[parameters-.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml) - Might have issues
 [parameters-zip.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters-zip.yaml) - Needs zip code target  
 
 Example of parameters.yaml format:

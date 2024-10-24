@@ -1,6 +1,8 @@
 [RealityStream](../)
 # Streamlit Interface
 
+Interface concepts are in our StreamLit [reality.streamlit.app](https://reality.streamlit.app/). Bugs occur when StreamLit updates python libraries.
+
 ### Feature Data Sources
 
 Our Streamlit interface includes a dropdown menu for selecting feature datasets.
