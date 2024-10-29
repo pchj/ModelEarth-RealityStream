@@ -62,7 +62,7 @@ Parameters are loaded from the parameters.yaml file:
 
 Some paths - only the first one is ready to use:  
 [parameters.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml) - Predicts bee population growth by industry  
-[parameters-.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters.yaml) - Might have issues
+[parameters-years.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters-years.yaml) - For testing with multiple years and states
 [parameters-zip.yaml](https://raw.githubusercontent.com/ModelEarth/RealityStream/main/parameters-zip.yaml) - Needs zip code target  
 
 Example of parameters.yaml format:
