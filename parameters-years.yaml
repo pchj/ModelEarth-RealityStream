@@ -1,0 +1,13 @@
+folder: naics6-bees-counties
+features: 
+  data: industries
+  startyear: 2017
+  endyear: 2021
+  naics: [6]
+  state: ME,NY
+  common: Fips
+  path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics{naics}/US/counties/{year}/US-{state}-training-naics{naics}-counties-{year}.csv
+targets:
+  data: bees
+  path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/bees/targets/bees-targets.csv
+models: rbf

@@ -1,0 +1,13 @@
+folder: naics6-bees-counties
+features: 
+  data: industries
+  startyear: 2020
+  endyear: 2020
+  naics: [6]
+  state: ME
+  common: Fips
+  path: https://raw.githubusercontent.com/ModelEarth/community-timelines/main/training/naics6/US/counties/2020/US-ME-training-naics6-counties-2020.csv
+targets:
+  data: bees
+  path: https://raw.githubusercontent.com/ModelEarth/RealityStream/main/input/bees/targets/bees-targets.csv
+models: rbf
