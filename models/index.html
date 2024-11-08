@@ -12,9 +12,32 @@
 <script>
 loadMarkdown("README.md", "readmeDiv", "_parent");
 
-function updateModelsHash() {
-  alert("COMING SOON: models will be updated in the URL as #models=")
+function updateModelsHash(modelName) {
+  window.location.hash = `models=${modelName}`;
+  alert(`COMING SOON: models will be updated in the URL as #models=${modelName}`);
 }
+
+function updateModel(modelName) {
+  // Uncheck all other checkboxes
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(checkbox => {
+    if (checkbox.id !== modelName) {
+      checkbox.checked = false;
+    }
+  });
+
+  // Update the selected model
+  selectedModel = modelName;
+}
+
+function redirectToMainPage() {
+  if (selectedModel) {
+    window.location.href = `../#models=${selectedModel}`;
+  } else {
+    alert("Please select a model first.");
+  }
+}
+
 </script>
 </head>
 
