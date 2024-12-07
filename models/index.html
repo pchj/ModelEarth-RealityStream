@@ -19,7 +19,9 @@ function updateModelsHash(modelName) {
 
 function updateModel(modelName) {
   // Uncheck all other checkboxes
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  //const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+  /*
   checkboxes.forEach(checkbox => {
     if (checkbox.id !== modelName) {
       checkbox.checked = false;
@@ -28,9 +30,17 @@ function updateModel(modelName) {
 
   // Update the selected model
   selectedModel = modelName;
+  */
 }
 
 function redirectToMainPage() {
+  // Get all checked checkboxes with the name 'model'
+  const checkedModels = Array.from(document.querySelectorAll('input[name="model"]:checked'));
+
+  // Extract their values into a comma-separated string
+  const selectedModel = checkedModels.map(checkbox => checkbox.value).join(',');
+
+  // Redirect if there are selected models, otherwise show an alert
   if (selectedModel) {
     window.location.href = `../#models=${selectedModel}`;
   } else {

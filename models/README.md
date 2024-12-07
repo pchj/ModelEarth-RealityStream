@@ -8,55 +8,51 @@ RealityStream merges feature and target datasets in Pandas, with the option to s
 - [Random Bits Forest (Blinks)](random-bits-forest)
 - [Logistic Regression, Random Forest, Support Vector Machines (Reality or Fiction Jobs)](reality-or-fiction)
 
-**Model skeletons/blueprints** Prior to passing in data, model code is also referred to as a skeleton or blueprint. Model skeletons define the structure and logic, like the blueprint of a house without the materials (data) to build the output.
+Select one or more models to run.
 
-**Parameters.yaml models:** 
-LogisticRegression, SVM, MLP, RandomForest, XGBoost
-<!--lr, rbf, svc, rfc, location-forest, xgboost-->
-
-## <input type="radio" id="model-lr" name="model" value="lr" onclick="updateModel('lr')"> Logistic Regression (lr)
+## <input type="checkbox" id="model-lr" name="model" value="lr"> Logistic Regression (lr)
 - **Type**: Linear model for binary classification (extendable to multiclass).
 - **Key Feature**: Predicts probabilities using the logistic (sigmoid) function.
 - **Best for**: Clean, balanced datasets with approximately linear relationships between features and target.
 - **Common Use**: Medical diagnostics, marketing (e.g., churn prediction), financial risk.
 - **Limitations**: Struggles with non-linear relationships and complex patterns.
 
-## <input type="radio" id="model-rfc" name="model" value="rfc" onclick="updateModel('rfc')"> Random Forests (rfc)
+## <input type="checkbox" id="model-rfc" name="model" value="rfc"> Random Forests (rfc)
 - **Type**: Ensemble of decision trees using bootstrapping and random feature selection.
 - **Key Feature**: Reduces overfitting and variance through randomness and averaging.
 - **Best for**: Diverse data types, handles outliers, missing data, and categorical features.
 - **Common Use**: Fraud detection, bioinformatics, credit scoring.
 - **Limitations**: Less interpretable, computationally expensive with large datasets.
 
-## <input type="radio" id="model-location-forest" name="model" value="location-forest" onclick="updateModel('location-forest')"> Location Random Forests (location-forest)
+## <input type="checkbox" id="model-location-forest" name="model" value="location-forest"> Location Random Forests (location-forest)
 - **Type**: Random forest model that joins features and targets based on location IDs: county FIPS, zip codes, brain voxel, etc.(custom approach)
 - **Key Feature**: Reduces overfitting and variance through randomness and averaging.
 - **Best for**: Diverse data types, handles outliers, missing data, and categorical features.
 - **Common Use**: Fraud detection, bioinformatics, credit scoring.
 - **Limitations**: Less interpretable, computationally expensive with large datasets.
 
-## <input type="radio" id="model-rbf" name="model" value="rbf" onclick="updateModel('rbf')"> Random Bits Forests (rbf)
+## <input type="checkbox" id="model-rbf" name="model" value="rbf"> Random Bits Forests (rbf)
 - **Type**: Variation of Random Forests using bit-based transformations for feature splitting.
 - **Key Feature**: Efficient handling of high-dimensional, binary, or sparse data.
 - **Best for**: Cybersecurity, large-scale categorical or binary feature data.
 - **Common Use**: High-dimensional binary datasets, one-hot encoded data.
 - **Limitations**: May not perform as well on general-purpose or continuous feature datasets.
 
-## <input type="radio" id="model-svm" name="model" value="svm" onclick="updateModel('svm')"> Support Vector Machines (SVM)
+## <input type="checkbox" id="model-svm" name="model" value="svm"> Support Vector Machines (SVM)
 - **Type**: Supervised learning algorithm for classification and regression.
 - **Key Feature**: Maximizes the margin between classes, supports non-linear relationships via kernel tricks.
 - **Best for**: Small to medium-sized, high-dimensional datasets with well-separated classes.
 - **Common Use**: Text classification, image recognition, bioinformatics.
 - **Limitations**: Struggles with large datasets and noisy data, can be computationally expensive.
 
-## <input type="radio" id="model-mlp" name="model" value="mlp" onclick="updateModel('mlp')"> Neural Network Multi-Layer Perceptron (MLP)
+## <input type="checkbox" id="model-mlp" name="model" value="mlp"> Neural Network Multi-Layer Perceptron (MLP)
 - **Type**: Feedforward artificial neural network with multiple layers.
 - **Key Feature**: Learns complex non-linear relationships through backpropagation.
 - **Best for**: Large datasets with intricate feature interactions (e.g., images, speech).
 - **Common Use**: Deep learning tasks, image processing, speech recognition.
 - **Limitations**: Requires large datasets and computational resources, prone to overfitting on small datasets.
 
-## <input type="radio" id="model-xgboost" name="model" value="xgboost" onclick="updateModel('xgboost')"> XGBoost
+## <input type="checkbox" id="model-xgboost" name="model" value="xgboost"> XGBoost
 - **Type**: Gradient-boosted decision tree algorithm.
 - **Key Feature**: Sequentially corrects previous errors, highly efficient with built-in regularization.
 - **Best for**: Large, structured tabular data, handles missing data natively.
@@ -65,11 +61,21 @@ LogisticRegression, SVM, MLP, RandomForest, XGBoost
 
 
 ---
-**<button onclick="redirectToMainPage()">Continue</button>**
+**<button onclick="redirectToMainPage()" class="btn btn-success">Continue</button>**
 
 ---
-**ML Framework:** A framework typically refers to a structured set of tools, libraries, and conventions that provide a foundation for building something. In the case of machine learning, frameworks like TensorFlow, PyTorch, or scikit-learn provide the infrastructure and tools necessary to implement machine learning algorithms. If you have a Python script implementing a Random Forest algorithm but without data, it could be seen as a part of a machine learning framework.
 
+<!--
+**Parameters.yaml models:** 
+LogisticRegression, SVM, MLP, RandomForest, XGBoost
+-->
+<!--lr, rbf, svc, rfc, location-forest, xgboost-->
+
+<!--
+**Model skeletons/blueprints** Prior to passing in data, model code is also referred to as a skeleton or blueprint. Model skeletons define the structure and logic, like the blueprint of a house without the materials (data) to build the output.
+
+**ML Framework:** A framework typically refers to a structured set of tools, libraries, and conventions that provide a foundation for building something. In the case of machine learning, frameworks like TensorFlow, PyTorch, or scikit-learn provide the infrastructure and tools necessary to implement machine learning algorithms. If you have a Python script implementing a Random Forest algorithm but without data, it could be seen as a part of a machine learning framework.
+-->
 
 
 <!--
@@ -98,4 +104,4 @@ Do Google search algorithms direct people toward training that results in a bett
 [Does expanding access to Starlink actually help increase tree canopy?](https://www.yahoo.com/news/elon-musk-diplomacy-woo-wing-155604090.html) In Brazil, Starlink was slated to provide internet connectivity to 19,000 rural schools, along with environmental monitoring of the Amazon. Let's explore changes to [world forest coverage over time](/data-commons/docs/conservation/).
 -->
 
-[Run Models CoLab](../input/industries)
+Paste the resulting parameters list in the second step of the [Run Models CoLab](../input/industries)
