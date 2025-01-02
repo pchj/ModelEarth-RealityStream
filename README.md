@@ -1,7 +1,8 @@
 [Active Projects](/projects)<a href="https://github.com/ModelEarth/RealityStream/" style="float:right">Github</a>
 # RealityStream
 Our primary development is in our [Run Models CoLab](input/industries).  
-Our main input is currently industry features by county for exploring environmental impact targets.
+Our main input is currently industry features by county for exploring environmental impact targets.  
+We are also creating [CoLabs for Exiobase International Trade Flow](/Openfootprint/trade).
 
 <!--
 **[Our Run Models Colab](input/industries)** provides Logistic Regression, Support Vector Machines (SVM), MLP, RandomForest, XGBoost  
